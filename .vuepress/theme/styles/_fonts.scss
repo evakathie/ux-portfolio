@@ -1,0 +1,13 @@
+$fonts: (
+  calibri: #{ Calibri, sans-serif },
+  roboto: Roboto,
+  muli: Muli,
+);
+
+@function font($name) {
+  @if map-has-key($fonts, $name) {
+    @return map-get($fonts, $name);
+  } @else {
+    @warn "Undefined color: #{$name}";
+  }
+}

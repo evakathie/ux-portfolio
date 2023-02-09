@@ -1,0 +1,177 @@
+@import 'colors';
+@import 'fonts';
+@import 'reset';
+
+
+@mixin body-font {
+    font-family: font(roboto);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+    @include body-font;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+
+    @media screen and (max-width: 600px) {
+        width: 80%;
+    }
+}
+
+b {
+  font-weight: normal;
+}
+
+i {
+  font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p {
+    @include body-font;
+    line-height: 150%;
+    padding: 8px 0 8px 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: color(black);
+    font-weight: normal;
+
+    &:hover {
+      color: black;
+      text-decoration: underline solid color(color);
+    }
+}
+
+img {
+    width: 100%;
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+
+.image-description {
+    text-align: center;
+    margin-top: -48px;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+/* Headings */
+
+@mixin title-font {
+    font-family: font(roboto);
+    font-weight: normal;
+    color: black;
+    padding: {
+        top: 8px;
+        bottom: 6px;
+  }
+}
+
+h1 {
+    @include title-font;
+    font-size: 42px;
+}
+
+h2 {
+    @include title-font;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 24px;
+}
+
+h3 {
+    @include title-font;
+    font-size: 24px;
+    line-height: 120%;
+    padding-top: 48px;
+}
+
+.highlighted-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 0 12px 0;
+}
+
+h4 {
+    @include title-font;
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+h5 {
+    @include title-font;
+    font-size: 16px;
+    padding-top: 24px;
+}
+
+/* Lists */
+
+@mixin list {
+    padding-left: 24px;
+    line-height: 180%;
+    margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: square;
+  @include list;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  @include list;
+
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+li {
+    padding-left: 4px;
+    padding-bottom: 6px;
+    @include body-font;
+}
+
+
+/* Project Page */
+
+.project-title {
+    margin-top: 48px;
+    line-height: 150%;
+}
+
+.project-time {
+    font-style: italic;
+}
+
+/* About Page */
+
+.about-title {
+    text-align: right;
+
+    @media screen and (max-width: 800px) {
+        text-align: center;
+    }
+}

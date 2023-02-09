@@ -1,0 +1,42 @@
+/**
+ * WEBFONTS
+ * generated using webfonts.gidix.net
+ * 
+ * 03.04.2019, 16:22
+ */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto_Bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto_Italic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto_Light.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto_Light_Italic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
