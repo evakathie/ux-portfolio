@@ -17,7 +17,7 @@
                             <p class="from">10/2020</p>
                         </div>
                     </div>
-                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty-small"></div>
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Working Student<br/>User Experience Design</p>
@@ -61,7 +61,7 @@
                             <p class="company">Career Center, University of Hamburg</p>
                         </div>
                     </div>
-                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty-small"></div>
                     <div class="resume-element">
                         <div class="time">
                             <p class="to">10/2020</p>
@@ -216,6 +216,15 @@
     .resume-element-empty {
         height: 64px;
         margin-bottom: 24px;
+
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+
+    .resume-element-empty-small {
+        height: 24px;
+        margin-bottom: 12px;
 
         @media screen and (max-width: 600px) {
             display: none;
