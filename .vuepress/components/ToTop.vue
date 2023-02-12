@@ -41,26 +41,33 @@
           border: none;
           background: none;
           cursor: pointer;
+
+          /* Styling */
+          color: color(black);
+          background: rgba(color(color), 0.2);
+          border: 1px solid rgba(color(color), 0.0);
+          border-top-left-radius: 26px;
+          border-bottom-left-radius: 26px;
           font-size: 36px;
-          padding: 8px;
+          padding: 8px 18px 8px 12px;
+
+          /* Position */
+          position: fixed;
+          bottom: 45px;
+          right: 0px;
+          z-index: 201;
+
+          @media screen and (max-width: 600px) {
+              padding-left: 8px;
+              padding-right: 8px;
+              font-size: 32px;
+          }
 
           &:hover, &:focus {
-              background: color(color_hover);
               border: 1px solid color(color);
-              border-radius: 60px;
               outline: none;
           }
       }
-
-    .btt-button {
-      position: fixed;
-      bottom: 44px;
-      right: 44px;
-      z-index: 201;
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-top: 6px;
-    }
   }
 
 </style>
