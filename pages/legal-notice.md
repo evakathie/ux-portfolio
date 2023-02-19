@@ -4,12 +4,12 @@ title: "Legal Notice"
 
 <div class="wrapper">
 
-<h2 style="text-align: left; margin: 48px 0 -12px 0;">Legal Notice</h2>
+<h2 style="text-align: left; margin: 48px 0 -36px 0;">Legal Notice</h2>
 
 </div>
 
 <HighlightedArea>
-<h3 class="highlighted-title" style="padding-top: 48px;">Information according to &sect; 5 TMG</h3>
+<h3 class="highlighted-title">Information according to &sect; 5 TMG</h3>
 <p>Eva Katharina Wolf<br />
 Winterlindenweg 83<br />
 22297 Hamburg</p>

@@ -10,7 +10,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Product Designer</p>
-                            <p class="company">Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2020, 10) }} &#11049; Digitec GmbH, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">since</p>
@@ -21,7 +21,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Working Student<br/>User Experience Design</p>
-                            <p class="company">Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; Digitec GmbH, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">09/2020</p>
@@ -31,7 +31,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Internship<br/>User Experience Design</p>
-                            <p class="company">Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2018, 10, 2018, 12) }} &#11049; Digitec GmbH, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">10/2018</p>
@@ -109,6 +109,41 @@
 </template>
 
 <script>
+export default {
+    name: 'Resume',
+
+    methods: {
+
+        duration(start_year, start_month, end_year, end_month) {
+            let years = 0;
+            let months = 0;
+
+            if (!end_year && !end_month){
+                const current_date = new Date();
+
+                end_month = current_date.getMonth() + 1;
+                end_year = current_date.getFullYear();
+            }
+
+            if (end_month >= start_month - 1) {
+                years = end_year - start_year;
+                months = end_month - start_month + 1;
+            } else {
+                years = end_year - start_year - 1;
+                months = 12 - start_month + end_month + 1;
+            }
+
+            if (years == 0) {
+                return months + " mo"
+            } else if (months == 0) {
+                return years + " yrs"
+            } else {
+                return years + " yrs " + months + " mo"
+            }
+        }
+    }
+}
+
 </script>
 
 <style lang="scss">

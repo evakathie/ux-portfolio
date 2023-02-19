@@ -165,13 +165,3 @@ li {
 .project-time {
     font-style: italic;
 }
-
-/* About Page */
-
-.about-title {
-    text-align: right;
-
-    @media screen and (max-width: 800px) {
-        text-align: center;
-    }
-}

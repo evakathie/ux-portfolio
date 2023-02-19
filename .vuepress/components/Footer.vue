@@ -4,12 +4,23 @@
           <router-link to="/pages/legal-notice.html">Legal Notice</router-link>
       </div>
       <div class="col-right">
-          <p>© 2023 Eva Wolf</p>
+          <p>© {{ this.current_year }} Eva Wolf</p>
       </div>
   </div>
 </template>
 
 <script>
+export default {
+    name: 'Resume',
+
+    computed: {
+        current_year() {
+            const current_date = new Date();
+
+            return current_date.getFullYear();
+        }
+    },
+}
 </script>
 
 <style lang="scss">
