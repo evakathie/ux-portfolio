@@ -20,7 +20,7 @@
           </ul>
       </nav>
       <div class="col-right-mobile">
-          <div class="burger-menu" v-on:click="isOpen = !isOpen">
+          <div class="burger-menu" v-on:click="isOpen = !isOpen" alt="Menu">
               <div class="burger-menu-line"></div>
               <div class="burger-menu-line"></div>
               <div class="burger-menu-line"></div>

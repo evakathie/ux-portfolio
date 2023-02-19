@@ -90,7 +90,7 @@
                         </div>
                         <div class="station">
                             <p class="role">English language course, completed with language level C2</p>
-                            <p class="company">EF Education First ◆ Capetown, Südafrika</p>
+                            <p class="company">EF Education First &#11049; Capetown, Südafrika</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -99,7 +99,7 @@
                         </div>
                         <div class="station">
                             <p class="role">High school graduation: Abitur<br />Grade: 1,6 (good)</p>
-                            <p class="company">Käthe-Kollwitz Schule ◆ Bruchsal</p>
+                            <p class="company">Käthe-Kollwitz Schule &#11049; Bruchsal</p>
                         </div>
                     </div>
                 </div>

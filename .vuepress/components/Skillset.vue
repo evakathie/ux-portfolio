@@ -15,7 +15,7 @@
                         </ul>
                         <h3 class="highlighted-title">Development</h3>
                         <ul>
-                            <li>HTML & CSS</li>
+                            <li>HTML &#38; CSS</li>
                             <li>JavaScript (Basics)</li>
                             <li>Java (Basics)</li>
                         </ul>

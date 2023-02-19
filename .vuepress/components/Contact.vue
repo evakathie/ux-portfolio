@@ -21,7 +21,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="https://medium.com/@evakatharinawolf" target="_blank">
+            <a href="https://medium.com/@evakatharinawolf" target="_blank" alt="">
                 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" alt="Medium">
                     <g id="medium" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.994">
                         <g fill="#000000" id="Shape">

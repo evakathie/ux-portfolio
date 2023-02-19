@@ -24,6 +24,8 @@ export default {
 
 .highlighted-area {
     background: color(color_hover);
+    margin-top: 24px;
+    padding-top: 8px;
 
     .wrapper {
         padding: 24px 0 24px 0;

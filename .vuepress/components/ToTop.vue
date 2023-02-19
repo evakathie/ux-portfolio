@@ -1,6 +1,6 @@
 <template>
   <div class="back-to-top" >
-    <button v-on:click="totop" class="btt-button" v-show="scrollHeight > 150">⇧</button>
+    <button v-on:click="totop" class="btt-button" v-show="scrollHeight > 150" alt="">⇧</button>
   </div>
 </template>
 

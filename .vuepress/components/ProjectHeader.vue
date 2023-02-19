@@ -1,9 +1,9 @@
 <template>
     <div class="project-header">
-        <img :src="this.current.frontmatter.image" class="image-desktop">
-        <img :src="this.current.frontmatter.imgmobile" class="image-mobile">
+        <img :src="this.current.frontmatter.image" class="image-desktop" alt="">
+        <img :src="this.current.frontmatter.imgmobile" class="image-mobile" alt="">
         <div class="wrapper">
-            <h2>{{ this.current.frontmatter.title }}</h2>
+            <h1>{{ this.current.frontmatter.title }}</h1>
         </div>
             <div class="overview">
                 <div class="wrapper">
@@ -54,12 +54,12 @@ export default {
 .project-header {
     margin-bottom: 24px;
 
-    h2 {
+    h1 {
+        font-size: 32px;
         text-align: left;
         line-height: 120%;
         margin-top: 64px;
         padding: 0;
-
     }
 
     img {
@@ -79,6 +79,10 @@ export default {
       .image-mobile {
           display: block;
       }
+
+      h1 {
+          text-align: center;
+      }
     }
 
     p, li {
@@ -87,7 +91,7 @@ export default {
 
     .overview {
         background: color(color_hover);
-        margin-top: -8px;
+        margin-top: -9px;
         padding: 48px 0 48px 0;
 
         .wrapper {
