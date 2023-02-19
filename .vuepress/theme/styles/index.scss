@@ -154,14 +154,122 @@ li {
     @include body-font;
 }
 
+/* Page Header */
 
-/* Project Page */
+.page-header {
+    margin: 48px 0 0 128px;
+    display: flex;
+    align-items: center;
+    align-content: center;
 
-.project-title {
-    margin-top: 48px;
-    line-height: 150%;
+    h1, h2 {
+        text-align: right;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        color: color(black);
+
+        &:hover, &:focus {
+            background: color(color);
+            color: color(white);
+        }
+    }
+
+    .text {
+        text-align: right;
+        margin-right: 42px;
+    }
+
+    img {
+        border-top-left-radius: 26px;
+        border-bottom-left-radius: 26px;
+        width: auto;
+        max-width: 50%;
+        height: auto;
+        max-height: 426px;
+    }
 }
 
-.project-time {
-    font-style: italic;
+@media screen and (max-width: 800px) {
+  .page-header {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+      .text {
+          text-align: center;
+          margin: 0px 48px 48px 48px;
+      }
+
+      img {
+          border-radius: 26px 26px 0px 26px;
+          max-width: 80%;
+          max-height: 80%;
+          margin-top: 0;
+      }
+  }
+}
+
+/* Project Element */
+
+.project {
+    display: flex;
+    border: 1px solid color(black_25);
+    margin-top: 24px;
+
+    img {
+        width: 30%;
+        height: 30%;
+        margin: 0;
+    }
+
+    h3 {
+        padding-top: 0;
+    }
+
+    .text {
+        padding-left: 24px;
+        padding-right: 48px;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        .project-timeline {
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        p {
+            color: color(black);
+            font-weight: lighter;
+            font-size: 16px;
+        }
+    }
+
+    &:hover {
+        border: 1px solid color(color);
+        background: color(color_hover);
+
+        h3, p {
+            text-decoration: underline solid color(color_hover);
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+      display: block;
+      border-radius: 0px 0px 0px 26px;
+
+      img {
+          width: 100%;
+          height: 100%;
+      }
+
+      .text {
+          padding: 24px;
+      }
+    }
 }

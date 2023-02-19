@@ -67,7 +67,7 @@
 
     .skillset-container {
         background: color(color_hover);
-        margin-top: -8px;
+        margin-top: -9px;
         padding: 48px 0 48px 0;
 
         .wrapper {
