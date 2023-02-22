@@ -38,11 +38,6 @@ export default {
         padding: 0 0 12px 0;
     }
 
-    ul, ol {
-        margin: 0;
-        padding: 0;
-    }
-
     p, li {
         font-size: 14px;
     }

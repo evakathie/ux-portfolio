@@ -5,7 +5,6 @@ image: '/images/spotify-audiobooks/audiobooks-header.png'
 imgmobile: '/images/spotify-audiobooks/audiobooks.png'
 competences: Design Thinking, UX Design, Wireframing, Usability Testing
 from: Dezember 2022
-date: 2022-12-01 17:00
 year: 2022
 ---
 

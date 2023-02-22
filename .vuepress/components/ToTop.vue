@@ -45,7 +45,7 @@
           /* Styling */
           color: color(black);
           background: rgba(color(color), 0.2);
-          border: 1px solid rgba(color(color), 0.0);
+          /*border: 1px solid rgba(color(color), 0.0);*/
           border-top-left-radius: 26px;
           border-bottom-left-radius: 26px;
           font-size: 36px;
@@ -64,7 +64,9 @@
           }
 
           &:hover {
-              border: 1px solid color(color);
+              /*border: 1px solid color(color);*/
+              color: color(white);
+              background: color(color);
               outline: none;
           }
       }

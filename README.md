@@ -7,4 +7,7 @@ home: true
 <h2>My UX Case Studies</h2>
 
 <HighlightedProjects currentProject="0" />
-<!--<Contact />-->
+
+<!--<div class="align-center">
+    <router-link to="/pages/work.html" class="button">View all my projects</router-link>
+</div>-->

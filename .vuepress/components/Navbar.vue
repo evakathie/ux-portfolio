@@ -12,6 +12,12 @@
                   <router-link to="/pages/about.html">About</router-link>
               </li>
               <li>
+                  <router-link to="/pages/work.html">Work</router-link>
+              </li>
+              <li>
+                  <router-link to="/pages/play.html">Play</router-link>
+              </li>
+              <li>
                   <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
               </li>
               <li>
@@ -28,6 +34,12 @@
           <ul :class="[{hide: !isOpen}]">
             <li>
                 <router-link to="/pages/about.html">About</router-link>
+            </li>
+            <li>
+                <router-link to="/pages/work.html">Work</router-link>
+            </li>
+            <li>
+                <router-link to="/pages/play.html">Play</router-link>
             </li>
             <li>
                 <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
@@ -164,6 +176,10 @@
       width: 50%;
       padding-left: 128px;
 
+      @media screen and (max-width: 800px) {
+          padding-left: 64px;
+      }
+
       @media screen and (max-width: 600px) {
         padding-left: 64px;
         width: 90%;
@@ -175,6 +191,10 @@
       display: flex;
       justify-content: flex-end;
       padding-right: 128px;
+
+      @media screen and (max-width: 800px) {
+        padding-right: 64px;
+      }
 
       @media screen and (max-width: 600px) {
         display:none;
