@@ -67,7 +67,7 @@
                             <p class="to">10/2020</p>
                         </div>
                         <div class="station">
-                            <p class="role">B.Sc. Human-Computer-Interaction<br />Grade: 2,3 (good)</p>
+                            <p class="role">B.Sc. Human-Computer-Interaction<br />Grade: 2,0 (good)</p>
                             <p class="company">University of Hamburg</p>
                         </div>
                     </div>
