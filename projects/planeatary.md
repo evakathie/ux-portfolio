@@ -4,6 +4,7 @@ description: "Planeatary is a mobile app designed to support users to follow a h
 image: '/images/planeatary/planeatary-header.png'
 imgmobile: '/images/planeatary/planeatary.png'
 competences: Concept, UX Design, Prototyping, Usability Testing, App Development
+tools: Figma, HTML & CSS, JavaScript
 from: 'March 2019'
 to: 'January 2021'
 year: 2021

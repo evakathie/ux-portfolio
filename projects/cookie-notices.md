@@ -4,6 +4,7 @@ description: "I conducted an eye-tracking study to investigate the usability of 
 image: '/images/cookie-notices/cookie-notices-header.png'
 imgmobile: '/images/cookie-notices/cookie-notices.png'
 competences: UX Research, Eye-tracking, Prototyping, Web Development
+tools: Tobii Studio, Microsoft Excel, SPSS, HTML & CSS, Sketch
 from: 'November 2019'
 to: 'September 2020'
 year: 2020

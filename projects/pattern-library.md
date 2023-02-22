@@ -4,6 +4,7 @@ description: "Creation of a comprehensive pattern library for the D3 product fam
 image: '/images/pattern-library/pattern-library-header.png'
 imgmobile: '/images/pattern-library/pattern-library.png'
 competences: Concept, UX Design, UI Design, Design System
+tools: Atlassian Confluence, Adobe Xd
 from: 'October 2018'
 to: 'Dezember 2018'
 year: 2018

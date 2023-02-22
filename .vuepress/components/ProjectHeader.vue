@@ -14,10 +14,18 @@
                         <p class="project-timeline" v-if="this.current.frontmatter.from && !this.current.frontmatter.to">{{ this.current.frontmatter.from }}</p>
                     </div>
                     <div class="col-right">
-                        <h3 class="highlighted-title">Skills</h3>
-                        <ul class="competences">
-                            <li class="competence" v-for="competence in project_competences">{{ competence }}</li>
-                        </ul>
+                        <div class="col-container">
+                            <h3 class="highlighted-title">Skills</h3>
+                            <ul class="competences">
+                                <li class="competence" v-for="competence in project_competences">{{ competence }}</li>
+                            </ul>
+                        </div>
+                        <div class="col-container">
+                            <h3 class="highlighted-title" v-if="project_tools">Tools</h3>
+                            <ul class="competences">
+                                <li class="competence" v-for="tool in project_tools">{{ tool }}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -43,6 +51,14 @@ export default {
 
       project_competences(){
         return this.current.frontmatter.competences.split(",")
+        },
+
+      project_tools(){
+          const tools = this.current.frontmatter.tools;
+          if(tools) {
+              return tools.split(",")
+          }
+
       }
   }
 }
@@ -126,6 +142,23 @@ export default {
     .col-right {
         width: 40%;
         margin-left: 48px;
+        display: flex;
+
+        .col-container {
+            padding-left: 32px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 1000px) and (min-width: 600px) {
+            display: block;
+
+            .col-container {
+                padding-left: 0;
+            }
+        }
 
         @media screen and (max-width: 600px) {
             width: 100%;

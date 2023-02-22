@@ -4,6 +4,7 @@ description: "I used Design Thinking to empathize with audiobook listeners and c
 image: '/images/spotify-audiobooks/audiobooks-header.png'
 imgmobile: '/images/spotify-audiobooks/audiobooks.png'
 competences: Design Thinking, UX Design, Wireframing, Usability Testing
+tools: Balsamiq
 from: Dezember 2022
 year: 2022
 ---
