@@ -1,5 +1,5 @@
 <template>
-  <div class="photographs" alt="Thirty photographs from the previously mentioned areas.">
+  <div class="photographs" alt="29 photographs from the previously mentioned areas.">
       <div class="images-container" v-for="src in img_srcs">
           <img :src="src" alt="">
       </div>

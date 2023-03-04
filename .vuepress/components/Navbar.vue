@@ -102,7 +102,7 @@
           font-weight: lighter;
       }
 
-      &:hover {
+      &:hover, &:focus {
           .title-navbar {
               font-weight: bold;
               text-decoration: underline solid color(white);

@@ -94,7 +94,7 @@ year: 2021
 
 <p>After skribbeling on paper for a while we switched to a more final design using Figma. We did the whole design in German, because the language has much longer words than English and therefore is good to better estimate the space in multilingual apps — and we wanted to at least have a german and a english version.</p>
 
-<img :src="'/images/planeatary/prototype.png'">
+<img :src="'/images/planeatary/prototype.png'" alt="">
 
 <p>Next to the already described screens that were already sketched on paper, we added another screen that is supposed to be a more general overview or statistic. On this screen the food categories are listed and how good the users diet is in that category in retrospective for today, a month, a year and all the time.</p>
 
@@ -138,23 +138,47 @@ year: 2021
 
 <p>We did release the first version of Planeatary in January 2021 in the <a href="https://apps.apple.com/app/planeatary/id1532714969" target="blank">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.thinkplanetary.planeatary&pli=1" target="blank">Google Playstore</a>. If you want to test it, it is still available in both stores — you can also <a href="https://planeatary.app/" target="blank">find our website here</a>. Last but not least I want to give you some impressions in the form of screenshots how the final app looks — but of course you will have the best experience by downloading it.</p>
 
-<img :src="'/images/planeatary/planeatary-screen-01.png'">
+<img :src="'/images/planeatary/planeatary-screen-01.png'" alt="Three screens of the app Planeatary described below.">
 
 <p class="image-description">The screen showing the consumed food and the list of foods, as well as the search functionality.</p>
 
-<img :src="'/images/planeatary/planeatary-screen-02.png'">
+<p>The <b>"Consumption" screen</b> shows the consumed food sorted by dates. If a user doesn't type in any food by the end of the day, the app will automatically apply a "perfect" diet plan so that there isn't a calory or lack in the statistics and the amount that can be eaten the next day gets smaller. In this screen the user can go into the past as far as they want, but after a certain amount of time (several months) the days will get summarized and only the basic food categories will be displayed for a whole month - this helps to not overcrowd the interface and since the data is saved locally on the users device, the file doesn't get too big.</p>
+
+<p>The <b>"Food" screen</b> shows the list of all the foods, divided into the food categories (default). For every category the remaining amout that can be eaten on this day is displayed in grams and with a graphical bar. The specific amount is also displayed for every food - since foods can consist of different categories or include water, the amount often varies from the category. In the screenshot e.g. "Oat milk" is visible that shows 2,383g while the grains category has only 286g left, this is because oat milk mostly consists of water and doesn't need that much grain in production.<br />
+The screen also includes functionality like filters and sorting, adding custom foods (see below) and the search functionality.</p>
+
+<img :src="'/images/planeatary/planeatary-screen-02.png'" alt="Three screens of the app Planeatary described below.">
 
 <p class="image-description">Creation of a custom food and adding a consumed food.</p>
 
-<img :src="'/images/planeatary/planeatary-screen-03.png'">
+<p>One feature of the app is to allow the <b>creation of custom foods</b>, since a 100% database coverage of all food is not possible. The feature can be accessed through the bar in the "Food" screen (top left) or if a food is searched and not found. There are three different categories of custom food: "Staple food" (= consists of the basic food categories, e.g. a exotic fruit), "Packaged food" (e.g. your favorite candy that has an ingredient list in %), "Prepared dish" (e.g. a recipe you cook).<br />
+The screen to create the custom food varies a little based on the category of custom food, in any case, a name, description and icon can be assigned, the food consists of ingredients and units can be added. For Staple foods only the basic categories can be added in percent and the calories per 100g can either be added or calculated by the app based on the underlying categories. For Packaged foods any food or food category can be added as an ingredient in percent and the calories per 100g can either be added or calculated by the app based on the ingredients. For Prepared dishes the ingredients are added via gram or their units (e.g. "1 piece") and the calories per 100g are automatically calculated by the app and can't be changed.</p>
+
+<p>The screen to the right shows the popup to <b>add consumed food</b>. With this popup it is transitioned to the "Consumption" screen. The date is per default today or the last date where a user did hit "Add" in the "Consumption" screen (therefore it is possible to add food to past dates). The popup is accessible by clicking on any food in the "Food" screen (also through the search functionality). Per default "Grams" is selected as a unit. If the unit is changed the default amount switches to "1" if it was "100" before. The app remembers the last unit that was selected for every food to make it easier to add the foods to the consumption, e.g. if you eat 2 apples every morning you can just click on "Apple" and the app will have "2 Whole Pieces" remembered from yesterday.</p>  
+
+<img :src="'/images/planeatary/planeatary-screen-03.png'" alt="Three screens of the app Planeatary described below.">
 
 <p class="image-description">Different mechanisms to sort and filter the foods and the overview screen with statistics per category.</p>
 
-<img :src="'/images/planeatary/planeatary-screen-04.png'">
+<p>The app provides different <b>Filters</b> to filter the long list of foods in the "Food" screen. The filters are "Basic" foods (= including only one food category, e.g. Apple, Flour, Milk), "Combined" foods (= consisting of different foods or food categories, e.g. Pizza, Cookie, Mayonnaise), "Custom" foods (= created by the user, they are also marked by a small star in the UI), "Categories" (= the foods are per default ordered by their categories, these can be hidden via the filter). Per default every food and category is visible.</p>
 
-<p class="image-description">The calculation of the daily calories.</p>
+<p>Additionally, there are different different <b>sorting mechanisms</b>: alphabetical A-Z (default), alphabetical Z-A, Last used, Availability (= descending number of grams that can still be consumed). If the categories are visible the sorting happens for the foods inside each food categories and doesn't apply to the categories themselves.</p>
 
-<p>We worked quite a lot on the calculation of the daily calories. The first screen calculates the basal metabolism — how much calories are needed with no activity. For the “daily activities” the user can either use this easy version shown in the screenshot or a more detailed view the average activities per hour of the day can be filled in e.g. 8h sleeping, 8h sitting, 2h walking, 1h exercise, … We tested both and they show nearly similar results therefore the default is this easy view with just 2 questions to answer.</p>
+<p>The <b>"Overview" screen</b> shows different statistics on how well the Planetary Health Diet is implemented by the user (in the past). The top shows the calories per day and how it is matching the set daily calories. Underneath it is a graphic for the food categories. The graph has a two dimensional scale, where left is too little and right is too much. The more the smiley is in the middle, the happier it is, because in the middle the plan is followed (too little or too much of a food in a food categorie is in most cases unhealthy and/ or unsustainable for the planet). The text underneath the food category name switches between the average amout per day and a number of how much grams and percent too little or too much it is e.g. "-179g, -14%". If the deviation is not significant, the app shows the text "optimal" instead. This statistic can be seen per day, week, month or year.</p>
+
+<img :src="'/images/planeatary/planeatary-screen-04.png'" alt="Three screens of the app Planeatary described below.">
+
+<p class="image-description">The three steps of calculating the daily calories.</p>
+
+<p>We worked quite a lot on the <b>calculation of the daily calories</b>. In the first screen the basal metabolism is calculated — how much calories are needed with no activity. For the “daily activities” the user can either use this easy version shown in the screenshot or a more detailed view were the average activities per hour of the day can be filled in e.g. 8h sleeping, 8h sitting, 2h walking, 1h exercise, … The latter is the scientific approach we found on calculation the calories. But our tests and our own gut feeling showed us that it is hard for users to estimate these average activities and it takes quite long. We therefore developed and tested the easier version with just 2 simple questions and found out that it reliably showed very similar results to the more detailed approach.</p>
+
+<p>The daily calories as well as the diet plan (omnivore, vegetarian, pescetarian, vegan or custom) can be set in the <b>"More" screen</b>. There are also a few other options on the calculation as well as the apps appearance (color, zoom). The language is set to the devices language per default but can be changed in the "More" screen. We also provide some general information to the app, tips & tricks and an faq (as well as legal requirements like imprint and information on privacy).</p>
+
+<img :src="'/images/planeatary/planeatary-screen-05.png'" alt="Three screens of the app Planeatary described below.">
+
+<p class="image-description">Intro into the App - onboarding screens and popup inside the app.</p>
+
+<p>We deliberately decided against an extensive onboarding during the initial download (where the calories can be calculated and the plan set), because the app can work well with defaults and we suspect that many users are overwhelmed by having to make so many settings before the app can be used. But in our usability test showed that the app wasn't understood so we decided to include a short intro when first using the app. When first opening the app there are four screens with a graphic and text. In the last screen there are two options "Edit settings" (leads to the "More" screen) and "Explore app". While exploring the app for the first time, more popups are displayed to explain the functionality.</p>
 
 <h3>Conclusion & learnings</h3>
 

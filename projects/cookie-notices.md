@@ -18,7 +18,7 @@ year: 2020
 
 <p>Nowadays nearly every website provides cookie notices. This is a legal obligation and not well received by a lot of website owners. But what about the website users point of view? In 2020, I tested the usability of four common cookie notices in a study, using eye-tracking and questionnaires, as part of my bachelor thesis. And in this article, I will give you a summary of what I did and what my findings where. Additionally, I created a prototype for a more user-friendly cookie notice and give some general tips on their design.</p>
 
-<img :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="">
+<img class="img-small" :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="">
 
 </div>
 
@@ -41,23 +41,23 @@ year: 2020
 <ul>
     <li>
         <b>No option</b>: the user is only informed about the use of cookies, in some cases there is also a close button/ buttcon.<br />
-        <img :src="'/images/cookie-notices/cookie-notice-nooption.png'" alt="A cookie notice showing the text 'We use cookies to analyze user behavior and optimize the usability of the website. You can learn more in our privacy policy', where 'privacy policy' is a link.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-nooption.png'" alt="A cookie notice showing the text 'We use cookies to analyze user behavior and optimize the usability of the website. You can learn more in our privacy policy', where 'privacy policy' is a link.">
     </li>
     <li>
         <b>Confirmation</b>: the user is informed about the use of cookies and can agree to it by clicking on a consenting button, for example “I agree” or “Ok”.<br />
-        <img :src="'/images/cookie-notices/cookie-notice-confirmation.png'" alt="The same cookie notice as before, but with a 'Accept'-button.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-confirmation.png'" alt="The same cookie notice as before, but with a 'Accept'-button.">
     </li>
     <li>
         <b>Binary</b>: the user is informed about the use of cookies and can decide whether they want to accept or refuse.<br />
-        <img :src="'/images/cookie-notices/cookie-notice-binary.png'" alt="The same cookie notice as the first one, but with two buttons: 'Decline' and 'Accept'.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-binary.png'" alt="The same cookie notice as the first one, but with two buttons: 'Decline' and 'Accept'.">
     </li>
     <li>
         <b>Category</b>: the user is informed about the use of cookies and can select the degree of consent by choosing between different categories of cookies, like “Required Cookies” and “Marketing Cookies”. <i>— In the original paper this where two categories: “Slider” and “Checkbox”. The difference was in the control being used, but they give the user the same choice. I consolidated them because the type of UI control is less relevant for my study.</i><br />
-        <img :src="'/images/cookie-notices/cookie-notice-category.png'" alt="The same cookie notice as the first one, but with three categories with checkboxes: 'Functional cookies', 'Analytical cookies' and 'Marketing cookies'. 'Functional cookies' is selected and read-only. The other checkboxes are not selected but active. On the right side is a 'Accept'-button. ">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-category.png'" alt="The same cookie notice as the first one, but with three categories with checkboxes: 'Functional cookies', 'Analytical cookies' and 'Marketing cookies'. 'Functional cookies' is selected and read-only. The other checkboxes are not selected but active. On the right side is a 'Accept'-button. ">
     </li>
     <li>
         <b>Vendor</b>: the user is informed about the use of cookies and can choose for each specific third-party cookie whether to accept it or not.<br />
-        <img :src="'/images/cookie-notices/cookie-notice-vendor.png'" alt="The same cookie notice as the first one, but with seven different companies/ services with checkboxes like 'Facebook' or 'Google Analytics'. None of the checkboxes is selected. On the right side is a 'Accept'-button. ">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-vendor.png'" alt="The same cookie notice as the first one, but with seven different companies/ services with checkboxes like 'Facebook' or 'Google Analytics'. None of the checkboxes is selected. On the right side is a 'Accept'-button. ">
     </li>
 </ul>
 
@@ -77,7 +77,7 @@ year: 2020
 
 <p>I examined and compared the usability of four different kinds of cookie notices in an eye-tracking research. I did consider cookie notices as a part of the webpage and therefore as part of the overall user experience. Users enter a website with a specific goal, for example, to search for information. A cookie notice could be a distraction from this goal and therefore affect the user experience of the website and the overall satisfaction of the user.</p>
 
-<img :src="'/images/cookie-notices/study-structure.png'" width="50%" alt="">
+<img class="img-small" :src="'/images/cookie-notices/study-structure.png'" width="50%" alt="">
 
 <p>To analyze the usability of different cookie notices, I considered the following research questions:</p>
 
@@ -173,7 +173,7 @@ On average, users paid attention to the Confirmation notice for only 0.6 seconds
 
 <p>Finally, I designed a user-friendly cookie notice — however, further research is needed to further optimize the usability of cookie notices. The following prototype is only a first draft and it would be necessary to evaluate the prototype in a usability test.</p>
 
-<img :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="A wireframe showing a Cookie Notice that has the Headline 'Data Protection', followed by information about the usage of cookies that is divided into three bullet points with an icon infront of each, the last one includes a link to the privacy policy. On the right side there are three options for the user: 'Reject', 'Accept' and 'Configure Cookies'. An wireframe-arrow indicates that 'Configure Cookies' changes the notice and gives the option to specify which cookies are accepted, 'Analytical cookies' and/or 'Marketing cookies'. Next to the cookie types are '?' icons.">
+<img class="img-small" :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="A wireframe showing a Cookie Notice that has the Headline 'Data Protection', followed by information about the usage of cookies that is divided into three bullet points with an icon infront of each, the last one includes a link to the privacy policy. On the right side there are three options for the user: 'Reject', 'Accept' and 'Configure Cookies'. An wireframe-arrow indicates that 'Configure Cookies' changes the notice and gives the option to specify which cookies are accepted, 'Analytical cookies' and/or 'Marketing cookies'. Next to the cookie types are '?' icons.">
 
 <p>My prototype is a hybrid of the two cookie notices that scored best in my study. Initially it is based on the binary notice of the study, but by clicking on “Configure Cookies” the notice unfolds and offers a selection via categories. The cookie notice is intended to provide a good user experience for two different user groups and different everyday situations. A study (by Utz et al.) found that most website visitors make a binary decision even when they have more than just two decision options available to them and only few users select a specific category. The notice covers both behaviors by initially providing a highly visible binary decision. However, the users who would like to make a specific configuration are also included, as they gain more control through the configure function.</p>
 

@@ -19,7 +19,7 @@ year: 2018
 
 <p>During a three month internship at Digitec GmbH I created a pattern library for their software product family D3. The D3 products D3 Sheets, D3 Curves and D3 Elements together form a pricing engine for FX and MM trading and are used  by more than 40 of the world’s leading FX trading banks. The products are developed using the programming language Scala, the user interface is designed with JavaFX and CSS.</p>
 
-<img :src="'/images/pattern-library/pattern-library-concept.png'" alt="">
+<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="">
 
 </div>
 
@@ -91,7 +91,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>None of the existing concepts seemed to be a perfect fit for our purposes. Therefore, I developed a new concept primarily based on Atomic Design, but extended for our purposes. I will describe the exact concept below using the practical implementation in the paragraph "Creation of the Pattern Library Documentation".</p>
 
-<img :src="'/images/pattern-library/pattern-library-concept.png'" alt="Graphic of the general concept of the Pattern Library showing Atoms that are evolved to Molecules that are involved to Organisms that all make up a GUI, which is also influenced by Elements (like fonts or icons) and Processes (like Drag and Drop).">
+<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="Graphic of the general concept of the Pattern Library showing Atoms that are evolved to Molecules that are involved to Organisms that all make up a GUI, which is also influenced by Elements (like fonts or icons) and Processes (like Drag and Drop).">
 
 <h3>Abstraction of the softwares patterns</h3>
 
@@ -109,7 +109,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 </ul>
 
 
-<img :src="'/images/pattern-library/patterns.png'" img="In several lines a number of different Design Patterns like Buttons, On-Off Switches and Textfields are shown.">
+<img  :src="'/images/pattern-library/patterns.png'" img="In several lines a number of different Design Patterns like Buttons, On-Off Switches and Textfields are shown.">
 
 <h3>Creation of the Pattern Library Documentation</h3>
 

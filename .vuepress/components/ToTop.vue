@@ -63,7 +63,7 @@
               font-size: 32px;
           }
 
-          &:hover {
+          &:hover, &:focus {
               /*border: 1px solid color(color);*/
               color: color(white);
               background: color(color);

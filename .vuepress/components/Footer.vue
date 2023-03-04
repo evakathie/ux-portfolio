@@ -1,12 +1,12 @@
 <template>
-  <div class="footer">
-      <div class="col-left">
-          <router-link to="/pages/legal-notice.html">Legal Notice</router-link>
-      </div>
-      <div class="col-right">
-          <p>© {{ this.current_year }} Eva Wolf</p>
-      </div>
-  </div>
+    <footer class="footer">
+        <div class="col-left">
+            <router-link to="/pages/legal-notice.html">Legal Notice</router-link>
+        </div>
+        <div class="col-right">
+            <p>© {{ this.current_year }} Eva Wolf</p>
+        </div>
+    </footer>
 </template>
 
 <script>
