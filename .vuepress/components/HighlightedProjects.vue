@@ -2,7 +2,7 @@
   <div class="projects">
       <div class="wrapper">
 
-          <router-link to="/projects/planeatary.html" v-if="this.currentProject != 1">
+          <router-link class="project-link" to="/projects/planeatary.html" v-if="this.currentProject != 1">
             <div class="project first">
                     <img :src="'/images/planeatary/planeatary.png'" alt="">
                     <div class="text">
@@ -12,7 +12,7 @@
             </div>
           </router-link>
 
-          <router-link to="/projects/cookie-notices.html" v-if="this.currentProject != 2">
+          <router-link class="project-link" to="/projects/cookie-notices.html" v-if="this.currentProject != 2">
             <div class="project">
                     <img :src="'/images/cookie-notices/cookie-notices.png'" alt="">
                     <div class="text">
@@ -22,7 +22,7 @@
             </div>
           </router-link>
 
-            <router-link to="/projects/spotify-audiobooks.html" v-if="this.currentProject != 3">
+            <router-link class="project-link" to="/projects/spotify-audiobooks.html" v-if="this.currentProject != 3">
               <div class="project last">
                       <img :src="'/images/spotify-audiobooks/audiobooks.png'" alt="">
                       <div class="text">

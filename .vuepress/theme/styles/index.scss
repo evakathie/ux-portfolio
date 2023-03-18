@@ -333,15 +333,6 @@ li {
         }
     }
 
-    &:hover, &:focus {
-        border: 1px solid color(color);
-        background: color(color_hover);
-
-        h3, p, a {
-            text-decoration: underline solid color(color_hover);
-        }
-    }
-
     @media screen and (max-width: 1000px) {
       display: block;
       border-radius: 0px 0px 0px 26px;
@@ -354,5 +345,19 @@ li {
       .text {
           padding: 24px;
       }
+    }
+}
+
+.project-link {
+    &:hover, &:focus {
+
+        .project {
+            border: 1px solid color(color);
+            background: color(color_hover);
+        }
+
+        h3, p, a {
+            text-decoration: underline solid color(color_hover);
+        }
     }
 }

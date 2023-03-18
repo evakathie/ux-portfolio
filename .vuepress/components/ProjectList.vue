@@ -2,7 +2,7 @@
   <div class="project-list">
       <div class="wrapper">
           <div class="project-preview" v-for="project in all_projects">
-              <router-link :to="project.path">
+              <router-link class="project-link" :to="project.path">
                     <div class="project">
                         <img :src="project.frontmatter.imgmobile" alt="">
                         <div class="text">
