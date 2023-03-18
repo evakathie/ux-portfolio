@@ -1,7 +1,7 @@
 <template>
     <div class="highlighted-area">
         <div class="wrapper">
-            <h3 class="highlighted-title" v-if="title">{{ title }}</h3>
+            <h2 class="highlighted-title" v-if="title">{{ title }}</h2>
             <slot></slot>
         </div>
     </div>

@@ -8,6 +8,7 @@ tools: Atlassian Confluence, Adobe Xd
 from: 'October 2018'
 to: 'Dezember 2018'
 year: 2018
+month: 12
 ---
 
 <ProjectHeader :currentPage="this">
@@ -63,7 +64,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 <p>Moreover, I also researched how a pattern library can be structured and what existing concepts exist. I list a few of the most inspiring ones below.</p>
 
 <ul>
-    <li>"Design Patterns" chapter in the book <i>About face</i>
+    <li>"Design Patterns" chapter in the book <em>About face</em>
     <ul>
         <li>Postural patterns: can be applied at the conceptual level and help determine the overall product stance in relation to the user.</li>
         <li>Structural patterns: solve problems that relate to the arrangement of information and functional elements on the screen.</li>

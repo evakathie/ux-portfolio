@@ -26,15 +26,23 @@ export default {
       all_projects() {
 
         return this.$site.pages.filter(p => p.path.substring(0, 9) == '/projects').sort((a, b) => {
-          let aDate = a.frontmatter.year
-          let bDate = b.frontmatter.year
+            let aMonth = a.frontmatter.month
+            let aYear = a.frontmatter.year
+            let bMonth = b.frontmatter.month
+            let bYear = b.frontmatter.year
 
-          if (aDate > bDate) {
-            return -1
-          } else if (aDate < bDate) {
-            return 1
-          }
-          return 0
+            if (aYear > bYear) {
+                return -1
+            } else if (aYear < bYear) {
+                return 1
+            } else if(aYear = bYear){
+                if (aMonth > bMonth) {
+                    return -1
+                } else {
+                    return 1
+                }
+            }
+            return 0
         })
     }
   },

@@ -7,18 +7,19 @@ competences: Design Thinking, UX Design, Wireframing, Usability Testing
 tools: Balsamiq
 from: Dezember 2022
 year: 2022
+month: 12
 ---
 
 <ProjectHeader :currentPage="this">
 <p>As a fan of audiobooks and user of Spotify for podcasts and music, I'm missing a feature for listening to audiobooks in Spotify. So I used Design Thinking to come up with a concept to integrate audiobooks into Spotify - this is an unofficial case study.</p>
-<p><b>User Story</b>: As an audiobook lover, I want to comfortably listen to audiobooks inside Spotify, so that I don’t have to handle (and pay for) so many different apps with similar functionality.</p>
+<p><strong>User Story</strong>: As an audiobook lover, I want to comfortably listen to audiobooks inside Spotify, so that I don’t have to handle (and pay for) so many different apps with similar functionality.</p>
 </ProjectHeader>
 
 <div class="wrapper">
 
 <p>I’m a Product Designer and a big enthusiast for audiobooks. While I like Spotify to listen to podcasts and music, listening to audiobooks is a big pain point for me. I’m also a fan of Design Thinking and that’s why I want to throw the toolset on this problem to find out how Spotify could look like, with audiobook listeners like myself in mind.</p>
 
-<p><i>Note: This case study isn’t official — I don’t work for Spotify and the company doesn’t know about this. This is just a concept I made for my portfolio and to practice.</i></p>
+<p><em>Note: This case study isn’t official — I don’t work for Spotify and the company doesn’t know about this. This is just a concept I made for my portfolio and to practice.</em></p>
 
 <img :src="'/images/spotify-audiobooks/audiobooks-wireframe.png'">
 
@@ -26,11 +27,11 @@ year: 2022
 
 <HighlightedArea title="Summary of my Approach">
 <ol>
-    <li><b>Empathize</b>: Interviews with audiobook listeners to gather information and their painpoints with the current concept in Spotify. </li>
-    <li><b>Define</b>: writing the User Story and requirements, as well as assessing the status quo in the Spotify app. </li>
-    <li><b>Ideate</b>: Ideate: compatitor analysis of BookBeat and Audible, as well as doing Crazy 8’s (sketching on paper).</li>
-    <li><b>Prototype</b>: building a wireframe of the final idea using Balsamiq.</li>
-    <li><b>Test</b>: Designing a concept for a usability test of the wireframe.</li>
+    <li><strong>Empathize</strong>: Interviews with audiobook listeners to gather information and their painpoints with the current concept in Spotify. </li>
+    <li><strong>Define</strong>: writing the User Story and requirements, as well as assessing the status quo in the Spotify app. </li>
+    <li><strong>Ideate</strong>: Ideate: compatitor analysis of BookBeat and Audible, as well as doing Crazy 8’s (sketching on paper).</li>
+    <li><strong>Prototype</strong>: building a wireframe of the final idea using Balsamiq.</li>
+    <li><strong>Test</strong>: Designing a concept for a usability test of the wireframe.</li>
 </ol>
 </HighlightedArea>
 
@@ -68,7 +69,7 @@ year: 2022
 
 <p>The interviews and the number of already existing audiobooks on Spotify show that there is a demand to listen to audiobooks on Spotify and therefore an opportunity for Spotify. The problem seems to be the usability and missing concept for audiobooks as a part of the Spotify app. I formulated the following User Story to go along with:</p>
 
-<p><i>As an audiobook lover, I want to comfortably listen to audiobooks inside Spotify, so that I don’t have to handle (and pay for) so many different apps with similar functionality.</i></p>
+<p><em>As an audiobook lover, I want to comfortably listen to audiobooks inside Spotify, so that I don’t have to handle (and pay for) so many different apps with similar functionality.</em></p>
 
 <h4>Status quo: Audiobooks on Spotify</h4>
 
@@ -90,9 +91,9 @@ year: 2022
 <p>From the User Interviews and UX analysis of the status quo, I derived requirements that can be used in the next phases of Design Thinking:</p>
 
 <ul>
-    <li><b>Remembering the progress</b>: Since users don’t listen to audiobooks in one run and want to switch back and forth between an audiobook and other media, this switching should be as comfortable as possible.</li>
-    <li><b>Remembering (several) unfinished books</b>: the user might want to start several books in parallel, e.g. of different genres like a nonfiction book for train rides and a romance novel for falling asleep.</li>
-    <li><b>Snooze/ sleep feature</b>: Since users like to listen to audiobooks while falling asleep there should be a configurable sleep functionality, where the audiobook stops after a certain number of minutes.</li>
+    <li><strong>Remembering the progress</strong>: Since users don’t listen to audiobooks in one run and want to switch back and forth between an audiobook and other media, this switching should be as comfortable as possible.</li>
+    <li><strong>Remembering (several) unfinished books</strong>: the user might want to start several books in parallel, e.g. of different genres like a nonfiction book for train rides and a romance novel for falling asleep.</li>
+    <li><strong>Snooze/ sleep feature</strong>: Since users like to listen to audiobooks while falling asleep there should be a configurable sleep functionality, where the audiobook stops after a certain number of minutes.</li>
 </ul>
 
 <h3>Ideate</h3>
@@ -128,7 +129,7 @@ Other tabs next to the home are “Inspiration”, “Categories” and “Searc
 
 <h4>Paper Prototypes</h4>
 
-<p>One of my favorite steps in Design Thinking is Divergent Thinking — skribbling all the solutions/ ideas that come into mind without judging them. What I did in this case study was a quick round of Crazy 8s. <i>Please excuse my weird mix of German and English in the picture below — under “time pressure” my brain seems to like switching back to German.</i></p>
+<p>One of my favorite steps in Design Thinking is Divergent Thinking — skribbling all the solutions/ ideas that come into mind without judging them. What I did in this case study was a quick round of Crazy 8s. <em>Please excuse my weird mix of German and English in the picture below — under “time pressure” my brain seems to like switching back to German.</em></p>
 
 <img :src="'/images/spotify-audiobooks/paper-prototypes.png'">
 
@@ -155,7 +156,7 @@ Existing functionalities such as the sleep mode and changing the speed should al
 
 <img :src="'/images/spotify-audiobooks/audiobooks-screens-02.png'">
 
-<p><i>Home</i> screen adjustments:</p>
+<p><em>Home</em> screen adjustments:</p>
 
 <ul>
     <li>“Audiobook” filter next to “Music” and “Podcasts”</li>
@@ -167,14 +168,14 @@ Existing functionalities such as the sleep mode and changing the speed should al
 
 <img :src="'/images/spotify-audiobooks/audiobooks-screens-03.png'">
 
-<p><i>Search</i> screen adjustments:</p>
+<p><em>Search</em> screen adjustments:</p>
 
 <ul>
     <li>new category tile on the main Search screen and a corresponding screen “Discover new audiobooks” for audiobooks (similar to podcasts). On this screen audiobook recommendations and different categories to browse like bestselling lists/ „charts“ or genres like „novels“ can be displayed.</li>
     <li>“Audiobook” filter, if the search is active</li>
 </ul>
 
-<p><i>Library</i> Screen adjustments:</p>
+<p><em>Library</em> Screen adjustments:</p>
 
 <ul>
     <li>“Audiobook” filter next to the other filters at the top</li>

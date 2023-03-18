@@ -5,7 +5,7 @@ title: "My creative hobbies"
 <div class="page-header">
     <div class="text">
         <h1>My creative Hobbies</h1>
-        <p>Next to my work as a Product Designer I'm also passionate about other creative areas like Photography and my blog about Sustainability, Travel and Gardening. On this page you will find a selection of my other creative passions.</i></p>
+        <p>Next to my work as a Product Designer I'm also passionate about other creative areas like Photography and my blog about Sustainability, Travel and Gardening. On this page you will find a selection of my other creative passions.</p>
     </div>
     <img :src="'/images/play/play.jpg'" alt="A hand holding a camera.">
 </div>

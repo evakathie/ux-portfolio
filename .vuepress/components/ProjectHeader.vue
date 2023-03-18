@@ -8,20 +8,20 @@
             <div class="overview">
                 <div class="wrapper">
                     <div class="col-left">
-                        <h3 class="highlighted-title">Overview</h3>
+                        <h2 class="highlighted-title">Overview</h2>
                         <slot></slot>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && this.current.frontmatter.to">{{ this.current.frontmatter.from }} ➙ {{ this.current.frontmatter.to }}</p>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && !this.current.frontmatter.to">{{ this.current.frontmatter.from }}</p>
                     </div>
                     <div class="col-right">
                         <div class="col-container">
-                            <h3 class="highlighted-title">Skills</h3>
+                            <h2 class="highlighted-title">Skills</h2>
                             <ul class="competences">
                                 <li class="competence" v-for="competence in project_competences">{{ competence }}</li>
                             </ul>
                         </div>
                         <div class="col-container">
-                            <h3 class="highlighted-title" v-if="project_tools">Tools</h3>
+                            <h2 class="highlighted-title" v-if="project_tools">Tools</h2>
                             <ul class="competences">
                                 <li class="competence" v-for="tool in project_tools">{{ tool }}</li>
                             </ul>

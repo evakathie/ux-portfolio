@@ -26,11 +26,11 @@
           </ul>
       </nav>
       <div class="col-right-mobile">
-          <div class="burger-menu" v-on:click="isOpen = !isOpen" alt="Menu">
+          <nav class="burger-menu" v-on:click="isOpen = !isOpen" v-on:keyup="isOpen = !isOpen" tabindex="0" alt="Menu">
               <div class="burger-menu-line"></div>
               <div class="burger-menu-line"></div>
               <div class="burger-menu-line"></div>
-          </div>
+          </nav>
           <ul :class="[{hide: !isOpen}]">
             <li>
                 <router-link to="/pages/about.html">About</router-link>

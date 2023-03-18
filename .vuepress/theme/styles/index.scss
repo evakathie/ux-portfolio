@@ -64,11 +64,11 @@ body {
     }
 }
 
-b {
+strong {
   font-weight: normal;
 }
 
-i {
+em {
   font-style: italic;
 }
 
@@ -129,6 +129,19 @@ img {
     }
 }
 
+.img-small-60 {
+    width: 60%;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+}
+
+.img-original {
+    width: auto;
+    margin: 0px;
+}
+
 .image-description {
     text-align: center;
     margin-top: -48px;
@@ -169,6 +182,7 @@ h3 {
 
 .highlighted-title {
     text-transform: uppercase;
+    text-align: left;
     font-size: 14px;
     padding: 0 0 12px 0;
 }

@@ -8,6 +8,6 @@ home: true
 
 <HighlightedProjects currentProject="0" />
 
-<!--<div class="align-center">
-    <router-link to="/pages/work.html" class="button">View all my projects</router-link>
-</div>-->
+<div class="align-center">
+    <router-link to="/pages/work.html" class="button">View more projects</router-link>
+</div>

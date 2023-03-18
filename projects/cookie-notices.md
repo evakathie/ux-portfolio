@@ -8,6 +8,7 @@ tools: Tobii Studio, Microsoft Excel, SPSS, HTML & CSS, Sketch
 from: 'November 2019'
 to: 'September 2020'
 year: 2020
+month: 9
 ---
 
 <ProjectHeader :currentPage="this">
@@ -40,23 +41,23 @@ year: 2020
 
 <ul>
     <li>
-        <b>No option</b>: the user is only informed about the use of cookies, in some cases there is also a close button/ buttcon.<br />
+        <strong>No option</strong>: the user is only informed about the use of cookies, in some cases there is also a close button/ buttcon.<br />
         <img class="img-small" :src="'/images/cookie-notices/cookie-notice-nooption.png'" alt="A cookie notice showing the text 'We use cookies to analyze user behavior and optimize the usability of the website. You can learn more in our privacy policy', where 'privacy policy' is a link.">
     </li>
     <li>
-        <b>Confirmation</b>: the user is informed about the use of cookies and can agree to it by clicking on a consenting button, for example “I agree” or “Ok”.<br />
+        <strong>Confirmation</strong>: the user is informed about the use of cookies and can agree to it by clicking on a consenting button, for example “I agree” or “Ok”.<br />
         <img class="img-small" :src="'/images/cookie-notices/cookie-notice-confirmation.png'" alt="The same cookie notice as before, but with a 'Accept'-button.">
     </li>
     <li>
-        <b>Binary</b>: the user is informed about the use of cookies and can decide whether they want to accept or refuse.<br />
+        <strong>Binary</strong>: the user is informed about the use of cookies and can decide whether they want to accept or refuse.<br />
         <img class="img-small" :src="'/images/cookie-notices/cookie-notice-binary.png'" alt="The same cookie notice as the first one, but with two buttons: 'Decline' and 'Accept'.">
     </li>
     <li>
-        <b>Category</b>: the user is informed about the use of cookies and can select the degree of consent by choosing between different categories of cookies, like “Required Cookies” and “Marketing Cookies”. <i>— In the original paper this where two categories: “Slider” and “Checkbox”. The difference was in the control being used, but they give the user the same choice. I consolidated them because the type of UI control is less relevant for my study.</i><br />
+        <strong>Category</strong>: the user is informed about the use of cookies and can select the degree of consent by choosing between different categories of cookies, like “Required Cookies” and “Marketing Cookies”. <em>— In the original paper this where two categories: “Slider” and “Checkbox”. The difference was in the control being used, but they give the user the same choice. I consolidated them because the type of UI control is less relevant for my study.</em><br />
         <img class="img-small" :src="'/images/cookie-notices/cookie-notice-category.png'" alt="The same cookie notice as the first one, but with three categories with checkboxes: 'Functional cookies', 'Analytical cookies' and 'Marketing cookies'. 'Functional cookies' is selected and read-only. The other checkboxes are not selected but active. On the right side is a 'Accept'-button. ">
     </li>
     <li>
-        <b>Vendor</b>: the user is informed about the use of cookies and can choose for each specific third-party cookie whether to accept it or not.<br />
+        <strong>Vendor</strong>: the user is informed about the use of cookies and can choose for each specific third-party cookie whether to accept it or not.<br />
         <img class="img-small" :src="'/images/cookie-notices/cookie-notice-vendor.png'" alt="The same cookie notice as the first one, but with seven different companies/ services with checkboxes like 'Facebook' or 'Google Analytics'. None of the checkboxes is selected. On the right side is a 'Accept'-button. ">
     </li>
 </ul>
@@ -91,7 +92,7 @@ year: 2020
 
 <h4>Study structure</h4>
 
-<p>The study was carried out in a special eye-tracking laboratory for usability testing using a <i>Tobii X2–60 compact</i> eye tracker. In order to avoid priming effects, I have found it necessary to  tell the participants a cover story. So, the participants believed that they were participating in a usability study about their search behavior on websites.</p>
+<p>The study was carried out in a special eye-tracking laboratory for usability testing using a <em>Tobii X2–60 compact</em> eye tracker. In order to avoid priming effects, I have found it necessary to  tell the participants a cover story. So, the participants believed that they were participating in a usability study about their search behavior on websites.</p>
 
 <p>I structured the study in two parts: the eye-tracking and the filling out of questionnaires on demographics and cookie notices. In the eye-tracking part the participants were sequentially shown four different fictional websites. Their task was to search for a specific information on each website. Each participant saw four different cookie notices of the following categories: Confirmation, Binary, Category and Vendor — I skipped “No Option” because this notice doesn’t align with the GDPR. The order of the cookie notices and on which website they appeared was randomized via latin square.</p>
 
@@ -105,18 +106,18 @@ year: 2020
 
 <h4>Eye-tracking metrics</h4>
 
-<p>To evaluate the eye-tracking, I created different metrics that can be assigned to the three research questions. For this I used the “Areas of Interest” of the <i>Tobii Studio</i> software.</p>
+<p>To evaluate the eye-tracking, I created different metrics that can be assigned to the three research questions. For this I used the “Areas of Interest” of the <em>Tobii Studio</em> software.</p>
 
-<p><b>How intensively does the user engage with the cookie notice?</b><br />
-To get an answer on this research question, I used the <i>number of fixations</i> (= sum of fixations on the cookie notice in total) and <i>total fixation duration</i> (= total duration of these fixations).</p>
+<p><strong>How intensively does the user engage with the cookie notice?</strong><br />
+To get an answer on this research question, I used the <em>number of fixations</em> (= sum of fixations on the cookie notice in total) and <em>total fixation duration</em> (= total duration of these fixations).</p>
 
-<p><b>To what extent does the cookie notice fulfill its goal of informing the user?</b><br />
-For this research question, I used the <i>information fixation duration</i>, which is the duration of fixations on the text and, in the case of the category- or vendor-specific notice, the checkboxes.</p>
+<p><strong>To what extent does the cookie notice fulfill its goal of informing the user?</strong><br />
+For this research question, I used the <em>information fixation duration</em>, which is the duration of fixations on the text and, in the case of the category- or vendor-specific notice, the checkboxes.</p>
 
-<p>All cookie notices presented in the study contained the same text: “We use cookies to analyze user behavior and optimize the usability of the website. You can learn more about this in our Privacy Policy.” <i>(translated to english — the study was conducted in German)</i></p>
+<p>All cookie notices presented in the study contained the same text: “We use cookies to analyze user behavior and optimize the usability of the website. You can learn more about this in our Privacy Policy.” <em>(translated to english — the study was conducted in German)</em></p>
 
-<p><b>How long does it take the user to make their decision?</b><br />
-The metric I used for this research question is the <i>time of decision making</i>. I calculated this metric by subtracting the time of the first fixation on the cookie notice from the time when a button was clicked (and therefore the cookie notice closed).</p>
+<p><strong>How long does it take the user to make their decision?</strong><br />
+The metric I used for this research question is the <em>time of decision making</em>. I calculated this metric by subtracting the time of the first fixation on the cookie notice from the time when a button was clicked (and therefore the cookie notice closed).</p>
 
 <h4>Questionnaire</h4>
 
@@ -125,11 +126,11 @@ The metric I used for this research question is the <i>time of decision making</
 <p>For the evaluation of the qualitative questions I grouped similar responses in categories. I will only name the categories that were mentioned by at least 4 participants.</p>
 
 <ul>
-    <li><b>“Why do you find cookie notices annoying?”</b> (following a question if they find cookie notices annoying — 70% find them annoying or very annoying): Partial or total hiding of the web page was named as one of the factors by 17 participants (57%). The second most frequent factor mentioned by 6 participants (20%) was that the notices distract them from the actual goal with which they enter the website. Four participants each (13%) were bothered by the impairment of finding information quickly and by the additional effort caused by the cookie notices.<br />
+    <li><strong>“Why do you find cookie notices annoying?”</strong> (following a question if they find cookie notices annoying — 70% find them annoying or very annoying): Partial or total hiding of the web page was named as one of the factors by 17 participants (57%). The second most frequent factor mentioned by 6 participants (20%) was that the notices distract them from the actual goal with which they enter the website. Four participants each (13%) were bothered by the impairment of finding information quickly and by the additional effort caused by the cookie notices.<br />
     <Quote quote="Because [. . . ] it is often hardly possible to refuse cookies or it’s made extremely difficult." />
     </li>
-    <li><b>“What do you think the goal of cookie notices is?”</b>: 16 participants (53%) stated that the cookie notices are intended to provide legal protection for website operators or to implement the law. 12 participants (40%) stated that the cookie notices were intended to inform website users. 4 participants (13%) stated that the aim of the cookie notices was to give users the opportunity to make decisions about their data.</li>
-    <li><b>“What do you think happens when you reject cookies on a website?”</b>: 13 participants (43%) answered that no data was collected and/ or no cookies were set. 6 respondents (20%) believed that the functionality of the website is limited by refusing cookies. 5 participants (17%) believed that the website is no longer usable after rejecting cookies.</li>
+    <li><strong>“What do you think the goal of cookie notices is?”</strong>: 16 participants (53%) stated that the cookie notices are intended to provide legal protection for website operators or to implement the law. 12 participants (40%) stated that the cookie notices were intended to inform website users. 4 participants (13%) stated that the aim of the cookie notices was to give users the opportunity to make decisions about their data.</li>
+    <li><strong>“What do you think happens when you reject cookies on a website?”</strong>: 13 participants (43%) answered that no data was collected and/ or no cookies were set. 6 respondents (20%) believed that the functionality of the website is limited by refusing cookies. 5 participants (17%) believed that the website is no longer usable after rejecting cookies.</li>
 </ul>
 
 <h4>Summary of the study’s findings</h4>
