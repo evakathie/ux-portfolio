@@ -35,6 +35,8 @@ month: 9
 
 <div class="wrapper">
 
+<h2>Project Approach</h2>
+
 <h3>What types of Cookie Notices do exist?</h3>
 
 <p>After the implementation of the GDPR in May 2018, the number of cookie notices on the 500 most visited websites in the EU member states increased to 62%. For my analysis and study, I took the six categories of cookie notices out of the paper “We Value Your Privacy… Now Take Some Cookies: Measuring the GDPR’s Impact on Web Privacy” by Degeling et al. and consolidated them into 5 types:</p>

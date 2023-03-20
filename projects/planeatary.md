@@ -12,7 +12,7 @@ month: 1
 ---
 
 <ProjectHeader :currentPage="this">
-<p>Planeatary is a mobile app designed to support users to follow a healthy and environmentally friendly diet in their everyday life. The app implements the Planetary Health Diet, which is based on the findings of "The EAT-Lancet Commission on Food, Planet, Health". I created it in collaboration with <a href="">Designer and Developer Torben Ratzlaff</a>.</p>
+<p>Planeatary is a mobile app designed to support users to follow a healthy and environmentally friendly diet in their everyday life. The app implements the Planetary Health Diet, which is based on the findings of "The EAT-Lancet Commission on Food, Planet, Health". I created it in collaboration with <a href="https://www.torben-ratzlaff.de/" target="blank">Designer and Developer Torben Ratzlaff</a>.</p>
 <p><strong>Goal</strong>: Making the scientific findings accessible for everyday use across country boarders and cultural differences.</p>
 </ProjectHeader>
 
@@ -23,7 +23,7 @@ month: 1
 <Quote quote="The app Planeatary illustrates how design can build a bridge between science and everyday life." author="designxport, when giving Planeatary the Silberstreifenaward 2020" />
 
 
-<img :src="'/images/planeatary/planeatary-screen-01.png'">
+<img :src="'/images/planeatary/planeatary-screen-01.png'" alt="">
 
 </div>
 
@@ -41,13 +41,42 @@ month: 1
 
 <div class="wrapper">
 
+<h2>Project Approach</h2>
+
 <h3>Preliminary work — problem definition & Personas</h3>
 
 <h4>The Planetary Health Diet</h4>
 
 <p>While creating Planeatary Torben and I spend a lot of time in fancy Cafes in Hamburg and talked about all the details. The first thing we obviously did was reading the scientific paper called “Food in the Anthropocene: the EAT-Lancet Commission on healthy diets from sustainable food systems”. The result of this paper is the Planetary Health Diet, but it also gives a lot of details into why this is a healthy and sustainable diet.</p>
 
-<img :src="'/images/planeatary/planetary-health-diet.png'">
+<img :src="'/images/planeatary/planetary-health-diet.png'" alt="Graphic explaining the Planetary health diet, see transcript below.">
+
+<GraphicTranscript>
+<p>The Planetary Health Diet is the result of the meta-report "Food in the Antropocene: The EAT-Lancet Commission on healthy diets from sustainable food systems".</p>
+
+<p>Its goal is to provide a globally applicable nutrion plan that enables healthy and sustainable nutrition for 10 billion people.</p>
+
+<p>The graphic shows food quantities by category per day with a requirement of 2.500 kcal.</p>
+
+<ul>
+    <li>Vegetables: 300g</li>
+    <li>Milk: 250g</li>
+    <li>Grains: 232g</li>
+    <li>Fruits: 200g</li>
+    <li>Legumes: 75g</li>
+    <li>Nuts: 50g</li>
+    <li>Potatoes: 50g</li>
+    <li>Plant Oils: 40g</li>
+    <li>Sugar: 31g</li>
+    <li>Poultry: 29g</li>
+    <li>Seafood: 28g</li>
+    <li>Eggs: 13g</li>
+    <li>Pork: 7g</li>
+    <li>Beef: 7g</li>
+    <li>Palm Oil: 7g</li>
+</ul>
+
+</GraphicTranscript>
 
 <p>As you can see in the graphic above, the Planetary Health Diet is structured in food categories like vegetables, milk, grains, etc. Each category has an amount of how many grams per day an adult person with a calorie requirement of 2500 kcal is “allowed” to consume.</p>
 
@@ -59,7 +88,44 @@ month: 1
 
 <p>Of course, before we went deeper, we thought about who would use Planeatary. To consider possible users in the further design of the app, we not only integrated the most likely users but also some edge groups. The personas we created are mostly from our imagination. Throughout the design process, we also talked a lot with friends and casual acquaintances about our app, so we kept getting feedback.</p>
 
-<img :src="'/images/planeatary/planeatary-personas.png'">
+<img :src="'/images/planeatary/planeatary-personas.png'" alt="Personas of the Planeatary app, see transcript below.">
+
+<GraphicTranscript>
+
+<p>Personas of the Planeatary app:</p>
+
+<ul>
+    <li>Lena
+    <ul>
+        <li>Lena is 25 years old and works as a project manager in a large corporation. She goes out to eat with her colleagues every day in the company canteen and often works out in the gym.</li>
+        <li><strong>Goal</strong>: change her diet to be more sustainable and healthy.</li>
+        <li><strong>Pain Point</strong>: too little time to deal with the topics in depth.</li>
+        <li><strong>Technology</strong>: tech-savy, uses Planeatary on iPhone X</li>
+    </ul></li>
+    <li>Morten
+    <ul>
+        <li>Morten is 23 years old and lives in a shared apartment in Berlin. Professionally, he is a community manager at a startup. He cookes a lot himself and lives vegan. Thanks to the central location of his shared aparment, he rides his bike a lot.</li>
+        <li><strong>Goal</strong>: make his everyday life even more sustainable.</li>
+        <li><strong>Pain Point</strong>: a lot of knowledge about nutrition, but is quite disorganized and quickly loses track.</li>
+        <li><strong>Technology</strong>: tech-savy, uses Planeatary on a FairPhone</li>
+    </ul></li>
+    <li>Angie
+    <ul>
+        <li>Angie is 41 years old, mother of two children and housewife. She lives in a village near a small town and is interested in esotericism and natural remedies. She cooks for the whole family and does weekly bulk shopping.</li>
+        <li><strong>Goal</strong>: to cook natural and healthy for the whole family.</li>
+        <li><strong>Pain Point</strong>: she often doesn't know what to cook and wants to teach the children about healthy food.</li>
+        <li><strong>Technology</strong>: less tech-savy, uses Planeatary on a older Samsung smartphone</li>
+    </ul></li>
+    <li>Maren
+    <ul>
+        <li>Maren is 33 years old and a software developer in a small IT company. She usually eats lunch alone and often reaches for convenience food. On Instagram, she follows a few eco-influencers and feels like she belongs to the group.</li>
+        <li><strong>Goal</strong>: primarily weight loss, but she also wants to live more.</li>
+        <li><strong>Pain Point</strong>: she hardly knows anything about nutrition and often reaches for convenience food.</li>
+        <li><strong>Technology</strong>: very tech-savy, uses Planeatary on a smartphone by Motorola</li>
+    </ul></li>
+</ul>
+
+</GraphicTranscript>
 
 <h4>The fundamental concept</h4>
 
@@ -71,7 +137,7 @@ month: 1
 
 <p>The next thing we did was probably the most techy/ engineering thing you could do this early on: we created a data model on which the app would be based.</p>
 
-<img :src="'/images/planeatary/planeatary-data-basis.png'">
+<img :src="'/images/planeatary/planeatary-data-basis.png'" alt="">
 
 <h4>Collection of the base data</h4>
 
@@ -91,7 +157,7 @@ month: 1
 
 <p>We started with thinking about a general concept how to organize the screens: which screens do we need and how are they connected? After some iteration, we agreed that there should be two primary screens: 1. a screen that shows the already eaten food in some calendrical form and 2. a screen where all food is visible and the amounts that can still be eaten. In our first paper sketches, we focused primarily on these screens and the “adding” of a meal — that is, the transition from the screen with the food that can still be eaten to what has been eaten.</p>
 
-<img :src="'/images/planeatary/paper-prototype.png'">
+<img :src="'/images/planeatary/paper-prototype.png'" alt="">
 
 <p>After skribbeling on paper for a while we switched to a more final design using Figma. We did the whole design in German, because the language has much longer words than English and therefore is good to better estimate the space in multilingual apps — and we wanted to at least have a german and a english version.</p>
 

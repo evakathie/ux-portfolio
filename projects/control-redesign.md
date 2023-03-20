@@ -34,6 +34,8 @@ month: 4
 
 <div class="wrapper">
 
+<h2>Project Approach</h2>
+
 <h3>Goals</h3>
 
 <p>There were several reasons why the existing designs should be replaced with a new design:</p>

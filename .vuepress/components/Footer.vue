@@ -65,6 +65,7 @@ export default {
       a {
           font-weight: lighter;
           color: color(black);
+          text-decoration: none;
 
           &:hover, &:focus {
                 text-decoration: underline solid color(color);

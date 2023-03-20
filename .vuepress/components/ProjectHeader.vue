@@ -129,6 +129,8 @@ export default {
 
     .competence {
         padding: 0;
+        line-height: 150%;
+        padding-bottom: 8px;
     }
 
     .col-left {

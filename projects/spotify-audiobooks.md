@@ -21,7 +21,7 @@ month: 12
 
 <p><em>Note: This case study isn’t official — I don’t work for Spotify and the company doesn’t know about this. This is just a concept I made for my portfolio and to practice.</em></p>
 
-<img :src="'/images/spotify-audiobooks/audiobooks-wireframe.png'">
+<img :src="'/images/spotify-audiobooks/audiobooks-wireframe.png'" alt="">
 
 </div>
 
@@ -36,6 +36,8 @@ month: 12
 </HighlightedArea>
 
 <div class="wrapper">
+
+<h2>Project Approach</h2>
 
 <h3>Empathize — Interviews with audiobook listeners</h3>
 
@@ -82,7 +84,9 @@ month: 12
     <li>Uploaded as a Podcast with one episode per chapter of the book</li>
 </ol>
 
-<img :src="'/images/spotify-audiobooks/spotify-audiobooks-representations.png'">
+<img :src="'/images/spotify-audiobooks/spotify-audiobooks-representations.png'" alt="">
+
+<p class="image-description">Screenshots of Spotify showing the different ways Audiobooks are represented described above.</p>
 
 <p>The different representations bring different problems. The biggest problem is switching back and forth between different audiobooks or audiobooks and other media like podcasts and songs. If the audiobook is uploaded as a podcast episode (1) or as a podcast with one episode per chapter (4), Spotify will remember the progress and it is possible to go back to the book after listening to other media. In the case the audiobook is uploaded as a playlist (2) or album (3), this is not possible. And finding the track last heard can be extremely cumbersome in an album or playlist, because the audiobooks are separated into many tracks (often 150+ per audiobook) — probably because there is a maximum length.</p>
 
@@ -106,12 +110,16 @@ month: 12
 
 <p>The business concept of BookBeat is that your monthly abo enables you to listen to as many audiobooks as you want at the same time but for a certain amount of hours per month (depending on your subscription).</p>
 
-<img :src="'/images/spotify-audiobooks/bookbeat-screens-01.png'">
+<img :src="'/images/spotify-audiobooks/bookbeat-screens-01.png'" alt="">
+
+<p class="image-description">Bookbeat "Home" screen, "My books" screen and the screen when listening to an audiobook (from left to right), described in depth below.</p>
 
 <p>On the home screen the book you last heard is highlighted at the top. Below it is a vertically scrollable list of all the books you saved or listened to in the past. BookBeat recognizes your progress on any book you started, showing the percentage of progress visualized by a number and a circle on the cover. Additionally, you have a list for books you already listened to, that is sorted by year.<br />
 Other tabs next to the home are “Inspiration”, “Categories” and “Search”. All enable users to browse for books either using recommendations, book categories or a specific search functionality.</p>
 
-<img :src="'/images/spotify-audiobooks/bookbeat-screens-02.png'">
+<img :src="'/images/spotify-audiobooks/bookbeat-screens-02.png'" alt="">
+
+<p class="image-description">Bookbeat "Inspiration", "Categories" and "Search" screen (from left to right), described above.</p>
 
 <p>The screen while listening to a book shows the cover at the top and the progress in percentage but also the time already heard, the remaining time and the current track. There is the functionality to snooze (which can be configured on 20min, 60min, custom or at the end of the track), configure the speed (0.85, 1.00, 1.25 or custom), add a bookmark, see and navigate in a list of tracks, play, jump back and forth one minute, jump to start of the track or end of the track and some additional functionality in a menu and settings.</p>
 
@@ -119,11 +127,15 @@ Other tabs next to the home are “Inspiration”, “Categories” and “Searc
 
 <p>The business concept of Audible is that your monthly abo enables you to pick one audiobook per month — you can then hear this book as often as you like, comparable to physically possessing it.</p>
 
-<img :src="'/images/spotify-audiobooks/audible-screens-01.png'">
+<img :src="'/images/spotify-audiobooks/audible-screens-01.png'" alt="">
+
+<p class="image-description">Audible "Start" screen top and scrolled down and the screen when listening to an audiobook (from left to right), described in depth below.</p>
 
 <p>On the home screen you first see recommended books and trends, if you scroll down a little you find the book(s) that you are currently hearing (in the forth place on the page). Your progress on the books is shown by the remaining time in hours and minutes and a progress indicator bar/ line. There is another tab for your library and a browsing tab with a search field, more recommendations and books listed by genres.</p>
 
-<img :src="'/images/spotify-audiobooks/audible-screens-02.png'">
+<img :src="'/images/spotify-audiobooks/audible-screens-02.png'" alt="">
+
+<p class="image-description">Audible "Library" and "Browse" screen, as well as the search, acessed through the "Browse" screen (from left to right), described above.</p>
 
 <p>The screen while listening to a book shows the cover at the top and underneath it the current chapter. In the middle is the time remaining on the book, left and right of it is the time already heard of the chapter and the time remaining on the chapter. You can hit play, jump back and forth 30 seconds, jump to the beginning or the end of the chapter, change the speed (list from 0.5x to 3.5x in 0.1 steps), see and navigate in a list of chapters, configure a sleeping/ snooze mode (with a list of several default lengths from 5 to 120min, custom or end of the chapter), add a bookmark, activating a kind of car driving mode and additional functionality in a menu.</p>
 
@@ -131,20 +143,20 @@ Other tabs next to the home are “Inspiration”, “Categories” and “Searc
 
 <p>One of my favorite steps in Design Thinking is Divergent Thinking — skribbling all the solutions/ ideas that come into mind without judging them. What I did in this case study was a quick round of Crazy 8s. <em>Please excuse my weird mix of German and English in the picture below — under “time pressure” my brain seems to like switching back to German.</em></p>
 
-<img :src="'/images/spotify-audiobooks/paper-prototypes.png'">
+<img :src="'/images/spotify-audiobooks/paper-prototypes.png'" alt="">
 
 <h3>Prototype</h3>
 
 <p>At the end of the Ideate phase, I chose one final idea, that I will describe to you in the Prototype phase, since the prototype I did and the idea I had go hand in hand.</p>
 
-<p>For the prototype I chose Balsamiq. Doing a wireframe before a pixel perfect prototype is always a good idea to do before the first round of testing because everything can still change.</p>
+<p>For the prototype I chose <strong>Balsamiq</strong>. Doing a wireframe before a pixel perfect prototype is always a good idea to do before the first round of testing because everything can still change.</p>
 
-<p>The basic idea is to integrate audiobooks as a third type of media — next to music and podcasts — to make it easier to find them in the search and to get back to them after listening to other media. The clear representation makes it easier to filter for them and to find them on the home screen. Like distinguishing between podcasts and music, audiobooks should have their own unique representation:</p>
+<p>The basic idea is to <strong>integrate audiobooks as a third type of media</strong> — next to music and podcasts — to make it easier to find them in the search and to get back to them after listening to other media. The clear representation makes it easier to filter for them and to find them on the home screen. Like distinguishing between podcasts and music, audiobooks should have their own unique representation:</p>
 
-<img :src="'/images/spotify-audiobooks/audiobooks-screens-01.png'">
+<img :src="'/images/spotify-audiobooks/audiobooks-screens-01.png'" alt="Three app frames in Balsamiq described below">
 
 <ul>
-    <li>The whole book is represented as one unit (similar to one podcast episode in the current Spotify functionality).</li>
+    <li>The whole book is <strong>represented as one unit</strong> (similar to one podcast episode in the current Spotify functionality).</li>
     <li>Similar to a podcast, it has a screen where the cover, title, author and additional information like a description, rating by users and the genre is displayed. Instead of “Follow” the primary action of the screen is “Listen”.</li>
     <li>The progress is tracked for the whole book, not chapters or other parts of it. It is displayed in the play screen in the middle between the time already heard and the time still remaining.</li>
     <li>However, it is possible to display a track-list in order to jump back and forth in the book, but the function is secondary.</li>
@@ -154,19 +166,19 @@ Existing functionalities such as the sleep mode and changing the speed should al
 
 <p>To establish audiobooks as a third kind of media, they need a consistent representation throughout the app. At least the cover and title and if a user already started listening, the current progress, should be visible wherever an element of an audiobook is represented.</p>
 
-<img :src="'/images/spotify-audiobooks/audiobooks-screens-02.png'">
+<img :src="'/images/spotify-audiobooks/audiobooks-screens-02.png'" alt="Three app frames in Balsamiq described below">
 
 <p><em>Home</em> screen adjustments:</p>
 
 <ul>
-    <li>“Audiobook” filter next to “Music” and “Podcasts”</li>
+    <li><strong>“Audiobook” filter</strong> next to “Music” and “Podcasts”</li>
     <li>representation of an audiobook including title and progress as a “quick access” element on top of the screen</li>
-    <li>“Your Audiobooks” section similar to “Your Shows”, including the title, author and progress of an audiobook</li>
+    <li><strong>“Your Audiobooks” section</strong> similar to “Your Shows”, including the title, author and progress of an audiobook</li>
     <li>including audiobooks into more general categories, e.g. “Last heard” or “For you”</li>
     <li>new category “Audiobooks you might like”</li>
 </ul>
 
-<img :src="'/images/spotify-audiobooks/audiobooks-screens-03.png'">
+<img :src="'/images/spotify-audiobooks/audiobooks-screens-03.png'" alt="Three app frames in Balsamiq described below">
 
 <p><em>Search</em> screen adjustments:</p>
 
@@ -198,7 +210,7 @@ Existing functionalities such as the sleep mode and changing the speed should al
     <li>browse for an audiobook</li>
 </ol>
 
-<p>For each task I would measure the success rate, considering the tasks as successful if:</p>
+<p>For each task I would measure the <strong>success rate</strong>, considering the tasks as successful if:</p>
 
 <ol>
     <li>the user sees the play-screen of an audiobook</li>

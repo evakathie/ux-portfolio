@@ -12,7 +12,4 @@
 </script>
 
 <style lang="scss">
-@import '~styles/colors';
-@import '~styles/fonts';
-
 </style>

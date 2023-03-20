@@ -37,6 +37,8 @@ month: 12
 
 <div class="wrapper">
 
+<h2>Project Approach</h2>
+
 <h3>Why create a Pattern Library?</h3>
 
 When I came to Digitec as an intern, only one UX Designer was working there. Short after we were three people, and while all the Design Information was in the head of the Senior UX/UI Designer, there needed to be a Design System to make communication easier. Moreover, many special solutions were built into the software, which could be replaced by other more standardized patterns - if these were written down and their purpose defined. Here is a short list of the hoped-for improvements through the introduction of a pattern library:
@@ -92,7 +94,13 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>None of the existing concepts seemed to be a perfect fit for our purposes. Therefore, I developed a new concept primarily based on Atomic Design, but extended for our purposes. I will describe the exact concept below using the practical implementation in the paragraph "Creation of the Pattern Library Documentation".</p>
 
-<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="Graphic of the general concept of the Pattern Library showing Atoms that are evolved to Molecules that are involved to Organisms that all make up a GUI, which is also influenced by Elements (like fonts or icons) and Processes (like Drag and Drop).">
+<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="Graphic of the general concept, see transcript below.">
+
+<GraphicTranscript>
+
+<p>The Pattern Library consists out of different elements: Atoms (like Buttons) that go into Molecules (e.g. Popup Warning) that go into Organisms (like a Sidebox). All these make up a GUI, that is also influenced by Elements (like fonts or icons) and Proccesses (like Drag and Drop).</p>
+
+</GraphicTranscript>
 
 <h3>Abstraction of the softwares patterns</h3>
 
@@ -228,7 +236,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>While creating the Pattern Library in Confluence, I also created a Library document in Adobe Xd with all the controls. Each control is represented by a component and the whole document forms a CC Library that can be used in other Adobe Xd documents. The components support responsive resizing and changing text labels in their instances. If a change (e.g. change of color or general redesign) is made in a component in the Pattern Library document it is reflected in all the documents using the component.</p>
 
-<img :src="'/images/pattern-library/pattern_library_adobe_xd.png'">
+<img :src="'/images/pattern-library/pattern_library_adobe_xd.png'" alt="Screenshot of the Pattern Library in Adobe Xd.">
 
 </div>
 
