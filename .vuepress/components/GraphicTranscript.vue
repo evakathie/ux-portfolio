@@ -57,18 +57,18 @@ export default {
         margin-left: 4px;
         transform: rotate(180deg);
     }
-}
 
-.expand {
-    text-align: center;
-    cursor: pointer;
-    color: color(color);
-    font-weight: bold;
-    display: flex;
+    .expand {
+        text-align: center;
+        cursor: pointer;
+        color: color(color);
+        font-weight: bold;
+        display: flex;
 
-    &:hover, &:focus {
-        color: color(color_dark);
-        outline: none;
+        &:hover, &:focus {
+            color: color(color_dark);
+            outline: none;
+        }
     }
 }
 

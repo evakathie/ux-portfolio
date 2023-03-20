@@ -94,7 +94,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>None of the existing concepts seemed to be a perfect fit for our purposes. Therefore, I developed a new concept primarily based on Atomic Design, but extended for our purposes. I will describe the exact concept below using the practical implementation in the paragraph "Creation of the Pattern Library Documentation".</p>
 
-<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="Graphic of the general concept, see transcript below.">
+<img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="A graphic explaining the general concept, see transcript below.">
 
 <GraphicTranscript>
 
@@ -118,7 +118,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 </ul>
 
 
-<img  :src="'/images/pattern-library/patterns.png'" img="In several lines a number of different Design Patterns like Buttons, On-Off Switches and Textfields are shown.">
+<img :src="'/images/pattern-library/patterns.png'" alt="In several lines a number of different Design Patterns like Buttons, On-Off Switches and Textfields are shown.">
 
 <h3>Creation of the Pattern Library Documentation</h3>
 
@@ -132,7 +132,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>Strictly speaking, these design elements are not patterns, but they are still an important part of the Pattern Library, because everything else is build on and out of them. They are colors, fonts, icons, cursors, appearances (such as shadows) and graphic elements (such as backgrounds) used in the software. In the Confluence documentation each different design element category has one page listing all the elements.</p>
 
-<img :src="'/images/pattern-library/elements.png'" img="A screenshot of a few 'Elements' pages in the Pattern Library showing a table with colors, fonts and icons.">
+<img :src="'/images/pattern-library/elements.png'" alt="A screenshot of a few 'Elements' pages in the Pattern Library showing a table with colors, fonts and icons.">
 
 <h4>Atoms</h4>
 

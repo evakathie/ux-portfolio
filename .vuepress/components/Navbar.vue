@@ -1,11 +1,11 @@
 <template>
   <div class="navbar">
-      <div class="col-left">
+      <header class="col-left">
           <router-link to="/" class="navbar-header">
               <p class="title-navbar">Eva Katharina Wolf</p>
               <p class="job-navbar">Product Designer</p>
           </router-link>
-      </div>
+      </header>
       <nav class="col-right">
           <ul>
               <li>

@@ -176,7 +176,20 @@ On average, users paid attention to the Confirmation notice for only 0.6 seconds
 
 <p>Finally, I designed a user-friendly cookie notice — however, further research is needed to further optimize the usability of cookie notices. The following prototype is only a first draft and it would be necessary to evaluate the prototype in a usability test.</p>
 
-<img class="img-small" :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="A wireframe showing a Cookie Notice that has the Headline 'Data Protection', followed by information about the usage of cookies that is divided into three bullet points with an icon infront of each, the last one includes a link to the privacy policy. On the right side there are three options for the user: 'Reject', 'Accept' and 'Configure Cookies'. An wireframe-arrow indicates that 'Configure Cookies' changes the notice and gives the option to specify which cookies are accepted, 'Analytical cookies' and/or 'Marketing cookies'. Next to the cookie types are '?' icons.">
+<img class="img-small" :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="">
+
+<GraphicTranscript>
+<p>A wireframe showing a Cookie Notice with the Headline 'Data Protection', followed by information about the usage of cookies in text form: "We use cookies to...":</p>
+
+<ul>
+    <li>"analyze user behavior"</li>
+    <li>"optimize the usability of our website"</li>
+    <li>"... learn more in our privacy policy."</li>
+</ul>
+
+<p>Each bullet point has a icon infront of it. The words "privacy policy" are a link.<br />
+On the right side there are three options for the user: 'Reject', 'Accept' and 'Configure Cookies'. An wireframe-arrow indicates that 'Configure Cookies' changes the notice and gives the option to specify which cookies are accepted via two checkboxes 'Analytical cookies' and/or 'Marketing cookies'. Next to the cookie types are '?' icons.</p>
+</GraphicTranscript>
 
 <p>My prototype is a hybrid of the two cookie notices that scored best in my study. Initially it is based on the binary notice of the study, but by clicking on “Configure Cookies” the notice unfolds and offers a selection via categories. The cookie notice is intended to provide a good user experience for two different user groups and different everyday situations. A study (by Utz et al.) found that most website visitors make a binary decision even when they have more than just two decision options available to them and only few users select a specific category. The notice covers both behaviors by initially providing a highly visible binary decision. However, the users who would like to make a specific configuration are also included, as they gain more control through the configure function.</p>
 

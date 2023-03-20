@@ -4,17 +4,17 @@ title: "Legal Notice"
 
 <div class="wrapper">
 
-<h2 style="text-align: left; margin: 48px 0 -36px 0;">Legal Notice</h2>
+<h1 style="text-align: left; margin: 48px 0 -37px 0;">Legal Notice</h1>
 
 </div>
 
 <HighlightedArea>
-<h3 class="highlighted-title">Information according to &sect; 5 TMG</h3>
+<h2 class="highlighted-title">Information according to &sect; 5 TMG</h2>
 <p>Eva Katharina Wolf<br />
 Winterlindenweg 83<br />
 22297 Hamburg</p>
 
-<h3 class="highlighted-title" style="padding-top: 48px;">Contact</h3>
+<h2 class="highlighted-title" style="padding-top: 48px;">Contact</h2>
 <p><!--Phone: +49 17681695982<br />-->
 E-Mail: evawolf@web.de</p>
 </HighlightedArea>

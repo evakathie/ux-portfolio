@@ -1,7 +1,9 @@
 <template>
   <div class="design-theme">
       <Navbar />
-      <Content/>
+      <main>
+          <Content/>
+      </main>
       <Contact />
       <Footer />
       <ToTop />
