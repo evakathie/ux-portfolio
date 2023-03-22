@@ -1,7 +1,7 @@
 <template>
   <div class="graphic-transcript">
       <div class="expand" v-on:click="isOpen = !isOpen" v-on:keyup="isOpen = !isOpen" tabindex="0">
-          <div class="expand-link">Textual description of the graphic</div>
+          <div class="expand-link">Textual description of the image</div>
           <div class="arrow" :class="[{hide: isOpen}]" alt="display">▾</div>
           <div class="arrow arrowdown" :class="[{hide: !isOpen}]" alt="hide">▾</div>
       </div>
@@ -69,6 +69,10 @@ export default {
             color: color(color_dark);
             outline: none;
         }
+    }
+
+    ul, ol {
+        margin-bottom: 0;
     }
 }
 

@@ -129,13 +129,13 @@ Other tabs next to the home are “Inspiration”, “Categories” and “Searc
 
 <img :src="'/images/spotify-audiobooks/audible-screens-01.png'" alt="">
 
-<p class="image-description">Audible "Start" screen top and scrolled down and the screen when listening to an audiobook (from left to right), described in depth below.</p>
+<p class="image-description">Audible “Start” screen top and scrolled down and the screen when listening to an audiobook (from left to right), described in depth below.</p>
 
 <p>On the home screen you first see recommended books and trends, if you scroll down a little you find the book(s) that you are currently hearing (in the forth place on the page). Your progress on the books is shown by the remaining time in hours and minutes and a progress indicator bar/ line. There is another tab for your library and a browsing tab with a search field, more recommendations and books listed by genres.</p>
 
 <img :src="'/images/spotify-audiobooks/audible-screens-02.png'" alt="">
 
-<p class="image-description">Audible "Library" and "Browse" screen, as well as the search, acessed through the "Browse" screen (from left to right), described above.</p>
+<p class="image-description">Audible “Library” and “Browse” screen, as well as the search, acessed through the “Browse” screen (from left to right), described above.</p>
 
 <p>The screen while listening to a book shows the cover at the top and underneath it the current chapter. In the middle is the time remaining on the book, left and right of it is the time already heard of the chapter and the time remaining on the chapter. You can hit play, jump back and forth 30 seconds, jump to the beginning or the end of the chapter, change the speed (list from 0.5x to 3.5x in 0.1 steps), see and navigate in a list of chapters, configure a sleeping/ snooze mode (with a list of several default lengths from 5 to 120min, custom or end of the chapter), add a bookmark, activating a kind of car driving mode and additional functionality in a menu.</p>
 

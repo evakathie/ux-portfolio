@@ -66,7 +66,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 <p>Moreover, I also researched how a pattern library can be structured and what existing concepts exist. I list a few of the most inspiring ones below.</p>
 
 <ul>
-    <li>"Design Patterns" chapter in the book <em>About face</em>
+    <li>“Design Patterns” chapter in the book <em>About face</em>
     <ul>
         <li>Postural patterns: can be applied at the conceptual level and help determine the overall product stance in relation to the user.</li>
         <li>Structural patterns: solve problems that relate to the arrangement of information and functional elements on the screen.</li>
@@ -92,7 +92,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
         </ul></li>
 </ul>
 
-<p>None of the existing concepts seemed to be a perfect fit for our purposes. Therefore, I developed a new concept primarily based on Atomic Design, but extended for our purposes. I will describe the exact concept below using the practical implementation in the paragraph "Creation of the Pattern Library Documentation".</p>
+<p>None of the existing concepts seemed to be a perfect fit for our purposes. Therefore, I developed a new concept primarily based on Atomic Design, but extended for our purposes. I will describe the exact concept below using the practical implementation in the paragraph “Creation of the Pattern Library Documentation”.</p>
 
 <img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="A graphic explaining the general concept, see transcript below.">
 
@@ -138,7 +138,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>= GUI items that can't be broken down further than into design elements.</p>
 
-<p>Since there are a lot of Atom patterns in the product family, I have further subdivided them into the following categories (based on the book "About face"):</p>
+<p>Since there are a lot of Atom patterns in the product family, I have further subdivided them into the following categories (based on the book “About face”):</p>
 
 <ul>
     <li>Imperative Controls: Atoms that initiate an action/function, e.g. Buttons</li>
@@ -152,7 +152,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <img :src="'/images/pattern-library/atom_imperative_control.png'" alt="Screenshot of the Button Design Pattern showing the structure that will be described below.">
 
-<p>Every Atom is has the same structure that is represented by a table. The structure as a table allows the usage of a Confluence macro that makes it possible to create a overview on the parent page ("Atoms") where all the controls are listed with their name, preview and the problem they solve. Every Atom has the following categories:</p>
+<p>Every Atom is has the same structure that is represented by a table. The structure as a table allows the usage of a Confluence macro that makes it possible to create a overview on the parent page (“Atoms”) where all the controls are listed with their name, preview and the problem they solve. Every Atom has the following categories:</p>
 
 <ul>
     <li>Preview: a clickable embedded HTML preview (created with Adobe Xd)</li>
@@ -210,7 +210,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <p>= patterns that represent recurring interactions/ processes.</p>
 
-<p>After working with the Pattern Library for a while we added "Processes" since we were lacking the ability to define Patterns that aren't necessarily visible but more a description of a process/ user interaction. An example for a Process is Drag & Drop, which is possible on several places throughout the software and always follows the same rules: there is a drag candidate marked by drag indicators and several drop candidates, both components use different colors and different cursor hintings are in place.</p>
+<p>After working with the Pattern Library for a while we added “Processes” since we were lacking the ability to define Patterns that aren't necessarily visible but more a description of a process/ user interaction. An example for a Process is Drag & Drop, which is possible on several places throughout the software and always follows the same rules: there is a drag candidate marked by drag indicators and several drop candidates, both components use different colors and different cursor hintings are in place.</p>
 
 <img :src="'/images/pattern-library/process_drag_n_drop.png'" alt="Screenshot of the Process Pattern 'Drag & Drop' the structure will be described below.">
 
@@ -240,4 +240,4 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 </div>
 
-<HighlightedProjects currentProject="1" />
+<HighlightedProjects currentProject="3" />

@@ -30,7 +30,7 @@ title: "My creative hobbies"
 <div class="two-column">
 <h2>Garden Plan Workbook</h2>
 
-<img :src="'/images/play/gardenplan-workbook.png'" style="margin: 0" alt="Screenshots of etsy.">
+<img :src="'/images/play/gardenplan-workbook.png'" style="margin: 0" alt="Screenshots of the garden plan workbook.">
 
 <p>After creating a garden plan for my balcony garden every year and searching for the same information over and over again - like sowing, cultivation, planting and harvesting times or optimal light and soil conditions (fertilization level) - I decided that this is a problem to be easily solved by a workbook. So I created a 22-page digital workbook in PDF format (in my native language german) that helps you to create your own garden plan in 10 easy steps.</p>
 

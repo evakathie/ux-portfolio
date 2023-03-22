@@ -70,7 +70,7 @@ month: 9
 
 <p>In 18 of the notices, another cookie setting was “hidden”. For example, by clicking on a button or link, a popup with further setting options appears or the notice enlarges and thus offers more options. 12 of these hidden interaction possibilities offered a choice of cookie categories. 2 could be assigned to the category Vendor and 4 of the notices offered both a choice of categories and a choice of vendors.</p>
 
-<img :src="'/images/cookie-notices/cookie-notice-websites.png'" alt="Screenshots of a sample of four different landing pages of websites. Three of them show a cookie notice. One is the category Confirmation, the other two show a chance to see more options next to 'Accept'.">
+<img :src="'/images/cookie-notices/cookie-notice-websites.png'" alt="Screenshots of a sample of four different landing pages of websites. Three of them show a cookie notice. One is the category Confirmation, the other two show a chance to see more options next to “Accept”.">
 
 <p>I also examined the cookie notices for the use of dark patterns. One or more types of nudging (Design elements that influence the behavior of the user) were applied to 21 notices. And 22 notices used the Auto Accept mechanism, where the notice is automatically accepted if the user interacts with the website or after a certain amount of time.</p>
 
@@ -182,13 +182,13 @@ On average, users paid attention to the Confirmation notice for only 0.6 seconds
 <p>A wireframe showing a Cookie Notice with the Headline 'Data Protection', followed by information about the usage of cookies in text form: "We use cookies to...":</p>
 
 <ul>
-    <li>"analyze user behavior"</li>
-    <li>"optimize the usability of our website"</li>
-    <li>"... learn more in our privacy policy."</li>
+    <li>“analyze user behavior”</li>
+    <li>“optimize the usability of our website”</li>
+    <li>“... learn more in our privacy policy.”</li>
 </ul>
 
-<p>Each bullet point has a icon infront of it. The words "privacy policy" are a link.<br />
-On the right side there are three options for the user: 'Reject', 'Accept' and 'Configure Cookies'. An wireframe-arrow indicates that 'Configure Cookies' changes the notice and gives the option to specify which cookies are accepted via two checkboxes 'Analytical cookies' and/or 'Marketing cookies'. Next to the cookie types are '?' icons.</p>
+<p>Each bullet point has a icon infront of it. The words “privacy policy” are a link.<br />
+On the right side there are three options for the user: “Reject”, “Accept” and “Configure Cookies”. An wireframe-arrow indicates that “Configure Cookies” changes the notice and gives the option to specify which cookies are accepted via two checkboxes “Analytical cookies” and/or “Marketing cookies”. Next to the cookie types are “?” icons.</p>
 </GraphicTranscript>
 
 <p>My prototype is a hybrid of the two cookie notices that scored best in my study. Initially it is based on the binary notice of the study, but by clicking on “Configure Cookies” the notice unfolds and offers a selection via categories. The cookie notice is intended to provide a good user experience for two different user groups and different everyday situations. A study (by Utz et al.) found that most website visitors make a binary decision even when they have more than just two decision options available to them and only few users select a specific category. The notice covers both behaviors by initially providing a highly visible binary decision. However, the users who would like to make a specific configuration are also included, as they gain more control through the configure function.</p>

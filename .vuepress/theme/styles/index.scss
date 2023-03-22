@@ -213,6 +213,10 @@ ul {
   ul {
     margin-bottom: 0;
   }
+
+  ol {
+      margin-bottom: 0;
+  }
 }
 
 ol {
@@ -223,6 +227,10 @@ ol {
       list-style-type: lower-latin;
       margin-bottom: 0;
       margin-left: 6px;
+  }
+
+  ul {
+      margin-bottom: 0;
   }
 }
 

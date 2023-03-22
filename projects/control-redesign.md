@@ -67,7 +67,7 @@ month: 4
 
 <h4>Normal</h4>
 
-<p>The "Normal" state is the default state. It is used when a user has both read and write permissions to a control.</p>
+<p>The “Normal” state is the default state. It is used when a user has both read and write permissions to a control.</p>
 
 <p>Since controls are interactive in the normal state, the main goal of the redesign was to show affordance. This is done by a dropshadow as well as full opacity of colors. The light gray color of imperative controls (buttons) was furthermore replaced by a darker gray which makes the controls stand out more.</p>
 
