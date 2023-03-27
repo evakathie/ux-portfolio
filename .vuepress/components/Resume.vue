@@ -10,7 +10,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Product Designer</p>
-                            <p class="company"> {{ this.duration(2020, 10) }} &#11049; Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2020, 10) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">since</p>
@@ -21,7 +21,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Working Student<br/>User Experience Design</p>
-                            <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">09/2020</p>
@@ -31,7 +31,7 @@
                     <div class="resume-element resume-right">
                         <div class="station">
                             <p class="role">Internship<br/>User Experience Design</p>
-                            <p class="company"> {{ this.duration(2018, 10, 2018, 12) }} &#11049; Digitec GmbH, Hamburg</p>
+                            <p class="company"> {{ this.duration(2018, 10, 2018, 12) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                         <div class="time">
                             <p class="to">10/2018</p>

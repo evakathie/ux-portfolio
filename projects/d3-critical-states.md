@@ -9,11 +9,12 @@ from: 'July 2020'
 to: 'October 2020'
 year: 2020
 month: 10
+company: Digitec
 ---
 
 <ProjectHeader :currentPage="this">
 
-<p>D3 Sheets is a pricing engine for foreign exchange trading by Digitec GmBH. I worked for several years as a product designer for Digitec and in this project we aimed to improve the usability of the handling of critical states. This is an essential feature for FX traders to monitor their live prices and to get notified about bad prices early on.</p>
+<p>D3 Sheets is a pricing engine for foreign exchange trading by <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>. I worked for several years as a product designer for Digitec and in this project we aimed to improve the usability of the handling of critical states. This is an essential feature for FX traders to monitor their live prices and to get notified about bad prices early on.</p>
 
 </ProjectHeader>
 

@@ -9,15 +9,16 @@ from: 'February 2020'
 to: 'April 2020'
 year: 2020
 month: 4
+company: Digitec
 ---
 
 <ProjectHeader :currentPage="this">
-<p>Redesigning the controls for the D3 product family by Digitec GmBH, with the goal to modernize the interface and to standardize the usage of different control states. All entry-, selection- and imperative controls got a new design that is more modern, easier to use and includes a new hover effect to show interactivity.</p>
+<p>Redesigning the controls for the D3 product family by <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, with the goal to modernize the interface and to standardize the usage of different control states. All entry-, selection- and imperative controls got a new design that is more modern, easier to use and includes a new hover effect to show interactivity.</p>
 </ProjectHeader>
 
 <div class="wrapper">
 
-<p>D3 is a software family by Digitec GmBH in the b2b context used by banks. It's a niece product for foreign exchange trading and the primary user are traders. The D3 software family includes several applications that use the same <router-link to="/projects/pattern-library.html">pattern library</router-link>. During my work as a working student for the company, I did a redesign were I gave every entry-, selection- and imperative control a new look, including a new hover effect. The redesign met several goals/ requirements and I implemented it myself in CSS.</p>
+<p>D3 is a software family by <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link> in the b2b context used by banks. It's a niece product for foreign exchange trading and the primary user are traders. The D3 software family includes several applications that use the same <router-link to="/projects/pattern-library.html">pattern library</router-link>. During my work as a working student for the company, I did a redesign were I gave every entry-, selection- and imperative control a new look, including a new hover effect. The redesign met several goals/ requirements and I implemented it myself in CSS.</p>
 
 <img class="img-small-60" :src="'/images/control-redesign/control-redesign-preview.png'" alt="Comparison of the old designs to the new.">
 

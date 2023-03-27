@@ -1,7 +1,7 @@
 <template>
   <div class="project-list">
       <div class="wrapper">
-          <div class="project-preview" v-for="project in all_projects">
+          <div class="project-preview" v-for="project in filtered_projects">
               <router-link class="project-link" :to="project.path">
                     <div class="project">
                         <img :src="project.frontmatter.imgmobile" alt="">
@@ -21,6 +21,14 @@
 <script>
 export default {
   name: 'ProjectList',
+
+  props: {
+    companyfilter: {
+        type: String,
+        required: false,
+        default: null
+    }
+  },
 
   computed: {
       all_projects() {
@@ -44,6 +52,13 @@ export default {
             }
             return 0
         })
+    },
+
+    filtered_projects() {
+        if(this.companyfilter) {
+            return this.all_projects.filter(p => p.frontmatter.company == this.companyfilter)
+        }
+        return this.all_projects
     }
   },
 }

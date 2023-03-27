@@ -1,10 +1,10 @@
 <template>
   <div class="graphic-transcript">
-      <div class="expand" v-on:click="isOpen = !isOpen" v-on:keyup="isOpen = !isOpen" tabindex="0">
+      <button class="expand" v-on:click="isOpen = !isOpen">
           <div class="expand-link">Textual description of the image</div>
           <div class="arrow" :class="[{hide: isOpen}]" alt="display">▾</div>
           <div class="arrow arrowdown" :class="[{hide: !isOpen}]" alt="hide">▾</div>
-      </div>
+      </button>
       <div class="transcript" :class="[{hide: !isOpen}]">
           <slot></slot>
       </div>
@@ -44,7 +44,7 @@ export default {
 
     .transcript {
         padding: 16px;
-        margin-top: -3px;
+        margin-top: -5px;
         background: color(color_hover);
         border-bottom: 1px solid color(color_light);
     }
@@ -69,6 +69,13 @@ export default {
             color: color(color_dark);
             outline: none;
         }
+    }
+
+    button {
+        margin: 0;
+        padding: 0;
+        background: none;
+        font-size: 14px;
     }
 
     ul, ol {

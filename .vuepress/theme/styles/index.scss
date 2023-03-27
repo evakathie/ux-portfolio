@@ -93,12 +93,35 @@ a {
     }
 }
 
+button {
+    background: color(color_hover);
+    color: color(black);
+
+    border: none;
+    border-radius: 26px;
+
+    padding: 12px 24px;
+    margin-top: 24px;
+
+    font-family: font(roboto);
+    text-decoration: none;
+
+    &:hover, &:focus {
+        background: color(color);
+        color: color(white);
+    }
+}
+
 .button {
     background: color(color_hover);
     color: color(black);
+
     border-radius: 26px;
+
     padding: 12px 24px;
     margin-top: 24px;
+
+    font-family: font(roboto);
     text-decoration: none;
 
     &:hover, &:focus {
@@ -111,6 +134,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.align-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 img {
@@ -263,6 +292,10 @@ li {
 
     p {
         font-size: 16px;
+
+        &:last-of-type {
+            margin-bottom: 16px;
+        }
     }
 
     .text {
@@ -366,4 +399,6 @@ li {
             background: color(color_hover);
         }
     }
+
+
 }

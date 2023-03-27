@@ -3,12 +3,12 @@
         <img :src="this.current.frontmatter.image" class="image-desktop" alt="">
         <img :src="this.current.frontmatter.imgmobile" class="image-mobile" alt="">
         <div class="wrapper">
-            <h1>{{ this.current.frontmatter.title }}</h1>
+            <h1 v-if="!this.shortened">{{ this.current.frontmatter.title }}</h1>
         </div>
             <div class="overview">
                 <div class="wrapper">
                     <div class="col-left">
-                        <h2 class="highlighted-title">Overview</h2>
+                        <h2 class="highlighted-title" v-if="!this.shortened">Overview</h2>
                         <slot></slot>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && this.current.frontmatter.to">{{ this.current.frontmatter.from }} ➙ {{ this.current.frontmatter.to }}</p>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && !this.current.frontmatter.to">{{ this.current.frontmatter.from }}</p>
@@ -41,6 +41,11 @@ export default {
       type: Object,
       required: true,
     },
+    shortened: {
+        type: Boolean,
+        required: false,
+        default: false
+    }
   },
 
   computed: {

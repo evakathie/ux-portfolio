@@ -9,16 +9,17 @@ from: 'October 2018'
 to: 'Dezember 2018'
 year: 2018
 month: 12
+company: Digitec
 ---
 
 <ProjectHeader :currentPage="this">
-<p>Creation of a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns.</p>
+<p>Creation of a comprehensive pattern library for the D3 product family of <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, for documentation and standardization of used design patterns.</p>
 <p>Design Pattern = generalizable solution to repeatedly occurring (UX / design) problems.</p>
 </ProjectHeader>
 
 <div class="wrapper">
 
-<p>During a three month internship at Digitec GmbH I created a pattern library for their software product family D3. The D3 products D3 Sheets, D3 Curves and D3 Elements together form a pricing engine for FX and MM trading and are used  by more than 40 of the world’s leading FX trading banks. The products are developed using the programming language Scala, the user interface is designed with JavaFX and CSS.</p>
+<p>During a three month internship at <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link> I created a pattern library for their software product family D3. The D3 products D3 Sheets, D3 Curves and D3 Elements together form a pricing engine for FX and MM trading and are used  by more than 40 of the world’s leading FX trading banks. The products are developed using the programming language Scala, the user interface is designed with JavaFX and CSS.</p>
 
 <img class="img-small" :src="'/images/pattern-library/pattern-library-concept.png'" alt="">
 
@@ -41,7 +42,7 @@ month: 12
 
 <h3>Why create a Pattern Library?</h3>
 
-When I came to Digitec as an intern, only one UX Designer was working there. Short after we were three people, and while all the Design Information was in the head of the Senior UX/UI Designer, there needed to be a Design System to make communication easier. Moreover, many special solutions were built into the software, which could be replaced by other more standardized patterns - if these were written down and their purpose defined. Here is a short list of the hoped-for improvements through the introduction of a pattern library:
+When I came to <router-link to="/pages/company/digitec.html">Digitec</router-link> as an intern, only one UX Designer was working there. Short after we were three people, and while all the Design Information was in the head of the Senior UX/UI Designer, there needed to be a Design System to make communication easier. Moreover, many special solutions were built into the software, which could be replaced by other more standardized patterns - if these were written down and their purpose defined. Here is a short list of the hoped-for improvements through the introduction of a pattern library:
 
 <ul>
     <li>Avoid duplication & reuse proven solutions</li>
@@ -104,7 +105,7 @@ When I came to Digitec as an intern, only one UX Designer was working there. Sho
 
 <h3>Abstraction of the softwares patterns</h3>
 
-<p>The first step for actually creating the Pattern Library for Digitec GmbH was to thoroughly explore the products of the D3 product family and write down every recurring element. While doing so I assessed all of them and asked myself: What task(s) does this component fulfill? Which problem is solved by it? While some Patterns were really obvious, like Buttons and Checkboxes, others where a little more hidden and this work of abstraction also showed some cases of several patters solving the same problem that should than be unified.</p>
+<p>The first step for actually creating the Pattern Library for <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link> was to thoroughly explore the products of the D3 product family and write down every recurring element. While doing so I assessed all of them and asked myself: What task(s) does this component fulfill? Which problem is solved by it? While some Patterns were really obvious, like Buttons and Checkboxes, others where a little more hidden and this work of abstraction also showed some cases of several patters solving the same problem that should than be unified.</p>
 
 <p>During the process and since the Pattern Library is never fully finished also afterwards, there needed to be a guideline how to deal with candidates that might be added to the Pattern Library:</p>
 
