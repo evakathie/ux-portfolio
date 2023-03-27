@@ -344,6 +344,29 @@ li {
     display: flex;
     border: 1px solid color(black_25);
     margin-top: 24px;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        text-decoration: none;
+        border: 1px solid color(color);
+        background: color(color_hover);
+    }
+
+    &:first-of-type {
+        border-top-right-radius: 26px;
+
+        @media screen and (max-width: 1000px) {
+            border-top-right-radius: 0px;
+        }
+    }
+
+    &:last-of-type {
+        border-bottom-right-radius: 26px;
+
+        @media screen and (max-width: 1000px) {
+            border-bottom-right-radius: 0px;
+        }
+    }
 
     img {
         width: 30%;
@@ -389,16 +412,6 @@ li {
 }
 
 .project-link {
-    text-decoration: none;
-
-    &:hover, &:focus {
-        text-decoration: none;
-
-        .project {
-            border: 1px solid color(color);
-            background: color(color_hover);
-        }
-    }
 
 
 }

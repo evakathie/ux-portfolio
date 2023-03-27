@@ -1,15 +1,15 @@
 ---
 title: "Digitec GmbH"
 from: 'October 2018'
-competences: User Experience Design, Design Thinking, Prototyping, UI Design
-tools: Adobe Xd, Balsamiq
+competences: User Experience Design, Design Thinking, Prototyping, UI Design, Scrum
+tools: Adobe Xd, Balsamiq, JIRA, Confluence
 ---
 
 <div class="page-header">
     <div class="text">
         <h1>Digitec GmbH</h1>
         <p>Digitec is the industry-leading provider of eFX pricing solutions for competitive Swaps and NDF market making. The company offers software in the FX pricing area, as well as several market data feeds, such as the Swaps Data Feed (SDF) in cooperation with 360T. Clients who are using Digitec's technology belong to the top 100 global acting banks and investment firms from Europe, America and Asia with strong focus on trading.</p>
-        <a class="button" href="https://digitec.de/" target="blank">Visit Digitec's Website</a>
+        <a class="button" href="https://digitec.de/" target="blank">Visit Digitec's website</a>
     </div>
     <img :src="'/images/company/digitec.jpg'" alt="">
 </div>
