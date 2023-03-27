@@ -9,10 +9,11 @@ from: 'November 2019'
 to: 'September 2020'
 year: 2020
 month: 9
+company: 'University of Hamburg'
 ---
 
 <ProjectHeader :currentPage="this">
-<p>Analysis of the usability of cookie notices via an eye-tracking research as part of my bachelor thesis. In particular, I compared four common types of cookie notices on the basis of various eye-tracking metrics and the answers to a questionnaire in a resarch with 30 participants. Additionally, I created a wireframe of a user-friendly cookie notice based on the findings.</p>
+<p>Analysis of the usability of cookie notices via an eye-tracking research as part of my bachelor thesis at <router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link>. In particular, I compared four common types of cookie notices on the basis of various eye-tracking metrics and the answers to a questionnaire in a resarch with 30 participants. Additionally, I created a wireframe of a user-friendly cookie notice based on the findings.</p>
 </ProjectHeader>
 
 <div class="wrapper">

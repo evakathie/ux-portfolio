@@ -9,7 +9,7 @@ from: 'July 2020'
 to: 'October 2020'
 year: 2020
 month: 10
-company: Digitec
+company: 'Digitec'
 ---
 
 <ProjectHeader :currentPage="this">

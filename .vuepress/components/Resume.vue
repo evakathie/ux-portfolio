@@ -58,7 +58,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Mentee in a mentoring program for female junior executives</p>
-                            <p class="company">Career Center, University of Hamburg</p>
+                            <p class="company">Career Center, <router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
                     </div>
                     <div class="resume-element-empty-small"></div>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="station">
                             <p class="role">B.Sc. Human-Computer-Interaction<br />Grade: 2,0 (good)</p>
-                            <p class="company">University of Hamburg</p>
+                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
                     </div>
                     <div class="resume-element-empty"></div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Bachelor's degree program in Human-Computer-Interaction</p>
-                            <p class="company">University of Hamburg</p>
+                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
                     </div>
                     <div class="resume-element">
