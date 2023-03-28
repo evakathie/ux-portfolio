@@ -45,9 +45,7 @@
           /* Styling */
           color: color(black);
           background: rgba(color(color), 0.2);
-          /*border: 1px solid rgba(color(color), 0.0);*/
-          border-top-left-radius: 26px;
-          border-bottom-left-radius: 26px;
+          border-radius: 26px 0 0 26px;
           font-size: 36px;
           padding: 8px 18px 8px 12px;
 
