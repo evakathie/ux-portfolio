@@ -156,7 +156,27 @@ company: 'Digitec'
     <li>the <strong>app logo in the Windows Task Bar blinks</strong> a few times, between the normal blue color and orange, and finally stays orange until the software is focused</li>
 </ul>
 
-<!--TODO Bild App Logo & Sheet Monitor -->
+<img class="img-small" :src="'/images/d3-critical-states/sheet-monitor.png'" alt="">
+<p class="image-description">A screenshot of the Sheet Monitor feature. In the tile on the left, the sound can be turned on and off.</p>
+
+<img class="img-small" :src="'/images/d3-critical-states/app-logo.png'" alt="">
+<p class="image-description">The app logo in the taskbar, like described above it will change between the blue (on the left) and orange (on the right).</p>
+
+<p>The originally envisioned final solution also included two other ideas that have not yet been implemented (for time and prioritization constraints). The first one was creating the opportunity to <strong>fix the Sheet Monitor</strong> on the monitor if the rest of the software is minimized. This arised from the fact that most of our users have D3 running in the background, but the Sheet Monitor is supposed to be a watchlist and therefore could be helpful to still be displayed.</p>
+
+<p>The second idea is a "<strong>Notifier Bell</strong>" that should also have worked as a to-do list - this was part of my proposed solution idea. The bell is located on the Sheet Monitor and would therefore always be visible with a minimized software, when the Monitor is fixated. The following User Journey was designed for this feature:</p>
+
+<!--<img class="img-original" :src="'/images/d3-critical-states/notifier-bell.png'" alt="">-->
+
+<ol>
+    <li>A problem occurs in the curve</li>
+    <li>The notifier bell starts "ringing" (visually and audible)</li>
+    <li>Klicking on the bell opens a menu listing all the critical states that occured
+    <ul>
+        <li>Klicking "Dismiss", removes the notification</li>
+        <li>Klicking "Go to" opens the curve with the problem</li>
+    </ul></li>
+</ol>
 
 <h4>Act & Inform</h4>
 
