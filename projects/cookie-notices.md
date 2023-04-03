@@ -14,6 +14,8 @@ company: 'University of Hamburg'
 
 <ProjectHeader :currentPage="this">
 <p>Analysis of the usability of cookie notices via an eye-tracking research as part of my bachelor thesis at <router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link>. In particular, I compared four common types of cookie notices on the basis of various eye-tracking metrics and the answers to a questionnaire in a resarch with 30 participants. Additionally, I created a wireframe of a user-friendly cookie notice based on the findings.</p>
+<p>Professor: <a href="https://www.inf.uni-hamburg.de/en/inst/ab/mast/section-1-people/people-1-professor/maalej.html" target="blank">Prof. Dr. Walid Maalej</a><br />
+Supervisor: Abir Bouraffa</p>
 </ProjectHeader>
 
 <div class="wrapper">

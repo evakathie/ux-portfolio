@@ -14,6 +14,8 @@ company: 'University of Hamburg'
 
 <ProjectHeader :currentPage="this">
 <p>Together with five fellow students, I investigated the reduction of cyber sickness caused by Virtual Reality as a part of a project over one semester of my bachelor studies at <router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link>. In a study, we examined the effects of a fixed point - in the form of a helicopter cockpit - on cyber sickness, which often occurs in virtual space.</p>
+<p>Professor: <a href="https://www.inf.uni-hamburg.de/en/inst/ab/hci/people/steinicke.html" target="blank">Prof. Dr. Frank Steinicke</a><br />
+Supervisor: Paul Lubos</p>
 </ProjectHeader>
 
 <div class="wrapper">
