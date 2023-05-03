@@ -94,8 +94,8 @@ a {
 }
 
 button {
-    background: color(color_hover);
-    color: color(black);
+    background: color(color_light);
+    color: color(white);
 
     border: none;
     border-radius: 26px;
@@ -113,8 +113,9 @@ button {
 }
 
 .button {
-    background: color(color_hover);
-    color: color(black);
+    background: color(color_light);
+    color: color(white);
+    font-weight: normal;
 
     border-radius: 26px;
 
@@ -125,7 +126,7 @@ button {
     text-decoration: none;
 
     &:hover, &:focus {
-        background: color(color);
+        background: color(color_dark);
         color: color(white);
     }
 }
@@ -342,7 +343,9 @@ li {
 
 .project {
     display: flex;
-    border: 1px solid color(black_25);
+    /*border: 1px solid color(white);
+    background: color(color_lightest);*/
+    border: 1px solid color(color);
     margin-top: 24px;
     text-decoration: none;
 
@@ -350,6 +353,7 @@ li {
         text-decoration: none;
         border: 1px solid color(color);
         background: color(color_hover);
+
     }
 
     &:first-of-type {

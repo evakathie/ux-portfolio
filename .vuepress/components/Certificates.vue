@@ -4,6 +4,10 @@
             <h2>Certificates</h2>
             <div class="certificate-container">
                 <div class="grid-item">
+                    <img :src="'/images/certificates/course-certificate-accessibility-how-to-design-for-all.jpg'" alt="Course certificate in Accessibility by the Interaction Design Foundation from May 2023">
+                    <p class="image-description">Accessibility: How to Design for All by Interaction Design Foundation</p>
+                </div>
+                <div class="grid-item">
                     <img :src="'/images/certificates/course-certificate-skiplevel.jpg'" alt="Course certificate by the Skiplevel from Dezember 2022. It says: completed Skiplevel Program and is up-to-date on the latest available technologies, able to communicate technically and knowledgeable on the software development lifecycle.">
                     <p class="image-description">Skiplevel Program: Fundamentals of Software by Skiplevel</p>
                 </div>

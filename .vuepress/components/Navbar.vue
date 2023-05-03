@@ -84,7 +84,7 @@
     height: 64px;
 
     background-color: #fff;
-    border-bottom: 1px solid color(black_25);
+    border-bottom: 1px solid color(color_light);
 
     position: sticky;
     top: 0;

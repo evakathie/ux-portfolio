@@ -1,6 +1,11 @@
 <template>
   <div class="back-to-top" >
-    <button v-on:click="totop" class="btt-button" v-show="scrollHeight > 150" alt="">⇧</button>
+    <button v-on:click="totop" class="btt-button" v-show="scrollHeight > 150" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 96 960 960" width="32">
+            <path d="M305.902 949V639H93l387-485 389 485H654.944v310H305.902Z"/>
+        </svg>
+
+    </button>
   </div>
 </template>
 
@@ -43,11 +48,14 @@
           cursor: pointer;
 
           /* Styling */
-          color: color(black);
-          background: rgba(color(color), 0.2);
+          background: color(black);
           border-radius: 26px 0 0 26px;
           font-size: 36px;
-          padding: 8px 18px 8px 12px;
+          padding: 8px 18px 2px 12px;
+
+          path {
+              fill: color(white);
+          }
 
           /* Position */
           position: fixed;
@@ -60,6 +68,8 @@
               padding-right: 8px;
               font-size: 32px;
           }
+
+
 
           &:hover, &:focus {
               /*border: 1px solid color(color);*/

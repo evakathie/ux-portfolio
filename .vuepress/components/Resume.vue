@@ -48,7 +48,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Continuous training in UX Design</p>
-                            <p class="company">Interaction Design Foundation</p>
+                            <p class="company">Interaction Design Foundation &#11049; {{ this.duration(2021, 6) }}</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -58,7 +58,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Mentee in a mentoring program for female junior executives</p>
-                            <p class="company">Career Center, <router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
+                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link> Career Center &#11049; {{ this.duration(2020, 11, 2021, 12) }}</p>
                         </div>
                     </div>
                     <div class="resume-element-empty-small"></div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Bachelor's degree program in Human-Computer-Interaction</p>
-                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
+                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg </router-link> &#11049; {{ this.duration(2015, 10, 2020, 9) }}</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="station">
                             <p class="role">English language course, completed with language level C2</p>
-                            <p class="company">EF Education First &#11049; Capetown, Südafrika</p>
+                            <p class="company">EF Education First, Capetown (South Africa) &#11049; {{ this.duration(2015, 7, 2015, 9) }}</p>
                         </div>
                     </div>
                     <div class="resume-element">
@@ -103,6 +103,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="align-center">
+                <router-link to="../resume/CV_Eva_Wolf.pdf" target="_blank" class="button">Download full resume</router-link>
             </div>
         </div>
     </div>

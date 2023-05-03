@@ -31,7 +31,7 @@ export default {
       width: 100%;
       height: 44px;
       background: #fff;
-      border-top: 1px solid color(black_25);
+      border-top: 1px solid color(color_light);
       margin-top: 42px;
 
       display: flex;
