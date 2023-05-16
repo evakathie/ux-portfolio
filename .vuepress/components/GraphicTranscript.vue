@@ -45,7 +45,7 @@ export default {
     .transcript {
         padding: 16px;
         margin-top: -5px;
-        background: color(color_hover);
+        background: color(color_lightest);
         border-bottom: 1px solid color(color_light);
     }
 

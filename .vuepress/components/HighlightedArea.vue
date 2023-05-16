@@ -23,7 +23,7 @@ export default {
 @import '~styles/colors';
 
 .highlighted-area {
-    background: color(color_hover);
+    background: color(color_lightest);
     margin-top: 24px;
 
     .highlighted-title {

@@ -5,11 +5,11 @@ $colors: (
   black_50: #808080,
   black_80: #333333,
   black: #000000,
+  color_lightest: #DFE6EB,
   color_light: #819DB1,
-  color_lightest: #EEF2F4,
   color: #56758B,
   color_dark: #3A505F,
-  color_hover: #DFE6EB
+  color_hover: #B7C4D0
 );
 
 @function color($name) {

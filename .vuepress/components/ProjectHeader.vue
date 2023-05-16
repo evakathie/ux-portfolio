@@ -111,7 +111,7 @@ export default {
     }
 
     .overview {
-        background: color(color_hover);
+        background: color(color_lightest);
         margin-top: -9px;
         padding: 48px 0 48px 0;
 
