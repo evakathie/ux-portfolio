@@ -6,14 +6,16 @@
             <div class="skillset-container">
                 <div class="wrapper">
                     <div class="col-left">
-                        <h3 class="highlighted-title">Design Tools</h3>
+                        <h3 class="highlighted-title">UX Expertise</h3>
                         <ul>
-                            <li>Figma</li>
-                            <li>Adobe Xd</li>
-                            <li>Sketch</li>
-                            <li>Balsamiq</li>
+                            <li>Design Thinking</li>
+                            <li>User Research (qualitative &amp; quantitative)</li>
+                            <li>Design Sprints</li>
+                            <li>Journey Mapping</li>
+                            <li>Prototyping</li>
+                            <li>Accessibility</li>
                         </ul>
-                        <h3 class="highlighted-title">Development</h3>
+                        <h3 class="highlighted-title">Programming</h3>
                         <ul>
                             <li>HTML &#38; CSS</li>
                             <li>JavaScript (Basics)</li>
@@ -21,12 +23,14 @@
                         </ul>
                     </div>
                     <div class="col-right">
-                        <h3 class="highlighted-title">Project Management</h3>
+                        <h3 class="highlighted-title">Tools</h3>
                         <ul>
-                            <li>Scrum</li>
-                            <li>Kanban</li>
-                            <li>Atlassian Jira</li>
-                            <li>Atlassian Confluence</li>
+                            <li>Adobe Xd</li>
+                            <li>Sketch</li>
+                            <li>Figma</li>
+                            <li>Balsamiq</li>
+                            <li>Atlassian Jira &amp; Confluence</li>
+                            <li>Miro</li>
                         </ul>
                         <h3 class="highlighted-title">Languages</h3>
                         <ul>

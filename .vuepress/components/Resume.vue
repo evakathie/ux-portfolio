@@ -4,108 +4,118 @@
             <h2>My Resume</h2>
             <div class="timeline">
                 <div class="col-left">
-                    <h3 class="highlighted-title timeline-left-title">Experience</h3>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element resume-right">
+                    <h3 class="highlighted-title timeline-left-title">Education</h3>
+                    <!--<div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Product Designer</p>
-                            <p class="company"> {{ this.duration(2020, 10) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
+                            <p class="role">Master's program in Information Studies (Human Centered Informatics)</p>
+                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link> &#11049; {{ this.duration(2023, 6) }}</p>
                         </div>
                         <div class="time">
                             <p class="to">since</p>
-                            <p class="from">10/2020</p>
+                            <p class="from">06/2023</p>
                         </div>
-                    </div>
-                    <div class="resume-element-empty-small"></div>
-                    <div class="resume-element resume-right">
-                        <div class="station">
-                            <p class="role">Working Student<br/>User Experience Design</p>
-                            <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
-                        </div>
-                        <div class="time">
-                            <p class="to">09/2020</p>
-                            <p class="from">02/2019</p>
-                        </div>
-                    </div>
-                    <div class="resume-element resume-right">
-                        <div class="station">
-                            <p class="role">Internship<br/>User Experience Design</p>
-                            <p class="company"> {{ this.duration(2018, 10, 2018, 12) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
-                        </div>
-                        <div class="time">
-                            <p class="to">10/2018</p>
-                            <p class="from">12/2018</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-right">
-                    <h3 class="highlighted-title timeline-right-title">Education</h3>
-                    <div class="resume-element">
-                        <div class="time">
-                            <p class="to">since</p>
-                            <p class="from">06/2021</p>
-                        </div>
+                    </div>-->
+                    <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Continuous training in UX Design</p>
                             <p class="company">Interaction Design Foundation &#11049; {{ this.duration(2021, 6) }}</p>
                         </div>
-                    </div>
-                    <div class="resume-element">
                         <div class="time">
-                            <p class="to">12/2021</p>
-                            <p class="from">11/2020</p>
+                            <p class="to">since</p>
+                            <p class="from">06/2021</p>
                         </div>
+                    </div>
+                    <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Mentee in a mentoring program for female junior executives</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link> Career Center &#11049; {{ this.duration(2020, 11, 2021, 12) }}</p>
                         </div>
-                    </div>
-                    <div class="resume-element-empty-small"></div>
-                    <div class="resume-element">
                         <div class="time">
-                            <p class="to">10/2020</p>
+                            <p class="to">12/2021</p>
+                            <p class="from">11/2020</p>
                         </div>
+                    </div>
+                    <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">B.Sc. Human-Computer-Interaction<br />Grade: 2,0 (good)</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
+                        <div class="time">
+                            <p class="to">09/2020</p>
+                        </div>
                     </div>
                     <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty"></div>
-                    <div class="resume-element">
+                    <div class="resume-element-empty-small"></div>
+                    <div class="resume-element resume-left">
+                        <div class="station">
+                            <p class="role">Bachelor's program in Human-Computer-Interaction</p>
+                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg </router-link> &#11049; {{ this.duration(2015, 10, 2020, 9) }}</p>
+                        </div>
                         <div class="time">
                             <p class="to">09/2020</p>
                             <p class="from">10/2015</p>
                         </div>
-                        <div class="station">
-                            <p class="role">Bachelor's degree program in Human-Computer-Interaction</p>
-                            <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg </router-link> &#11049; {{ this.duration(2015, 10, 2020, 9) }}</p>
-                        </div>
                     </div>
-                    <div class="resume-element">
+                    <div class="resume-element resume-left">
+                        <div class="station">
+                            <p class="role">English language course, completed with language level C2</p>
+                            <p class="company">EF Education First, Capetown (ZA) &#11049; {{ this.duration(2015, 7, 2015, 9) }}</p>
+                        </div>
                         <div class="time">
                             <p class="to">09/2015</p>
                             <p class="from">07/2015</p>
                         </div>
+                    </div>
+                    <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">English language course, completed with language level C2</p>
-                            <p class="company">EF Education First, Capetown (South Africa) &#11049; {{ this.duration(2015, 7, 2015, 9) }}</p>
+                            <p class="role">High school graduation: Abitur<br />Grade: 1,6 (good)</p>
+                            <p class="company">Käthe-Kollwitz Schule &#11049; Bruchsal</p>
+                        </div>
+                        <div class="time">
+                            <p class="to">06/2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h3 class="highlighted-title timeline-right-title">Experience</h3>
+                    <!--<div class="resume-element-empty"></div>
+                    <div class="resume-element-empty-small"></div>-->
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">since</p>
+                            <p class="from">10/2020</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Product Designer</p>
+                            <p class="company"> {{ this.duration(2020, 10, 2023, 6) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
+                        </div>
+                    </div>
+                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty-small"></div>
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">09/2020</p>
+                            <p class="from">02/2019</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Working Student<br/>User Experience Design</p>
+                            <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                     </div>
                     <div class="resume-element">
                         <div class="time">
-                            <p class="to">06/2015</p>
+                            <p class="to">10/2018</p>
+                            <p class="from">12/2018</p>
                         </div>
                         <div class="station">
-                            <p class="role">High school graduation: Abitur<br />Grade: 1,6 (good)</p>
-                            <p class="company">Käthe-Kollwitz Schule &#11049; Bruchsal</p>
+                            <p class="role">Internship<br/>User Experience Design</p>
+                            <p class="company"> {{ this.duration(2018, 10, 2018, 12) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="align-center">
-                <router-link to="../resume/CV_Eva_Wolf.pdf" target="_blank" class="button">Download full resume</router-link>
+                <router-link to="../resume/CV_Eva_Wolf.pdf" target="_blank" class="button">Download resume as pdf</router-link>
             </div>
         </div>
     </div>
@@ -258,6 +268,10 @@ export default {
         @media screen and (max-width: 600px) {
             display: none;
         }
+
+        @media screen and (max-width: 1250px) {
+            height: 128px;
+        }
     }
 
     .resume-element-empty-small {
@@ -269,7 +283,7 @@ export default {
         }
     }
 
-    .resume-right {
+    .resume-left {
         text-align: right;
         padding-right: 0;
         justify-content: flex-end;
