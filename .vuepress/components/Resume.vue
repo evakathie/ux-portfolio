@@ -8,11 +8,11 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Master's program in Information Studies</p>
-                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link> &#11049; {{ this.duration(2023, 6) }}</p>
+                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link> &#11049; {{ this.duration(2023, 9) }}</p>
                         </div>
                         <div class="time">
                             <p class="to">since</p>
-                            <p class="from">06/2023</p>
+                            <p class="from">09/2023</p>
                         </div>
                     </div>
                     <div class="resume-element resume-left">
@@ -82,7 +82,7 @@
                     <div class="resume-element-empty-small"></div>
                     <div class="resume-element">
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">06/2023</p>
                             <p class="from">10/2020</p>
                         </div>
                         <div class="station">
