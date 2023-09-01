@@ -16,7 +16,7 @@ tools: HTML & CSS, JavaScript, Axure, SPSS
 </div>
 
 <ProjectHeader :currentPage="this" :shortened="true">
-<p>The bachelor's degree program in Human Computer Interaction has a strong interdisciplinary orientation. It combines theoretical foundations from computer science and psychology with application-oriented topics from the fields of software development and multimedia systems. Basic study contents are:</p>
+<p>The bachelor's degree program in <strong>Human Computer Interaction</strong> has a strong interdisciplinary orientation. It combines theoretical foundations from computer science and psychology with application-oriented topics from the fields of software development and multimedia systems. Basic study contents are:</p>
 <ul>
     <li>Fundamentals of human-computer interaction</li>
     <li>Development of computer science systems</li>
