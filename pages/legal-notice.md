@@ -11,12 +11,12 @@ title: "Legal Notice"
 <HighlightedArea>
 <h2 class="highlighted-title">Information according to &sect; 5 TMG</h2>
 <p>Eva Katharina Wolf<br />
-Winterlindenweg 83<br />
-22297 Hamburg</p>
+Birketinget 6A.2.209<br />
+2300 København</p>
 
 <h2 class="highlighted-title" style="padding-top: 48px;">Contact</h2>
 <p><!--Phone: +49 17681695982<br />-->
-E-Mail: evawolf@web.de</p>
+E-Mail: mail@evakatharinawolf.de</p>
 </HighlightedArea>
 
 <div class="wrapper">
