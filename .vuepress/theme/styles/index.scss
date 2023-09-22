@@ -166,6 +166,14 @@ img {
     }
 }
 
+.img-small-40 {
+    width: 40%;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+}
+
 .img-original {
     width: auto;
     margin: 0px;
@@ -176,6 +184,20 @@ img {
     margin-top: -42px;
     font-size: 14px;
     margin-bottom: 24px;
+}
+
+.img-desktop {
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.img-mobile {
+    display: none;
+
+    @media screen and (max-width: 800px) {
+        display: block;
+    }
 }
 
 /* Headings */
