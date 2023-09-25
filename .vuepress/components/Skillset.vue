@@ -25,7 +25,7 @@
                     <div class="col-right">
                         <h3 class="highlighted-title">Tools</h3>
                         <ul>
-                            <li>Adobe Xd</li>
+                            <li>Adobe XD</li>
                             <li>Sketch</li>
                             <li>Figma</li>
                             <li>Balsamiq</li>

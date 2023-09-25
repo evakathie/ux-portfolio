@@ -4,7 +4,7 @@ description: "Improving the usability of the important “Critical States” fea
 image: '/images/d3-critical-states/d3-critical-states-header.png'
 imgmobile: '/images/d3-critical-states/d3-critical-states.png'
 competences: Design Thinking, UI Design
-tools: Adobe Xd
+tools: Adobe XD
 from: 'July 2020'
 to: 'October 2020'
 year: 2020
@@ -38,7 +38,7 @@ company: 'Digitec'
             <li>Map: Expert Talks & How Might We Statements, Long Term Goal, Sprint Questions and User Journey Mapping.</li>
             <li>Ideate: Finding potential solutions in individual work, presenting and discussing them in the group and creating a final solution (from parts of the other solutions).</li>
         </ul></li>
-    <li>Prototyping and creating a pixel perfect design using Adobe Xd</li>
+    <li>Prototyping and creating a pixel perfect design using Adobe XD</li>
 </ol>
 </HighlightedArea>
 
@@ -145,7 +145,7 @@ company: 'Digitec'
 
 <h3>Final Solution</h3>
 
-<p>The final solution was created in the form of storyboards based on the user journey. After the workshop, I put designs for the individual parts of the solutions in Adobe Xd and wrote tickets for the software development. So far, not all parts of the solution have been implemented.</p>
+<p>The final solution was created in the form of storyboards based on the user journey. After the workshop, I put designs for the individual parts of the solutions in Adobe XD and wrote tickets for the software development. So far, not all parts of the solution have been implemented.</p>
 
 <h4>Notify</h4>
 

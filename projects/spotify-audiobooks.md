@@ -200,7 +200,7 @@ Existing functionalities such as the sleep mode and changing the speed should al
 
 <p>Last but not least: the test phase. I will skip the actual usability testing in this Case Study since it’s getting quite long. Instead, I will give you a little description how I would do the test:</p>
 
-<p>For the first tests I would simply use my Balsamiq wireframe (adding transitions and a few dummy pages like a play-screen for music and podcasts). Later on — after a few iterations on the solution— it might make sense to switch to a high-fidelity design, for this I would use one of my go-to-tools Sketch, Figma or Adobe Xd.</p>
+<p>For the first tests I would simply use my Balsamiq wireframe (adding transitions and a few dummy pages like a play-screen for music and podcasts). Later on — after a few iterations on the solution— it might make sense to switch to a high-fidelity design, for this I would use one of my go-to-tools Sketch, Figma or Adobe XD.</p>
 
 <p>In the test I would give the user the following simple tasks:</p>
 

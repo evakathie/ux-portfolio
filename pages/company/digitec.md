@@ -2,7 +2,7 @@
 title: "Digitec GmbH"
 from: 'October 2018'
 competences: User Experience Design, Design Thinking, Prototyping, UI Design, Scrum
-tools: Adobe Xd, Balsamiq, JIRA, Confluence
+tools: Adobe XD, Balsamiq, JIRA, Confluence
 ---
 
 <div class="page-header">

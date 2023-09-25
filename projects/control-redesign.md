@@ -4,7 +4,7 @@ description: "Redesigning the controls for the D3 product family by Digitec GmBH
 image: '/images/control-redesign/control-redesign-header.png'
 imgmobile: '/images/control-redesign/control-redesign.png'
 competences: UI Design, FrontEnd Development
-tools: Adobe Xd, CSS
+tools: Adobe XD, CSS
 from: 'February 2020'
 to: 'April 2020'
 year: 2020
@@ -27,7 +27,7 @@ company: Digitec
 <HighlightedArea title="Summary of my Approach">
 <ol>
     <li>Setting the goals and requirements</li>
-    <li>Redesign of the controls using Adobe Xd</li>
+    <li>Redesign of the controls using Adobe XD</li>
     <li>Changing the CSS of the controls using IntelliJ</li>
     <li>Unification of the states implementation within the software by different development teams responsible for the part of the software </li>
 </ol>

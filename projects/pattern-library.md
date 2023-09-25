@@ -4,7 +4,7 @@ description: "Creation of a comprehensive pattern library for the D3 product fam
 image: '/images/pattern-library/pattern-library-header.png'
 imgmobile: '/images/pattern-library/pattern-library.png'
 competences: Concept, UX Design, UI Design, Design System
-tools: Atlassian Confluence, Adobe Xd
+tools: Atlassian Confluence, Adobe XD
 from: 'October 2018'
 to: 'Dezember 2018'
 year: 2018
@@ -31,7 +31,7 @@ company: 'Digitec'
     <li>Abstraction of the components used in the software to design patterns</li>
     <li>Design of a theoretical basic model of the pattern library based on the atomic design approach</li>
     <li>Documentation of the design patterns in the form of a pattern library project in the company's internal Confluence environment</li>
-    <li>Implementation of the Design Patterns as reusable components in Adobe Xd</li>
+    <li>Implementation of the Design Patterns as reusable components in Adobe XD</li>
     <li>Elimination of special solutions in the software, which are already covered by already covered by a design pattern</li>
 </ol>
 </HighlightedArea>
@@ -156,10 +156,10 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 <p>Every Atom is has the same structure that is represented by a table. The structure as a table allows the usage of a Confluence macro that makes it possible to create a overview on the parent page (“Atoms”) where all the controls are listed with their name, preview and the problem they solve. Every Atom has the following categories:</p>
 
 <ul>
-    <li>Preview: a clickable embedded HTML preview (created with Adobe Xd)</li>
+    <li>Preview: a clickable embedded HTML preview (created with Adobe XD)</li>
     <li>Problem: the design/ interaction problem the pattern is solving</li>
     <li>Usage: a short guide when to use the pattern</li>
-    <li>Design specification: a link to the pattern in Adobe Xd (developer preview) and if necessary additionally written down design specifications as well as a table showing all the different states of the control</li>
+    <li>Design specification: a link to the pattern in Adobe XD (developer preview) and if necessary additionally written down design specifications as well as a table showing all the different states of the control</li>
     <li>Cursor hinting: which cursor(s) are to be used with the control</li>
     <li>Keyboard control: specification of the usage of the control with the keyboard</li>
     <li>Usage in other patterns: a list of molecules that use the pattern/ atoms that are connected with it from a technical point of view</li>
@@ -233,11 +233,11 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 
 <img :src="'/images/pattern-library/guideline_control_access.png'" alt="Screenshot of the 'Control Access' guideline described above.">
 
-<h3>Creation of the Pattern Library in Adobe Xd</h3>
+<h3>Creation of the Pattern Library in Adobe XD</h3>
 
-<p>While creating the Pattern Library in Confluence, I also created a Library document in Adobe Xd with all the controls. Each control is represented by a component and the whole document forms a CC Library that can be used in other Adobe Xd documents. The components support responsive resizing and changing text labels in their instances. If a change (e.g. change of color or general redesign) is made in a component in the Pattern Library document it is reflected in all the documents using the component.</p>
+<p>While creating the Pattern Library in Confluence, I also created a Library document in Adobe XD with all the controls. Each control is represented by a component and the whole document forms a CC Library that can be used in other Adobe XD documents. The components support responsive resizing and changing text labels in their instances. If a change (e.g. change of color or general redesign) is made in a component in the Pattern Library document it is reflected in all the documents using the component.</p>
 
-<img :src="'/images/pattern-library/pattern_library_adobe_xd.png'" alt="Screenshot of the Pattern Library in Adobe Xd.">
+<img :src="'/images/pattern-library/pattern_library_adobe_xd.png'" alt="Screenshot of the Pattern Library in Adobe XD.">
 
 </div>
 
