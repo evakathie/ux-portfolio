@@ -16,7 +16,7 @@ tools: R & R Studio, Loop11
 </div>
 
 <ProjectHeader :currentPage="this" :shortened="true">
-<p>The master's program in <strong>Information Studies (Human Centered Informatics)</strong> explores the design, development, and evaluation of IT systems, with a specific emphasis on the interactions between people and technology. Through a data-driven approach, this program focuses on investigating user needs and behaviors, analyzing and visualizing data, and implementing effective design and development strategies for IT solutions. Basic study contents are:</p>
+<p>The masterʼs program in <strong>Information Studies (Human Centered Informatics)</strong> explores the design, development, and evaluation of IT systems, with a specific emphasis on the interactions between people and technology. Through a data-driven approach, this program focuses on investigating user needs and behaviors, analyzing and visualizing data, and implementing effective design and development strategies for IT solutions. Basic study contents are:</p>
 <ul>
     <li>Data-driven Design: Qualitative and quantitative research in UX</li>
     <li>Analysis and visualization of data with R</li>

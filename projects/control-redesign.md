@@ -18,7 +18,7 @@ company: Digitec
 
 <div class="wrapper">
 
-<p>D3 is a software family by <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link> in the b2b context used by banks. It's a niece product for foreign exchange trading and the primary user are traders. The D3 software family includes several applications that use the same <router-link to="/projects/pattern-library.html">pattern library</router-link>. During my work as a working student for the company, I did a redesign were I gave every entry-, selection- and imperative control a new look, including a new hover effect. The redesign met several goals/ requirements and I implemented it myself in CSS.</p>
+<p>D3 is a software family by <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link> in the b2b context used by banks. Itʼs a niece product for foreign exchange trading and the primary user are traders. The D3 software family includes several applications that use the same <router-link to="/projects/pattern-library.html">pattern library</router-link>. During my work as a working student for the company, I did a redesign were I gave every entry-, selection- and imperative control a new look, including a new hover effect. The redesign met several goals/ requirements and I implemented it myself in CSS.</p>
 
 <img class="img-small-60" :src="'/images/control-redesign/control-redesign-preview.png'" alt="Comparison of the old designs to the new.">
 
@@ -95,7 +95,7 @@ company: Digitec
 
 <p>The Hover state indicates that a control is clickable and interactive.</p>
 
-<p>Before the redesign, this state wasn't used in the software and was therefore newly implemented during the redesign.</p>
+<p>Before the redesign, this state wasnʼt used in the software and was therefore newly implemented during the redesign.</p>
 
 <p>Design Specifications:</p>
 
@@ -146,7 +146,7 @@ company: Digitec
 
 <p>The disabled state is used when a user should have neither read nor write access to a control. The content of the control is not visible because it is irrelevant for the user.</p>
 
-<p>Before the redesign disabled and read only weren't distinguishable. This resulted also in disabled controls (like textfields) showing values that weren't useful for the user because they aren't applied. E.g. if a text field was used in combination with an on off switch and the switch was turned off, the text field would still display a value even though the setting isn't applied. In the redesign the design decision was therefore that no values were to be displayed in disabled controls. Additionally, the whole control lacks a shadow effect that indicates affordance and is displayed with opacity.</p>
+<p>Before the redesign disabled and read only werenʼt distinguishable. This resulted also in disabled controls (like textfields) showing values that werenʼt useful for the user because they arenʼt applied. E.g. if a text field was used in combination with an on off switch and the switch was turned off, the text field would still display a value even though the setting isnʼt applied. In the redesign the design decision was therefore that no values were to be displayed in disabled controls. Additionally, the whole control lacks a shadow effect that indicates affordance and is displayed with opacity.</p>
 
 <p>Design Specifications:</p>
 

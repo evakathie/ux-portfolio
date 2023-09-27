@@ -5,7 +5,7 @@
             <div class="certificate-container">
                 <div class="grid-item">
                     <img :src="'/images/certificates/course-certificate-mobile-ux-design-course.jpg'" alt="Course certificate in Mobile UX Design by the Interaction Design Foundation from June 2023">
-                    <p class="image-description">Mobile UX Design: The Beginner's Guide by Interaction Design Foundation</p>
+                    <p class="image-description">Mobile UX Design: The Beginnerʼs Guide by Interaction Design Foundation</p>
                 </div>
                 <div class="grid-item">
                     <img :src="'/images/certificates/course-certificate-accessibility-how-to-design-for-all.jpg'" alt="Course certificate in Accessibility by the Interaction Design Foundation from May 2023">

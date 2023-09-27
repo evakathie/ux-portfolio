@@ -30,7 +30,7 @@ company: 'Digitec'
     <li>Research and comparison of different existing pattern libraries</li>
     <li>Abstraction of the components used in the software to design patterns</li>
     <li>Design of a theoretical basic model of the pattern library based on the atomic design approach</li>
-    <li>Documentation of the design patterns in the form of a pattern library project in the company's internal Confluence environment</li>
+    <li>Documentation of the design patterns in the form of a pattern library project in the companyʼs internal Confluence environment</li>
     <li>Implementation of the Design Patterns as reusable components in Adobe XD</li>
     <li>Elimination of special solutions in the software, which are already covered by already covered by a design pattern</li>
 </ol>
@@ -114,7 +114,7 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 <ul>
     <li>has no advantage → use an existing pattern</li>
     <li>has a clear advantage and can be used in other places → record as a new pattern</li>
-    <li>has a clear advantage but can't be used in other places → accept as deviation</li>
+    <li>has a clear advantage but canʼt be used in other places → accept as deviation</li>
     <li>is a better solution and can replace other patterns → include in Pattern Library, successively replace the old/other pattern</li>
 </ul>
 
@@ -125,7 +125,7 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 
 <p>Since the goal of the Pattern Library was to ease the communication between different departments (like UX Design and Development), I decided to use the existing internal documentation Atlassian Confluence to create the Pattern Library. This way it is easily accessible for every colleague and no additional software is needed.</p>
 
-<p>The Pattern Library was created in it's own space in Confluence having a landing page and navigation sidebar. The space was than split into the different parts of the Pattern Library: Design elements, Atoms, Molecules and Organismns. Later we added Processes and Guidelines because we noticed that there were more higher level patterns that need to be represented in the Pattern Library as well. I will go into detail about every category below.</p>
+<p>The Pattern Library was created in itʼs own space in Confluence having a landing page and navigation sidebar. The space was than split into the different parts of the Pattern Library: Design elements, Atoms, Molecules and Organismns. Later we added Processes and Guidelines because we noticed that there were more higher level patterns that need to be represented in the Pattern Library as well. I will go into detail about every category below.</p>
 
 <h4>Design elements</h4>
 
@@ -133,11 +133,11 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 
 <p>Strictly speaking, these design elements are not patterns, but they are still an important part of the Pattern Library, because everything else is build on and out of them. They are colors, fonts, icons, cursors, appearances (such as shadows) and graphic elements (such as backgrounds) used in the software. In the Confluence documentation each different design element category has one page listing all the elements.</p>
 
-<img :src="'/images/pattern-library/elements.png'" alt="A screenshot of a few 'Elements' pages in the Pattern Library showing a table with colors, fonts and icons.">
+<img :src="'/images/pattern-library/elements.png'" alt="A screenshot of a few ʼElementsʼ pages in the Pattern Library showing a table with colors, fonts and icons.">
 
 <h4>Atoms</h4>
 
-<p>= GUI items that can't be broken down further than into design elements.</p>
+<p>= GUI items that canʼt be broken down further than into design elements.</p>
 
 <p>Since there are a lot of Atom patterns in the product family, I have further subdivided them into the following categories (based on the book “About face”):</p>
 
@@ -190,7 +190,7 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
         </ul></li>
 </ul>
 
-<img :src="'/images/pattern-library/molecule.png'" alt="Screenshot of the Molecule Pattern 'Popup Warning' with the structure described above.">
+<img :src="'/images/pattern-library/molecule.png'" alt="Screenshot of the Molecule Pattern ʼPopup Warningʼ with the structure described above.">
 
 <h4>Organisms</h4>
 
@@ -205,17 +205,17 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
     <li>Responsibility (dropped)</li>
 </ul>
 
-<img :src="'/images/pattern-library/organism.png'" alt="Screenshot of the Organism Pattern 'Sheet Config' with the structure described above.">
+<img :src="'/images/pattern-library/organism.png'" alt="Screenshot of the Organism Pattern ʼSheet Configʼ with the structure described above.">
 
 <h4>Processes</h4>
 
 <p>= patterns that represent recurring interactions/ processes.</p>
 
-<p>After working with the Pattern Library for a while we added “Processes” since we were lacking the ability to define Patterns that aren't necessarily visible but more a description of a process/ user interaction. An example for a Process is Drag & Drop, which is possible on several places throughout the software and always follows the same rules: there is a drag candidate marked by drag indicators and several drop candidates, both components use different colors and different cursor hintings are in place.</p>
+<p>After working with the Pattern Library for a while we added “Processes” since we were lacking the ability to define Patterns that arenʼt necessarily visible but more a description of a process/ user interaction. An example for a Process is Drag & Drop, which is possible on several places throughout the software and always follows the same rules: there is a drag candidate marked by drag indicators and several drop candidates, both components use different colors and different cursor hintings are in place.</p>
 
-<img :src="'/images/pattern-library/process_drag_n_drop.png'" alt="Screenshot of the Process Pattern 'Drag & Drop' the structure will be described below.">
+<img :src="'/images/pattern-library/process_drag_n_drop.png'" alt="Screenshot of the Process Pattern ʼDrag & Dropʼ the structure will be described below.">
 
-<p>As the other patterns Processes are structured in a table that makes up the overview parent page. But they use different categories, e.g. a Preview is not necessary since the problems aren't all visual.</p>
+<p>As the other patterns Processes are structured in a table that makes up the overview parent page. But they use different categories, e.g. a Preview is not necessary since the problems arenʼt all visual.</p>
 
 <ul>
     <li>Problem</li>
@@ -229,9 +229,9 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 
 <p>= patterns that support decision making.</p>
 
-<p>Guidelines are the newest addition to the pattern library. They are on the highest level and don't follow any specific structure. Your goal is to define rules for a specific design problem. The two guidelines existing so far are Control States and Control Access. The Control States guideline describes the rules of usage and design choices of different control states like readonly, disabled, hover, active and pressed. While Control Access is a defined decision tree when to hide and when to disable a control.</p>
+<p>Guidelines are the newest addition to the pattern library. They are on the highest level and donʼt follow any specific structure. Your goal is to define rules for a specific design problem. The two guidelines existing so far are Control States and Control Access. The Control States guideline describes the rules of usage and design choices of different control states like readonly, disabled, hover, active and pressed. While Control Access is a defined decision tree when to hide and when to disable a control.</p>
 
-<img :src="'/images/pattern-library/guideline_control_access.png'" alt="Screenshot of the 'Control Access' guideline described above.">
+<img :src="'/images/pattern-library/guideline_control_access.png'" alt="Screenshot of the ʼControl Accessʼ guideline described above.">
 
 <h3>Creation of the Pattern Library in Adobe XD</h3>
 

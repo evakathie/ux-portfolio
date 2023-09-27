@@ -11,7 +11,7 @@ month: 12
 ---
 
 <ProjectHeader :currentPage="this">
-<p>As a fan of audiobooks and user of Spotify for podcasts and music, I'm missing a feature for listening to audiobooks in Spotify. So I used Design Thinking to come up with a concept to integrate audiobooks into Spotify - this is an unofficial case study.</p>
+<p>As a fan of audiobooks and user of Spotify for podcasts and music, Iʼm missing a feature for listening to audiobooks in Spotify. So I used Design Thinking to come up with a concept to integrate audiobooks into Spotify - this is an unofficial case study.</p>
 <p><strong>User Story</strong>: As an audiobook lover, I want to comfortably listen to audiobooks inside Spotify, so that I don’t have to handle (and pay for) so many different apps with similar functionality.</p>
 </ProjectHeader>
 

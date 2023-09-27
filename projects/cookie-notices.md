@@ -47,23 +47,23 @@ Supervisor: Abir Bouraffa</p>
 <ul>
     <li>
         <strong>No option</strong>: the user is only informed about the use of cookies, in some cases there is also a close button.<br />
-        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-nooption.png'" alt="A cookie notice showing the text 'We use cookies to analyze user behavior and optimize the usability of the website. You can learn more in our privacy policy', where 'privacy policy' is a link.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-nooption.png'" alt="A cookie notice showing the text ʼWe use cookies to analyze user behavior and optimize the usability of the website. You can learn more in our privacy policyʼ, where “privacy policy” is a link.">
     </li>
     <li>
         <strong>Confirmation</strong>: the user is informed about the use of cookies and can agree to it by clicking on a consenting button, for example “I agree” or “Ok”.<br />
-        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-confirmation.png'" alt="The same cookie notice as before, but with a 'Accept'-button.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-confirmation.png'" alt="The same cookie notice as before, but with a ʼAcceptʼ-button.">
     </li>
     <li>
         <strong>Binary</strong>: the user is informed about the use of cookies and can decide whether they want to accept or refuse.<br />
-        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-binary.png'" alt="The same cookie notice as the first one, but with two buttons: 'Decline' and 'Accept'.">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-binary.png'" alt="The same cookie notice as the first one, but with two buttons: ʼDeclineʼ and ʼAcceptʼ.">
     </li>
     <li>
         <strong>Category</strong>: the user is informed about the use of cookies and can select the degree of consent by choosing between different categories of cookies, like “Required Cookies” and “Marketing Cookies”. <em>— In the original paper this where two categories: “Slider” and “Checkbox”. The difference was in the control being used, but they give the user the same choice. I consolidated them because the type of UI control is less relevant for my research.</em><br />
-        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-category.png'" alt="The same cookie notice as the first one, but with three categories with checkboxes: 'Functional cookies', 'Analytical cookies' and 'Marketing cookies'. 'Functional cookies' is selected and read-only. The other checkboxes are not selected but active. On the right side is a 'Accept'-button. ">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-category.png'" alt="The same cookie notice as the first one, but with three categories with checkboxes: ʼFunctional cookiesʼ, ʼAnalytical cookiesʼ and ʼMarketing cookiesʼ. ʼFunctional cookiesʼ is selected and read-only. The other checkboxes are not selected but active. On the right side is a ʼAcceptʼ-button. ">
     </li>
     <li>
         <strong>Vendor</strong>: the user is informed about the use of cookies and can choose for each specific third-party cookie whether to accept it or not.<br />
-        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-vendor.png'" alt="The same cookie notice as the first one, but with seven different companies/ services with checkboxes like 'Facebook' or 'Google Analytics'. None of the checkboxes is selected. On the right side is a 'Accept'-button. ">
+        <img class="img-small" :src="'/images/cookie-notices/cookie-notice-vendor.png'" alt="The same cookie notice as the first one, but with seven different companies/ services with checkboxes like ʼFacebookʼ or ʼGoogle Analyticsʼ. None of the checkboxes is selected. On the right side is a ʼAcceptʼ-button. ">
     </li>
 </ul>
 
@@ -194,7 +194,7 @@ On average, users paid attention to the Confirmation notice for only 0.6 seconds
 <img class="img-small" :src="'/images/cookie-notices/cookie-notices-wireframe.png'" alt="">
 
 <GraphicTranscript>
-<p>A wireframe showing a Cookie Notice with the Headline 'Data Protection', followed by information about the usage of cookies in text form: "We use cookies to...":</p>
+<p>A wireframe showing a Cookie Notice with the Headline ʼData Protectionʼ, followed by information about the usage of cookies in text form: “We use cookies to...”:</p>
 
 <ul>
     <li>“analyze user behavior”</li>

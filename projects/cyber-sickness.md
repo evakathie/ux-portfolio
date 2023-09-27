@@ -53,7 +53,7 @@ Supervisor: Paul Lubos</p>
 
 <p>As already mentioned, the cause of cyber sickness has not yet been conclusively clarified. However, some research has already taken place on how it can be reduced. For example, dynamic adjustment of the Field of View: the field of view is dynamically reduced in situations where a discrepancy between visual and vestibular stimuli is more likely to occur, which reduces cyber sickness. However, this is also accompanied by a reduced presence in virtual reality, which is something that would like to be avoided.</p>
 
-<p>An experiment at Purdue University, in which a nose was inserted into the user's field of view in virtual reality, served as the inspiration for our study. This idea came from anecdotal reports of experience that a fixed object as a reference point could reduce cyber sickness.</p>
+<p>An experiment at Purdue University, in which a nose was inserted into the userʼs field of view in virtual reality, served as the inspiration for our study. This idea came from anecdotal reports of experience that a fixed object as a reference point could reduce cyber sickness.</p>
 
 <h4>Research hypotheses</h4>
 

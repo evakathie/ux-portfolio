@@ -7,7 +7,7 @@
                     <h3 class="highlighted-title timeline-left-title">Education</h3>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Master's program in Information Studies</p>
+                            <p class="role">Masterʼs program in Information Studies</p>
                             <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link> &#11049; {{ this.duration(2023, 9) }}</p>
                         </div>
                         <div class="time">
@@ -48,7 +48,7 @@
                     <div class="resume-element-empty-small"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Bachelor's program in Human-Computer-Interaction</p>
+                            <p class="role">Bachelorʼs program in Human-Computer-Interaction</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg </router-link> &#11049; {{ this.duration(2015, 10, 2020, 9) }}</p>
                         </div>
                         <div class="time">

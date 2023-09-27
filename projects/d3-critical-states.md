@@ -49,9 +49,9 @@ company: 'Digitec'
 <p>A lot of emails from our customers in the support hotline indicated that they are facing problems with the usability of the status feature. In our User Insights Knowledge base, the emails were derived to the following opportunities:</p>
 
 <ol>
-    <li>I don't understand why my price is red (= status indicating a wrong price)</li>
-    <li>I don't understand which of the underlying curves triggers a red status in my complex setup</li>
-    <li>I don't understand what “REF” in the Maturity column means (“REF” is the label indicating a reference price alert)</li>
+    <li>I donʼt understand why my price is red (= status indicating a wrong price)</li>
+    <li>I donʼt understand which of the underlying curves triggers a red status in my complex setup</li>
+    <li>I donʼt understand what “REF” in the Maturity column means (“REF” is the label indicating a reference price alert)</li>
 </ol>
 
 <p>Like the second opportunity shows, the status feature can be especially complicated due to the often complex curve models customers build with the software. Curves are often interdependent (prices are “inherited” from one curve or calculated from multiple curves). In addition, prices on special dates are often interpolated from standard dates, making some prices dependent on prices on other dates. For users it was not currently apparent where the root of the problem lies, i.e. where they must rectify the status. For this, they may need to have a precise understanding of the selected curve model and the links between the curves in this model - which is usually not the case.</p>
@@ -122,7 +122,7 @@ company: 'Digitec'
 
 <h4>Ideate</h4>
 
-<p>The ideate phase started with an exercise called “Lightning Demos”, where each participant gets a short amount of time to search for related features or solutions by competitors. Since the D3 software is a niche product and we didn't have access to the software of competitors we searched in software we often use as well as the internet for comparable features.</p>
+<p>The ideate phase started with an exercise called “Lightning Demos”, where each participant gets a short amount of time to search for related features or solutions by competitors. Since the D3 software is a niche product and we didnʼt have access to the software of competitors we searched in software we often use as well as the internet for comparable features.</p>
 
 <img :src="'/images/d3-critical-states/lightning-demos.png'" alt="">
 
@@ -149,7 +149,7 @@ company: 'Digitec'
 
 <h4>Notify</h4>
 
-<p>Since users sometimes run D3 Sheets in the background or have up to 6 different screens with different software open, it's essential to catch the users attention if a price turns bad. One feature that was already present for that is the Sheet Monitor, that was already described above. In the Sheet Monitor a Sheet would turn from green to red and display a short label with the Status. The Sheet Monitor is individually configurable per user and contains the whole set of Sheets that is of importance for the user, therefore this is already sufficient. In our solution, we decided to enhance this feature to better notify the user. If a Sheet in the Sheet Monitor of a user goes from green to red: </p>
+<p>Since users sometimes run D3 Sheets in the background or have up to 6 different screens with different software open, itʼs essential to catch the users attention if a price turns bad. One feature that was already present for that is the Sheet Monitor, that was already described above. In the Sheet Monitor a Sheet would turn from green to red and display a short label with the Status. The Sheet Monitor is individually configurable per user and contains the whole set of Sheets that is of importance for the user, therefore this is already sufficient. In our solution, we decided to enhance this feature to better notify the user. If a Sheet in the Sheet Monitor of a user goes from green to red: </p>
 
 <ul>
     <li>a <strong>acoustic signal</strong> sounds (this can be turned off by a switch in the Sheet Monitor)</li>

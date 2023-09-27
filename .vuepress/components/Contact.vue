@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <h2>Let's connect</h2>
+        <h2>Letʼs connect</h2>
         <p>Get in touch for opportunities or just to say hi!</p>
         <div class="contact-icons">
             <a href="https://www.linkedin.com/in/eva-katharina-wolf-420b9a182/" target="_blank">

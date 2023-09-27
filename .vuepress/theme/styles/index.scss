@@ -179,11 +179,20 @@ img {
     margin: 0px;
 }
 
-.image-description {
+@mixin img-description {
     text-align: center;
-    margin-top: -42px;
     font-size: 14px;
     margin-bottom: 24px;
+}
+
+.image-description {
+    @include img-description;
+    margin-top: -42px;
+}
+
+.image-description-transcript {
+    @include img-description;
+    margin-top: -12px;
 }
 
 .img-desktop {
