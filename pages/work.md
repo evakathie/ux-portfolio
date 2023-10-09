@@ -12,3 +12,7 @@ title: "My projects"
 </div>
 
 <ProjectList />
+
+<div class="align-center">
+    <router-link to="/pages/about.html" class="button">View my qualifications</router-link>
+</div>

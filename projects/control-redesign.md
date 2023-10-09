@@ -4,7 +4,7 @@ description: "Redesigning the controls for the D3 product family by Digitec GmBH
 image: '/images/control-redesign/control-redesign-header.png'
 imgmobile: '/images/control-redesign/control-redesign.png'
 competences: UI Design, FrontEnd Development
-tools: Adobe XD, CSS
+tools: Adobe XD, CSS, GitHub
 from: 'February 2020'
 to: 'April 2020'
 year: 2020
