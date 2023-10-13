@@ -18,11 +18,11 @@
                 </div>
           </router-link>
 
-            <router-link class="project" to="/projects/spotify-audiobooks.html" v-if="this.currentProject != 3">
-                 <img :src="'/images/spotify-audiobooks/audiobooks.png'" alt="">
+            <router-link class="project" to="/projects/user-knowledge-base.html" v-if="this.currentProject != 3">
+                 <img :src="'/images/user-knowledge-base/user-knowledge-base.png'" alt="">
                  <div class="text">
-                     <h3>Redesigning Spotify with audiobook listeners in mind</h3>
-                     <p>I used Design Thinking to empathize with audiobook listeners and create a prototype to integrate audiobooks into Spotify.</p>
+                     <h3>User Insights Knowledge Base to collect, interpret and leverage user data</h3>
+                     <p>The User Insights Knowledge Base project tackles the challenges of limited user contact and knowledge sharing at Digitec GmbH.</p>
                 </div>
             </router-link>
       </div>
