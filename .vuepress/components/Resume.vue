@@ -5,6 +5,7 @@
             <div class="timeline">
                 <div class="col-left">
                     <h3 class="highlighted-title timeline-left-title">Education</h3>
+                    <div class="resume-element-empty-small"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Masterʼs program in Information Studies</p>
@@ -45,7 +46,7 @@
                         </div>
                     </div>
                     <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty-small"></div>
+                    <div class="resume-element-empty"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Bachelorʼs program in Human-Computer-Interaction</p>
@@ -78,8 +79,18 @@
                 </div>
                 <div class="col-right">
                     <h3 class="highlighted-title timeline-right-title">Experience</h3>
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">since</p>
+                            <p class="from">12/2023</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Student Assistant<br/>UX Design &amp; Consulting</p>
+                            <p class="company"> {{ this.duration(2023, 12) }} &#11049; Novo Nordisk A/S, Copenhagen</p>
+                        </div>
+                    </div>
                     <div class="resume-element-empty"></div>
-                    <div class="resume-element-empty-small"></div>
+
                     <div class="resume-element">
                         <div class="time">
                             <p class="to">06/2023</p>
@@ -98,7 +109,7 @@
                             <p class="from">02/2019</p>
                         </div>
                         <div class="station">
-                            <p class="role">Working Student<br/>User Experience Design</p>
+                            <p class="role">Student Assistent<br/>User Experience Design</p>
                             <p class="company"> {{ this.duration(2019, 2, 2020, 9) }} &#11049; <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg</p>
                         </div>
                     </div>

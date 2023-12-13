@@ -19,7 +19,7 @@ title: "My creative hobbies"
 
 <img :src="'/images/play/be-fabulous-blog.png'" style="margin: 0" alt="Screenshots of the blog.">
 
-<p>I found my passion for blogging long before I became a Product Designer in 2012 when I started my blog “be-fabulous“. Back than it was really amateur, I hosted it on blogspot and it was more like a digital diary. But on my journey I expanded the blogs topics and learned a lot about writing, (product-) photography and also coding with HTML, CSS and in the end JavaScript. Now the blog is about Sustainability, Travel and Gardening and Iʼm self-hosting it since recreating the codebase with Vuepress.</p>
+<p>I found my passion for blogging long before I became a Product Designer when I started my blog “be-fabulous“ in 2012. Back than it was really amateur, I hosted it on blogspot and it was more like a digital diary. But on my journey I expanded the blogs topics and learned a lot about writing, (product-) photography and also coding with HTML, CSS and in the end JavaScript. Now the blog is about Sustainability, Travel and Gardening and Iʼm self-hosting it since recreating the codebase with Vuepress.</p>
 
 <div class="align-center">
 <a href="https://be-fabulous.de" class="button" target="blank">Visit be fabulous</a>
@@ -32,7 +32,7 @@ title: "My creative hobbies"
 
 <img :src="'/images/play/gardenplan-workbook.png'" style="margin: 0" alt="Screenshots of the garden plan workbook.">
 
-<p>After creating a garden plan for my balcony garden every year and searching for the same information over and over again - like sowing, cultivation, planting and harvesting times or optimal light and soil conditions (fertilization level) - I decided that this is a problem to be easily solved by a workbook. So I created a 22-page digital workbook in PDF format (in my native language german) that helps you to create your own garden plan in 10 easy steps.</p>
+<p>After creating a garden plan for my balcony garden every year and searching for the same information over and over again - like sowing, cultivation, planting and harvesting times or optimal light and soil conditions (fertilization level) - I decided that this is a problem to be easily solved by a workbook. So I created a 22-page digital workbook in PDF format (in my native language german) that helps to create your own garden plan in 10 easy steps. Afterwards I opened a online shop on Etsy to sell it.</p>
 
 <div class="align-center">
 <a href="https://www.etsy.com/de/listing/1178727258/digitales-workbook-erstelle-deinen?click_key=043cff259def0d534d2ef2ba4eedc7fc09dc34e7%3A1178727258&click_sum=761cb4d9&ref=shop_home_active_1" class="button" target="blank">View on Etsy</a>
