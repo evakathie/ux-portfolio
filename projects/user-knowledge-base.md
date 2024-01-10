@@ -158,10 +158,10 @@ company: 'Digitec'
 
 <h4>Test & Iterate</h4>
 
-<p>After creating the concept, we implemented it using Atlassian Jira. Now it was time to test the concept. For this we set up a <strong>weekly "UKB Inbox"-Meeting</strong> (UKB is our appriviation for User Insights Knowledge Base), where we went through data together to get a feeling for the process and work with our concept. After a few months we then did a <strong>Retrospective</strong> to get feedback from all the colleagues working with the User Insights Knowledge Base and continuously improved it. A few improvements we did over time:</p>
+<p>After creating the concept, we implemented it using Atlassian Jira. Now it was time to test the concept. For this we set up a <strong>weekly "UKB Inbox"-Meeting</strong> (UKB is our abbreviation for User Insights Knowledge Base), where we went through data together to get a feeling for the process and work with our concept. After a few months we then did a <strong>Retrospective</strong> to get feedback from all the colleagues working with the User Insights Knowledge Base and continuously improved it. A few improvements we did over time:</p>
 
 <ul>
-    <li>Introduction of metrics to make the data easier comparable</li>
+    <li>Introduction of automatically generated metrics (described below) to make the data easier comparable</li>
     <li>Including (already existing) Feature tickets into the Knowledge Base to improve the sometimes existing connection between user needs and existing Features</li>
 </ul>
 
@@ -169,7 +169,7 @@ company: 'Digitec'
 
 <h3>Theoretical concept</h3>
 
-<p>The general concept of the User Insights Knowledge Base is to take as much raw data, which is data from interactions or touchpoints with users — like protocols from user interviews, analytics data or emails from users — into the database and then derive more valuable data from it, like user insights, Personas or an Opportunity Solution Tree (which I will explain further).</p>
+<p>The general concept of the User Insights Knowledge Base is to take as much raw data, which is data from interactions or touchpoints with users — like protocols from user interviews, analytics data or emails from users — into the database and then derive more valuable data from it, like user insights, Personas or an Opportunity Solution Tree (which I will explain further below).</p>
 
 <p>Additionally, the User Insights Knowledge Base is kept searchable through keywords for every data point, links to other related data points and other important tags, like for our software the “User-Roles”. Since we have a b2b product family in the foreign exchange market, a user role for us would for example be “FX Trader” or “Trade Support”.</p>
 
@@ -195,7 +195,7 @@ company: 'Digitec'
 
 <img :src="'/images/user-knowledge-base/opportunity-solution-tree-terresa-torres.png'" alt="A tree structure with Outcome at the top and two levels of Opportunities as children the leaves (on the lowest level) are Solutions.">
 
-<p>On the first level are Outcomes, these are business outcomes that describe the business needs of the company. Below it are Opportunities on as many levels as needed, therefore one Opportunity can be the child of another opportunity and so forth. On the lowest levels are Solutions. We adapted the Opportunity Solution Tree as the main outcome of our User Insights Knowledge Base. For that we switched the Outcomes to our User Roles, which now form the head of the tree. Additionally, we included (Customer-) Requests on the same levels as the Solutions, since both describe possible solutions to an opportunity.</p>
+<p>On the first level are Outcomes, these are business outcomes that describe the business needs of the company. Below it are Opportunities on as many levels as needed, therefore one Opportunity can be the child of another opportunity and so forth. On the lowest levels are Solutions. We adapted the Opportunity Solution Tree as the main outcome of and as a structure for our User Insights Knowledge Base. For that we switched the Outcomes to our User Roles, which now form the head of the tree. Additionally, we included (Customer-) Requests on the same levels as the Solutions, since both describe possible solutions to an opportunity.</p>
 
 <img :src="'/images/user-knowledge-base/opportunity-solution-tree-digitec.png'" alt="A tree structure with Role at the top and two levels of Opportunities as children the leaves (on the lowest level) are Solutions or Requests.">
 
@@ -203,7 +203,7 @@ company: 'Digitec'
 
 <h4>Data Points</h4>
 
-<p>Before we get to into how this actually looks like in practical use, I want to dive a little deeper into the different data points we use in the User Insights Knowledge Base:</p>
+<p>Before we dive into how this actually looks like in practical use, I want to dive a little deeper into the different data points we use in the User Insights Knowledge Base:</p>
 
 <ul>
     <li><strong>Raw data</strong>: any data point about the user that is coming into the knowledge base e.g. emails from the support hotline, protocols of interviews, demos or support sessions, other research data or analytics data.</li>
@@ -215,7 +215,7 @@ company: 'Digitec'
 
 <h2>Realization with Atlassian Jira</h2>
 
-<p>Since Jira is a tool that is already adopted and widely used in the company, we also implemented the User Insights Knowledge Base with Jira. In principle, however, the basic concept presented here can also be implemented in any other tool.</p>
+<p>Since Jira is a tool that is already adopted and widely used in the company, we also implemented the User Insights Knowledge Base with Jira. In principle, however, the basic concept presented here can also be implemented in many other tools.</p>
 
 <h3>Issues Types and Links</h3>
 
@@ -284,7 +284,7 @@ company: 'Digitec'
 
 <ul>
     <li><strong>Raw Data Count</strong>: the number of raw data that is linked (“arises from”)</li>
-    <li><strong>Raw Data Count inherited</strong>: the number of that is linked directly or to any child-node (“is child of”/ “might be solved by”)</li>
+    <li><strong>Raw Data Count inherited</strong>: the number of raw data that is linked directly (“arises from”) or to any child-node (“is child of”/ “might be solved by”)</li>
     <li><strong>Unique Customers</strong>: all the Customer IDs from the linked Raw Data (“arises from”)</li>
     <li><strong>Unique Customers inherited</strong>: all the Customer IDs from the Raw Data that is linked directly or to any child-node</li>
     <li><strong>Unique Customer Count</strong>: the number of different customers of the linked raw data (= the counted unique customers)</li>

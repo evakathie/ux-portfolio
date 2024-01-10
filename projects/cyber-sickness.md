@@ -33,7 +33,7 @@ Supervisor: Paul Lubos</p>
 
 <HighlightedArea title="Summary of our Approach">
 <ol>
-    <li>Online research of the topic and related works</li>
+    <li>Online research of the topic and related work</li>
     <li>Defining of the structure for the study</li>
     <li>Development of a virtual world with Unity to conduct the study</li>
     <li>Creating a questionnaire to evaluate the tendency of participants to get sick during the usage of VR (“Sickness Tendency Questionnaire”) in collaboration with another research group</li>

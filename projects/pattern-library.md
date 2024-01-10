@@ -6,7 +6,7 @@ imgmobile: '/images/pattern-library/pattern-library.png'
 competences: Concept, UX Design, UI Design, Design System
 tools: Atlassian Confluence, Adobe XD
 from: 'October 2018'
-to: 'Dezember 2018'
+to: 'December 2018'
 year: 2018
 month: 12
 company: 'Digitec'
