@@ -86,7 +86,7 @@
                         </div>
                         <div class="station">
                             <p class="role">Student Assistant<br/>UX Design &amp; Consulting</p>
-                            <p class="company"> {{ this.duration(2023, 12) }} &#11049; Novo Nordisk A/S, Copenhagen (DK)</p>
+                            <p class="company"> {{ this.duration(2023, 12) }} &#11049; <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element-empty"></div>

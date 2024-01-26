@@ -3,7 +3,7 @@ title: "Digitec GmbH"
 from: 'October 2018'
 to: 'Juni 2023'
 competences: User Experience Design, Design Thinking, Prototyping, UI Design, Scrum
-tools: Adobe XD, Balsamiq, JIRA, Confluence
+tools: Adobe XD, Balsamiq, JIRA, Confluence, Miro
 ---
 
 <div class="page-header">
@@ -16,7 +16,7 @@ tools: Adobe XD, Balsamiq, JIRA, Confluence
 </div>
 
 <ProjectHeader :currentPage="this" :shortened="true">
-<p>In my role as <strong>Product Designer</strong> for Digitec GmbH (and before that as an intern and student worker), I was responsible for the usability and user interface of the D3 product family in close collaboration with three development teams and stakeholders. This included but was not limited to analyising the existing software regarding usability, iterative idea generation and concept development for new features and creating interactive prototypes. Furthermore, I introduced Design Thinking into the company and promoted user-centric product development in the company by developing a User Insights Knowledge Base.</p>
+<p>In my role as <strong>Product Designer</strong> for Digitec GmbH (and before that as an Intern and Student Assistant), I was responsible for the usability and user interface of the D3 product family in close collaboration with three development teams and stakeholders. This included but was not limited to analyising the existing software regarding usability, iterative idea generation and concept development for new features and creating interactive prototypes. Furthermore, I introduced Design Thinking into the company and promoted user-centric product development in the company by developing a User Insights Knowledge Base.</p>
 </ProjectHeader>
 
 <h2>My Projects at Digitec</h2>
