@@ -30,6 +30,11 @@ body {
     }
 }
 
+.wrapper-wide {
+    width: 80%;
+    margin: auto;
+}
+
 .wrapper-columns {
     display: flex;
     margin-bottom: 48px;
@@ -59,6 +64,32 @@ body {
             @media screen and (max-width: 600px) {
                 padding: 0;
                 margin-top: 48px;
+            }
+        }
+    }
+
+    .three-column {
+        width: 33%;
+        padding-right: 48px;
+
+        @media screen and (max-width: 600px) {
+            padding: 0;
+            margin-top: 48px;
+            width: 100%;
+        }
+
+        &:first-child {
+
+            @media screen and (max-width: 600px) {
+                margin-top: 0;
+            }
+        }
+
+        &:last-child {
+            padding-right: 0px;
+
+            @media screen and (max-width: 600px) {
+                padding-left: 0;
             }
         }
     }

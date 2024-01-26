@@ -19,7 +19,7 @@
                         <ul>
                             <li>HTML &#38; CSS</li>
                             <li>JavaScript (Basics)</li>
-                            <li>Java (Basics)</li>
+                            <li>R</li>
                         </ul>
                     </div>
                     <div class="col-right">

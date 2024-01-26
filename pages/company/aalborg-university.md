@@ -24,10 +24,10 @@ tools: R & R Studio, Loop11
 </ul>
 </ProjectHeader>
 
-<!--<h2>My Projects at University of Aalborg</h2>
+<h2>My Projects at University of Aalborg</h2>
 
 <ProjectList companyfilter="University of Aalborg"/>
 
 <div class="align-center">
     <router-link to="/pages/work.html" class="button">View all my projects</router-link>
-</div>-->
+</div>

@@ -10,10 +10,10 @@ title: "My creative hobbies"
     <img :src="'/images/play/play.jpg'" alt="A hand holding a camera.">
 </div>
 
-<div class="wrapper">
+<div class="wrapper-wide">
 <div class="wrapper-columns">
 
-<div class="two-column">
+<div class="three-column">
 
 <h2>“be fabulous“ Blog</h2>
 
@@ -27,7 +27,22 @@ title: "My creative hobbies"
 
 </div>
 
-<div class="two-column">
+<div class="three-column">
+
+<h2>“Rethink: Garten“ Book</h2>
+
+<img :src="'/images/play/rethink-garten-buch.png'" style="margin: 0" alt="Screenshots of the blog.">
+
+<p>Together the german publisher <em>Frech</em> (also known as "TOPP") that is known for it's guides for handicrafts, crafts and creative projects, I wrote and published a book about sustainable gardening. The german book is called "Rethink: Garten - DIYs und Lifehacks für nachhaltiges Gärtnern", it includes X chapters on 160 pages. I wrote the entire manuscript and took all the photos myself. The publisher took care of layout, editing, printing and publication. An edition of 5.000 books was printed as a softcover and published in February 2024.</p>
+
+<div class="align-center">
+<a href="https://amzn.to/3HfJozy" class="button" target="blank">Visit on Amazon</a>
+</div>
+
+</div>
+
+
+<div class="three-column">
 <h2>Garden Plan Workbook</h2>
 
 <img :src="'/images/play/gardenplan-workbook.png'" style="margin: 0" alt="Screenshots of the garden plan workbook.">
