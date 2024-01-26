@@ -5,10 +5,11 @@
               <router-link class="project" :to="project.path" v-for="project in filtered_projects">
                     <img :src="project.frontmatter.imgmobile" alt="">
                     <div class="text">
-                        <h3> {{ project.frontmatter.title }} </h3>
-                        <p> {{ project.frontmatter.description }} </p>
                         <p class="project-timeline" v-if="project.frontmatter.from && project.frontmatter.to">{{ project.frontmatter.from }} ➙ {{ project.frontmatter.to }}</p>
                         <p class="project-timeline" v-if="project.frontmatter.from && !project.frontmatter.to">{{ project.frontmatter.from }}</p>
+                        <h3> {{ project.frontmatter.title }} </h3>
+                        <p> {{ project.frontmatter.description }} </p>
+                        <ProjectFocus :focus="project.frontmatter.focus" />
                     </div>
               </router-link>
           </div>

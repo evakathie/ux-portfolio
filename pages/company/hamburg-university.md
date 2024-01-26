@@ -10,7 +10,7 @@ tools: HTML & CSS, JavaScript, Axure, SPSS
     <div class="text">
         <h1>University of Hamburg</h1>
         <p>The University of Hamburg is one of the oldest and largest universities in Germany, offering a world-class education in a wide range of disciplines, including computer science and psychology. The Computer Science department, where my course of study Human Computer Interaction was located, is renowned for its cutting-edge research and high-quality education programs.</p>
-        <a class="button" href="https://www.inf.uni-hamburg.de/studies/bachelor/mci.html#uhh-tabs-0_tab-1" target="blank">Visit study program website</a>
+        <a class="button" href="https://www.inf.uni-hamburg.de/studies/bachelor/mci.html" target="blank">Visit study program website</a>
     </div>
     <img :src="'/images/company/university-of-hamburg.jpg'" alt="">
 </div>

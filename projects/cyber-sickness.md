@@ -3,7 +3,8 @@ title: "Reducing Cyber Sickness in Virtual Reality"
 description: "Investigation of the reduction of cyber sickness in virtual reality by introducing a fixed point (helicopter cockpit)."
 image: '/images/cyber-sickness/cyber-sickness-header.png'
 imgmobile: '/images/cyber-sickness/cyber-sickness.png'
-competences: UX Research, Virtual Reality
+focus: User Research
+competences: User Research, Virtual Reality
 tools: Unity, Oculus Rift, SPSS
 from: 'October 2017'
 to: 'March 2018'

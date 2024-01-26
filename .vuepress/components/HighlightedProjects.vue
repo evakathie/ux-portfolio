@@ -7,6 +7,7 @@
                 <div class="text">
                     <h3>Creating the app Planeatary for a sustainable and healthy diet in everyday life</h3>
                     <p>Planeatary is a mobile app designed to support users to follow a healthy and environmentally friendly diet.</p>
+                    <ProjectFocus focus="UX Design, FrontEnd Development"/>
                 </div>
           </router-link>
 
@@ -15,6 +16,7 @@
                 <div class="text">
                     <h3>The usability of Cookie Notices — Eye-tracking study</h3>
                     <p>I conducted an eye-tracking study to investigate the usability of common types of cookie notices, and designed a prototype for better usability.</p>
+                    <ProjectFocus focus="User Research"/>
                 </div>
           </router-link>
 
@@ -23,6 +25,7 @@
                  <div class="text">
                      <h3>User Insights Knowledge Base to collect, interpret and leverage user data</h3>
                      <p>The User Insights Knowledge Base project tackles the challenges of limited user contact and knowledge sharing at Digitec GmbH.</p>
+                     <ProjectFocus focus="User Research, Product Management"/>
                 </div>
             </router-link>
       </div>

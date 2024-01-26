@@ -415,6 +415,9 @@ li {
         border: 1px solid color(color);
         background: color(color_hover);
 
+        .project-focus {
+            background: color(color);
+        }
     }
 
     &:first-of-type {
@@ -451,8 +454,8 @@ li {
         flex: 2;
 
         .project-timeline {
-            font-size: 14px;
-            font-style: italic;
+            font-size: 12px;
+            padding-top: 0px;
         }
 
         p {

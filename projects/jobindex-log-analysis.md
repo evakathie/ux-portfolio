@@ -3,6 +3,7 @@ title: "Investigating the Search Behavior of Recruiters"
 description: "Performing a log analysis to investigate the search behavior of recruiters using the platform Jobindex."
 image: '/images/jobindex-log-analysis/jobindex-log-analysis-header.png'
 imgmobile: '/images/jobindex-log-analysis/jobindex-log-analysis.png'
+focus: User Research
 competences: User Research, Quantitative Research, Log Analysis
 tools: R Studio, R
 from: 'Oktober 2023'

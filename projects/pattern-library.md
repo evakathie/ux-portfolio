@@ -3,6 +3,7 @@ title: "Creating a Pattern Library"
 description: "Creation of a comprehensive pattern library for the D3 product family of Digitec GmbH, for documentation and standardization of used design patterns."
 image: '/images/pattern-library/pattern-library-header.png'
 imgmobile: '/images/pattern-library/pattern-library.png'
+focus: UI Design
 competences: Concept, UX Design, UI Design, Design System
 tools: Atlassian Confluence, Adobe XD
 from: 'October 2018'

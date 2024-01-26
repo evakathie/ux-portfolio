@@ -3,7 +3,8 @@ title: "Investigating the Usability of Cookie Notices"
 description: "I conducted an eye tracking study in an experimental setup to investigate the usability of common types of cookie notices, and designed a prototype for better usability."
 image: '/images/cookie-notices/cookie-notices-header.png'
 imgmobile: '/images/cookie-notices/cookie-notices.png'
-competences: UX Research, Eye tracking, Prototyping, Web Development
+focus: User Research
+competences: User Research, Eye tracking, Prototyping, Web Development
 tools: Tobii Studio, Microsoft Excel, SPSS, HTML & CSS, Sketch
 from: 'November 2019'
 to: 'September 2020'

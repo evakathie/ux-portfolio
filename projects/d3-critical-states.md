@@ -3,7 +3,8 @@ title: "Improving Critical States User Flow"
 description: "Improving the usability of the important “Critical States” feature in the foreign exchange pricing software D3 Sheets by Digitec GmBH."
 image: '/images/d3-critical-states/d3-critical-states-header.png'
 imgmobile: '/images/d3-critical-states/d3-critical-states.png'
-competences: Design Thinking, UI Design
+focus: UX Design, UI Design
+competences: Design Thinking, User Journey Mapping, UI Design
 tools: Adobe XD
 from: 'July 2020'
 to: 'October 2020'
