@@ -9,7 +9,7 @@
                         <p class="project-timeline" v-if="project.frontmatter.from && !project.frontmatter.to">{{ project.frontmatter.from }}</p>
                         <h3> {{ project.frontmatter.title }} </h3>
                         <p> {{ project.frontmatter.description }} </p>
-                        <ProjectFocus :focus="project.frontmatter.focus" />
+                        <ProjectFocus :focus="project.frontmatter.focus" :domain="project.frontmatter.domain"/>
                     </div>
               </router-link>
           </div>

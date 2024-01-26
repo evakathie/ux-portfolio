@@ -1,6 +1,7 @@
 <template>
-  <div class="project-focus-areas">
-      <div class="project-focus" v-for="focus in focus_areas">{{ focus }}</div>
+  <div class="project-focus">
+         <div class="project-focus-batch" v-for="focus in focus_areas">{{ focus }}</div>
+         <div class="project-focus-batch project-domain" v-for="domain in domains"> {{ domain }}</div>
   </div>
 </template>
 
@@ -13,13 +14,23 @@ export default {
         type: String,
         required: true,
       },
+      domain: {
+          type: String,
+          required: false,
+      }
     },
 
     computed: {
 
         focus_areas(){
           return this.focus.split(",")
-          }
+        },
+
+        domains(){
+            if (this.domain) {
+                return this.domain.split(",")
+            }
+        }
     }
 }
 </script>
@@ -28,18 +39,25 @@ export default {
   @import '~styles/colors';
   @import '~styles/fonts';
 
-  .project-focus-areas{
+  .project-focus{
       display: flex;
+      margin: 6px 0px 6px 0px;
 
-      .project-focus {
-          background: color(color_light);
+      .project-focus-batch {
+          background: color(color);
           color: color(white);
+          border-radius: 16px;
+
           font-weight: normal;
           font-size: 12px;
           text-transform: uppercase;
+
           padding: 6px 12px 6px 12px;
-          margin: 12px 6px 0px 0px;
-          border-radius: 16px;
+          margin-right: 6px;
+      }
+
+      .project-domain {
+          background: color(color_light)
       }
   }
 

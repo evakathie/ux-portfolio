@@ -9,6 +9,7 @@
                 <div class="wrapper">
                     <div class="col-left">
                         <h2 class="highlighted-title" v-if="!this.shortened">Overview</h2>
+                        <ProjectFocus v-if="!this.shortened" :focus="this.current.frontmatter.focus" :domain="this.current.frontmatter.domain" />
                         <slot></slot>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && this.current.frontmatter.to">{{ this.current.frontmatter.from }} ➙ {{ this.current.frontmatter.to }}</p>
                         <p class="project-timeline" v-if="this.current.frontmatter.from && !this.current.frontmatter.to">{{ this.current.frontmatter.from }}</p>

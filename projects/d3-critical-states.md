@@ -4,8 +4,9 @@ description: "Improving the usability of the important “Critical States” fea
 image: '/images/d3-critical-states/d3-critical-states-header.png'
 imgmobile: '/images/d3-critical-states/d3-critical-states.png'
 focus: UX Design, UI Design
+domain: Desktop
 competences: Design Thinking, User Journey Mapping, UI Design
-tools: Adobe XD
+tools: Adobe XD, Miro
 from: 'July 2020'
 to: 'October 2020'
 year: 2020

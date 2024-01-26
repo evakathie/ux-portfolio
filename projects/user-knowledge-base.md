@@ -4,7 +4,7 @@ description: "Creating a User Insights Knowledge Base to keep track of research 
 image: '/images/user-knowledge-base/user-knowledge-base-header.png'
 imgmobile: '/images/user-knowledge-base/user-knowledge-base.png'
 focus: User Research, Product Management
-competences: User Research, Design Thinking, Workshop Facilitation, UX Design, Stakeholder Management
+competences: Design Thinking, Workshop Facilitation, UX Design, Stakeholder Management
 tools: Atlassian Jira, Miro
 from: 'August 2021'
 to: 'June 2023'

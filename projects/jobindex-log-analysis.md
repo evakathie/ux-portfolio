@@ -4,12 +4,13 @@ description: "Performing a log analysis to investigate the search behavior of re
 image: '/images/jobindex-log-analysis/jobindex-log-analysis-header.png'
 imgmobile: '/images/jobindex-log-analysis/jobindex-log-analysis.png'
 focus: User Research
-competences: User Research, Quantitative Research, Log Analysis
+domain: Web
+competences: Quantitative Research, Log Analysis, User Journey Mapping, Data Visualization
 tools: R Studio, R
 from: 'Oktober 2023'
 to: 'January 2024'
-year: 2023
-month: 12
+year: 2024
+month: 1
 company: 'University of Aalborg'
 ---
 

@@ -4,7 +4,8 @@ description: "Creation of a comprehensive pattern library for the D3 product fam
 image: '/images/pattern-library/pattern-library-header.png'
 imgmobile: '/images/pattern-library/pattern-library.png'
 focus: UI Design
-competences: Concept, UX Design, UI Design, Design System
+domain: Desktop
+competences: Concept, Design System, Documentation
 tools: Atlassian Confluence, Adobe XD
 from: 'October 2018'
 to: 'December 2018'

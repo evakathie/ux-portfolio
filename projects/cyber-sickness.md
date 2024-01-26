@@ -4,7 +4,8 @@ description: "Investigation of the reduction of cyber sickness in virtual realit
 image: '/images/cyber-sickness/cyber-sickness-header.png'
 imgmobile: '/images/cyber-sickness/cyber-sickness.png'
 focus: User Research
-competences: User Research, Virtual Reality
+domain: Virtual Reality
+competences: Quantitave Research, Qualitative Research, Research Design, Survey Design
 tools: Unity, Oculus Rift, SPSS
 from: 'October 2017'
 to: 'March 2018'

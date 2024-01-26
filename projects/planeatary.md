@@ -3,7 +3,8 @@ title: "Creating the app Planeatary"
 description: "Planeatary is a mobile app designed to support users to follow a healthy and environmentally friendly diet."
 image: '/images/planeatary/planeatary-header.png'
 imgmobile: '/images/planeatary/planeatary.png'
-focus: UX Design, FrontEnd Development
+focus: UX Design, Frontend Development
+domain: Mobile
 competences: Concept, UX Design, Prototyping, Usability Testing, App Development
 tools: Figma, HTML & CSS, JavaScript
 from: 'March 2019'
