@@ -3,7 +3,7 @@ title: "Investigating the Search Behavior of Recruiters"
 description: "Performing a log analysis to investigate the search behavior of recruiters using the platform Jobindex."
 image: '/images/jobindex-log-analysis/jobindex-log-analysis-header.png'
 imgmobile: '/images/jobindex-log-analysis/jobindex-log-analysis.png'
-focus: User Research
+focus: User Research, Data Science
 domain: Web
 competences: Quantitative Research, Log Analysis, User Journey Mapping, Data Visualization
 tools: R Studio, R
@@ -25,7 +25,6 @@ company: 'University of Aalborg'
 
 <p>Selecting the right candidate for a position is essential to ensure the success of a business. However, finding appropriate candidates for an open position is a costly and time-consuming issue for many businesses. Recruiters use some of the most complex queries of any community, using a wide range of different expressions and actively cultivate their skills to formulate and optimise these expressions. In this academic project as part of my Master's degree in Information Science, I worked with 4 fellow students to investigate the search behavior of recruiters, with a particular focus on the industry in which they search for relevant candidates. I chose this project because it involves quantitative research and log data - a data source that is often overlooked by many UX researchers, but has great potential. Furthermore, this project contains real data from real users, which makes the whole project a highly relevant insight into user research.</p>
 
-<!-- TODO: Picture -->
 <img :src="'/images/jobindex-log-analysis/jobindex-log-analysis-title-pic.png'" alt="">
 
 </div>
@@ -144,7 +143,7 @@ company: 'University of Aalborg'
 
 <img :src="'/images/jobindex-log-analysis/jobs-per-industry.png'" alt="">
 <GraphicTranscript>
-<!-- TODO -->
+<p>Visualization of the jobs per industry in the data set as a bar chart. More than 25% of the jobs are in the Wholesale and retail trade industry. More than 20% are in the Real estate industry and over 10% in Consultancy etc. All the other industries are between 0% and 10%. The lowest number of jobs is in Oil refinery etc. and Mining and quarrying.</p>
 </GraphicTranscript>
 
 <h3>Problem formulation</h3>
@@ -211,10 +210,10 @@ using the Jobindex search engine varies based on the industry?" />
 &#35 Calculate the number of contacted candidates per job<br />
 &#35 and then an average for each industry</p>
 <p>contacted_candidates <- industry_response_data %>%<br />
-  &nbsp; &nbsp; group_by(JOB_ID, INDUSTRY_SECTOR_NAME_EN, INDUSTRY_TOP_LEVEL) %>%<br />
-  &nbsp; &nbsp; summarise(N_CONTACTED_CANDIDATES = n_distinct(CV_ID)) %>%<br />
-  &nbsp; &nbsp; group_by(INDUSTRY_SECTOR_NAME_EN, INDUSTRY_TOP_LEVEL) %>%<br />
-  &nbsp; &nbsp; summarise(MEAN_CONTACTED_CANDIDATES = mean(N_CONTACTED_CANDIDATES))</p>
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>group_by(JOB_ID, INDUSTRY_SECTOR_NAME_EN, INDUSTRY_TOP_LEVEL) %>%<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>summarise(N_CONTACTED_CANDIDATES = n_distinct(CV_ID)) %>%<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>group_by(INDUSTRY_SECTOR_NAME_EN, INDUSTRY_TOP_LEVEL) %>%<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>summarise(MEAN_CONTACTED_CANDIDATES = mean(N_CONTACTED_CANDIDATES))</p>
 <p class="code-comment">
 &#35 Descriptive statistics on the number of contacted candidates per industry<br />
 &#35 Average, median, standard deviation, minimum, maximum</p>
@@ -228,14 +227,14 @@ sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
 <p class="code-comment">
 &#35 Bar chart visualizing the mean number of contacted candidates per industry</p>
 <p>contacted_candidates %>%<br />
-  &nbsp; &nbsp; ggplot(aes(y = reorder(INDUSTRY_SECTOR_NAME_EN, MEAN_CONTACTED_CANDIDATES), x = MEAN_CONTACTED_CANDIDATES)) + <br />
-  &nbsp; &nbsp; geom_col(fill = 'lightskyblue4') +<br />
-  &nbsp; &nbsp; theme_minimal() +<br />
-  &nbsp; &nbsp; labs(<br />
-    &nbsp; &nbsp; &nbsp; &nbsp; title = "Mean Number of Contacted Candidates per Job",<br />
-    &nbsp; &nbsp; &nbsp; &nbsp; x = "Contacted Candidates (Mean)",<br />
-    &nbsp; &nbsp; &nbsp; &nbsp; y = "Industry",<br />
-  &nbsp; &nbsp; )</p>
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>ggplot(aes(y = reorder(INDUSTRY_SECTOR_NAME_EN, MEAN_CONTACTED_CANDIDATES), x = MEAN_CONTACTED_CANDIDATES)) + <br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>geom_col(fill = 'lightskyblue4') +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>theme_minimal() +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>labs(<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>title = "Mean Number of Contacted Candidates per Job",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>x = "Contacted Candidates (Mean)",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>y = "Industry",<br />
+  <span class="mobile-display-none">&nbsp; &nbsp; </span>)</p>
 </CodeBlock>
 
 <p>On average across all industries, 22,09 candidates were contacted per job, with a median of 22,19 and a standard deviation of 1,52. However, differences between the industry sectors can be recognised - I will not dive into the specific numbers here, but move on to my interpretation. To see the specific results please see the bar chart and textual representation of it, below.</p>
@@ -311,8 +310,8 @@ sd(responses_per_industry$TOTAL_RESPONSES_PCT)</p>
 &#35 in total numbers (RESPONSE_COUNT) and percent (RESPONSE_PERCENT)
 </p>
 <p>responses_per_type <- industry_response_data %>% group_by(INDUSTRY_SECTOR_NAME_EN, INDUSTRY_TOP_LEVEL, RESPONSE_TYPE_TXT) %>%<br />
-  &nbsp; &nbsp;summarise(RESPONSE_COUNT = n()) %>%<br />
-  &nbsp; &nbsp;mutate(RESPONSE_PERCENT = RESPONSE_COUNT / sum(RESPONSE_COUNT) * 100)
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>summarise(RESPONSE_COUNT = n()) %>%<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>mutate(RESPONSE_PERCENT = RESPONSE_COUNT / sum(RESPONSE_COUNT) * 100)
 </p>
 <!--<p class="code-comment">
 &#35 Table showing only the number of<br />
@@ -342,18 +341,18 @@ responses_per_type %>% filter(RESPONSE_TYPE_TXT == "Positive Response") %>% view
 &#35 different fills for the type of response (positive, negative, none)</p>
 <p>
 responses_per_type %>%<br />
-  &nbsp; &nbsp;ggplot(aes(y = reorder(INDUSTRY_SECTOR_NAME_EN, TOTAL_RESPONSES_PCT),<br />
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x = RESPONSE_PERCENT, fill = RESPONSE_TYPE_TXT)) +<br />
-  &nbsp; &nbsp;geom_col() +<br />
-  &nbsp; &nbsp;facet_wrap(vars(RESPONSE_TYPE_TXT)) +<br />
-  &nbsp; &nbsp;theme_minimal() +<br />
-  &nbsp; &nbsp;scale_fill_manual(values = c("#912828", "#56758B", "#5F6F52"))+<br />
-  &nbsp; &nbsp;labs(<br />
-    &nbsp; &nbsp; &nbsp; &nbsp;title = "Percentage of Responses per Response Type per Industry",<br />
-    &nbsp; &nbsp; &nbsp; &nbsp;x = "Responses (in %)",<br />
-    &nbsp; &nbsp; &nbsp; &nbsp;y = "Industry",<br />
-    &nbsp; &nbsp; &nbsp; &nbsp;fill = "Response Type"<br />
-  &nbsp; &nbsp;)</p>
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>ggplot(aes(y = reorder(INDUSTRY_SECTOR_NAME_EN, TOTAL_RESPONSES_PCT),<span class="mobile-display-none"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>x = RESPONSE_PERCENT, fill = RESPONSE_TYPE_TXT)) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_col() +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>facet_wrap(vars(RESPONSE_TYPE_TXT)) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>theme_minimal() +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_fill_manual(values = c("#912828", "#56758B", "#5F6F52"))+<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>labs(<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>title = "Percentage of Responses per Response Type per Industry",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>x = "Responses (in %)",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>y = "Industry",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>fill = "Response Type"<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>)</p>
 </CodeBlock>
 
 <p>Above all industries the average of <strong>positive responses</strong> was 8,97%, with a median of 8,96% and a standard deviation of 1,16%. There are some smaller visible differences between industries, as you can see in the chart below and in more detail the textual description of the graphic. Differences in the number of positive responses could either be explained by successful communication and selection of candidates by the recruiters or through different market dynamics. One noticeable insight is that four of the ten industries with the most positive responses
@@ -390,29 +389,29 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 <CodeBlock language="R">
 <p class="code-comment">
 &#35 Add colors to visualize the different industries</p>
-<p>industry_colors <- c("#5E4400", "#7E0000", "#429B46", "#565E00", "#00237E", "#8F9779", "#C45656", "#E6BC26", "#0038C9",<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"#008080","#58BEBE", "#E37A00", "#7E0072", "#0047FF", "#356EFF", "#779DFF", "#AFC6FF", "#AAB5D2",<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"#8590AC", "#EA91D1", "#BEBEBE", "#A6814C", "#4E5566", "#907799", "#AF48A5", "#EED8AE", "#FFA53C",<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"#FC7171", "#E386D9", "#808080", "#414141", "#4F0768", "#778899", "#D77979", "#895FBF", "#000000")</p>
+<p>industry_colors <- c("#5E4400", "#7E0000", "#429B46", "#565E00", "#00237E", "#8F9779", "#C45656", "#E6BC26", "#0038C9",<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#008080","#58BEBE", "#E37A00", "#7E0072", "#0047FF", "#356EFF", "#779DFF", "#AFC6FF", "#AAB5D2",<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#8590AC", "#EA91D1", "#BEBEBE", "#A6814C", "#4E5566", "#907799", "#AF48A5", "#EED8AE", "#FFA53C",<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#FC7171", "#E386D9", "#808080", "#414141", "#4F0768", "#778899", "#D77979", "#895FBF", "#000000")</p>
 
 <p class="code-comment">
 &#35 Add shapes for better readability</p>
-<p>industry_shapes <- c(16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15)</p>
+<p>industry_shapes <- c(16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15,<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15)</p>
 
 <p class="code-comment">&#35 Create a plot with the datapoints of the industries and the linear correlation line</p>
 <p>ggplot(rq5_data, aes(x = MEAN_CONTACTED_CANDIDATES, y = TOTAL_RESPONSES_PCT,<br />
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;color = INDUSTRY_SECTOR_NAME_EN, shape = INDUSTRY_SECTOR_NAME_EN)) +<br />
-  &nbsp; &nbsp;geom_point(size = 4, alpha = 0.8) +<br />
-  &nbsp; &nbsp;geom_smooth(aes(group = 1), method = "lm", se = FALSE, col = "#56758B") +<br />
-  &nbsp; &nbsp;labs(<br />
-    &nbsp; &nbsp;&nbsp; &nbsp;x = "Mean Number of Contacted Candidates",<br />
-    &nbsp; &nbsp;&nbsp; &nbsp;y = "Total Number of Responses (in %)",<br />
-    &nbsp; &nbsp;&nbsp; &nbsp;title = "Contacted Candidates vs. Response Rate"<br />
-  &nbsp; &nbsp;) +<br />
-  &nbsp; &nbsp;scale_color_manual(name = "Industry", values = industry_colors) +<br />
-  &nbsp; &nbsp;scale_shape_manual(name = "Industry", values = industry_shapes) +<br />
-  &nbsp; &nbsp;theme_minimal()</p>
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>color = INDUSTRY_SECTOR_NAME_EN, shape = INDUSTRY_SECTOR_NAME_EN)) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_point(size = 4, alpha = 0.8) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_smooth(aes(group = 1), method = "lm", se = FALSE, col = "#56758B") +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>labs(<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>x = "Mean Number of Contacted Candidates",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>y = "Total Number of Responses (in %)",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>title = "Contacted Candidates vs. Response Rate"<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_color_manual(name = "Industry", values = industry_colors) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_shape_manual(name = "Industry", values = industry_shapes) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>theme_minimal()</p>
 </CodeBlock>
 
 <p>The number of contacted candidates and the percentage of total responses per industry show a moderate correlation. This means that as the number of candidates contacted increases, the overall response rate also rises noticeably and the other way around.</p>
@@ -441,17 +440,25 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 
 <p>In our first research question, we investigated how the filter usage by recruiters differs between various industries. We found differences in the overall filter usage per industry as well as in which specific filters the recruiters use in various industries. These differences can not only be influenced by the nature of the industry but also by the nature and requirements of the job offer, recruiters’ preferences and experience. This shows that the industry influences the recruiters’ search behaviour in terms of filter usage, indicating that industries have varying needs. We found that filters that provide autogenerated results are used the most by each industry, thus speeding up and easing the process.</p>
 
+<img :src="'/images/jobindex-log-analysis/research-question-1.png'" alt="">
+
 <h4>RQ2: Search Query Complexity</h4>
 
 <p>The second research question examined the complexity of the search queries by the recruiters between the industries. We observed differences between the industries in all our measures of complexity, the mean number of unique queries, the mean character count, the mean unique search terms as well as the usage of Boolean operators and wildcards. This leads us to confirm that Jobindex recruiters perform professional searches throughout the recruitment process. Additionally, our results indicate that recruiters in different industries need varying skills and showcase different needs of complexity in terms of search queries.</p>
+
+<img :src="'/images/jobindex-log-analysis/research-question-2.png'" alt="">
 
 <h4>RQ3: Time spent on Recruiting</h4>
 
 <p>Our third research question investigated how the time spent on recruiting, as well as the usage of different service types offered by Jobindex - that vary in the time that recruiters spend on the search -, vary between different industries. Again, we found differences between the various industries in both metrics. The mean time spent on a search for relevant candidates indicates that recruiters have varying needs on how much time it takes to find relevant candidates across different industries.</p>
 
+<img :src="'/images/jobindex-log-analysis/research-question-3.png'" alt="">
+
 <h4>RQ4: Seasonality Patterns</h4>
 
 <p>In our fourth research question, we examined the impact of seasonality on recruitment across industries. We observed different patterns on how the seasonality impacts the performed search sessions. While some industries showed a more stable amount of search sessions throughout the year with only smaller peaks or lows, others had considerably high amounts of differences between the months. One common pattern was also an increase in performed search sessions towards the end of the year. This indicates, that the industry for which a search is performed, aects the search behaviour of the recruiters regarding seasonality.</p>
+
+<img :src="'/images/jobindex-log-analysis/research-question-4.png'" alt="">
 
 <h4>RQ5: Contacted Candidates & Response Rates</h4>
 
@@ -466,12 +473,25 @@ whether the answer given is positive or negative.</p>
 
 </div>
 
-<!-- TODO -->
-<!--
+
 <HighlightedArea title="Short Conclusion of the Research">
 <ul>
     <li>There are differences in the industries across all research questions</li>
-    <li></li>
+    <li>After looking at all of our metrics, the below industries stood out and we drew the following conclusions:
+        <ul>
+            <li><strong>Agriculture, forestry and fishing</strong>: The complexity of the queries in combination with the low filter usage and the low number of contacted candidates leads us to the assumption, that there might not be many candidates in this industry.</li>
+            <li><strong>Electricity, gas, steam etc.</strong>: It seems to be difficult for this industry to find qualified candidates, which is reflected in the complex queries and the high level of filtering. This could also explain why few candidates were contacted and the low response rate supports this.</li>
+            <li><strong>Manufacture of chemicals</strong>: This industry stands out because recruiters in this industry perform complex searches and use many filters, but still spend little time and are very successful in their inquiries.</li>
+            <!--<li><strong>Mining and quarrying</strong>: we assume that it is hard for this industry to find qualified candidates.</li>-->
+            <li><strong>Oil refinery etc.</strong>: The data shows that despite the high level of complexity, little time is spent on recruiting and not many positive responses are received. This could be explained by a lack of candidates in this industry.</li>
+            <li><strong>Pharmaceuticals</strong>: The data shows that the Pharmaceuticals industry might have high requirements for candidates, which can be seen in the complexity of the queries and the filter usage, while there might be not many available candidates, which explains the low number of contacted candidates as well as the low time spent on recruitment.</li>
+            <li><strong>Real estate</strong>: The industry is noteworthy because it is the most stable industry in all the research questions. Recruiters seem to be able to find a sufficient amount of candidates without a higher-than-average effort for recruiting.</li>
+            <li><strong>Residential care</strong>: We suspect that there are not many candidates for too many vacancies in this sector.</li>
+            <li><strong>Telecommunications</strong>: There might be a lot of available candidates in the Telecommunications industry so that recruiters do not have to spend a lot of time and effort on their searches.</li>
+            <li><strong>Textiles and leather products</strong>: The industry shows a strong commitment from candidates with diverse responses, which, together with the high time spent, could be an indicator of a strategic approach to recruitment.</li>
+            <!--<li><strong>Wood and paper products and printing</strong>: our data leads us to the assumption that it might be easy in the Wood and paper products and printing to find relevant candidates.</li>-->
+        </ul>
+    </li>
 </ul>
 </HighlightedArea>
 
@@ -479,13 +499,17 @@ whether the answer given is positive or negative.</p>
 
 <h3>Implications</h3>
 
+<p>Our analysis of a high amount of data reveals many interesting insights into the field of professional search and especially the recruiter search behaviour. Even though it would be helpful to enrich our data with qualitative research like user interviews or a usability test of the Jobindex search interface, it has many interesting implications:</p>
+
 <ul>
-    <li>Improving search interfaces</li>
-    <li>Search strategies &amp; domain knowledge</li>
-    <li>Discover trends/ issues in industries</li>
+    <li><strong>UX Design</strong>: Improving search interfaces for recruiters</li>
+    <li><strong>For Recruiters</strong>: Learning the importance of Search strategies &amp; domain knowledge</li>
+    <li><strong>Industry Knowledge</strong>: Discover trends/ issues in industries</li>
 </ul>
 
 <img class="img-desktop" :src="'/images/jobindex-log-analysis/sharktank_presentation.png'" alt="">
 <img class="img-mobile" :src="'/images/jobindex-log-analysis/sharktank_presentation-mobile.png'" alt="">
--->
+
+<p class="image-description">Our presentation slides for a 5 minutes Shark Tank presentation at the university, with the goal to summarize our project for our fellow students in a non-scientific way.</p>
+
 </div>

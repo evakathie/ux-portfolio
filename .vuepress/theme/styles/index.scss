@@ -232,6 +232,8 @@ img {
     }
 }
 
+/* Mobile */
+
 .img-mobile {
     display: none;
 
@@ -239,6 +241,14 @@ img {
         display: block;
     }
 }
+
+.mobile-display-none {
+
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
 
 /* Headings */
 
@@ -482,9 +492,4 @@ li {
           padding: 24px;
       }
     }
-}
-
-.project-link {
-
-
 }
