@@ -41,23 +41,32 @@ export default {
 
   .project-focus{
       display: flex;
-      margin: 6px 0px 6px 0px;
+      flex-wrap: wrap;
+      margin: 2px 0px 6px 0px;
 
       .project-focus-batch {
           background: color(color);
           color: color(white);
           border-radius: 16px;
 
+          display: flex;
+          align-items: center;
+          text-align: center;
+
           font-weight: normal;
           font-size: 12px;
           text-transform: uppercase;
 
           padding: 6px 12px 6px 12px;
-          margin-right: 6px;
+          margin: 4px 6px 0px 0px;
       }
 
       .project-domain {
           background: color(color_light)
+      }
+
+      @media screen and (max-width: 600px) {
+
       }
   }
 
