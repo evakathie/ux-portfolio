@@ -16,14 +16,14 @@ company: 'University of Aalborg'
 
 <ProjectHeader :currentPage="this">
 
-<p>Together with four fellow students, I performed a Log Analysis to investigate the search behavior of recruiters using the Danish platform Jobindex, as a semester project in my master's degree at <router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>. Using a donated dataset with real log data of search queries from recruiters working for Jobindex, we performed a log analysis to better understand the search behavior of recruiters.</p>
+<p>Together with four fellow students, I performed a Log Analysis to investigate the search behavior of recruiters using the Danish platform Jobindex, as a semester project in my masterʼs degree at <router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>. Using a donated dataset with real log data of search queries from recruiters working for Jobindex, we performed a log analysis to better understand the search behavior of recruiters.</p>
 <p>Supervisor: Mesut Kaya</p>
 
 </ProjectHeader>
 
 <div class="wrapper">
 
-<p>Selecting the right candidate for a position is essential to ensure the success of a business. However, finding appropriate candidates for an open position is a costly and time-consuming issue for many businesses. Recruiters use some of the most complex queries of any community, using a wide range of different expressions and actively cultivate their skills to formulate and optimise these expressions. In this academic project as part of my Master's degree in Information Science, I worked with 4 fellow students to investigate the search behavior of recruiters, with a particular focus on the industry in which they search for relevant candidates. I chose this project because it involves quantitative research and log data - a data source that is often overlooked by many UX researchers, but has great potential. Furthermore, this project contains real data from real users, which makes the whole project a highly relevant insight into user research.</p>
+<p>Selecting the right candidate for a position is essential to ensure the success of a business. However, finding appropriate candidates for an open position is a costly and time-consuming issue for many businesses. Recruiters use some of the most complex queries of any community, using a wide range of different expressions and actively cultivating their skills to formulate and optimize these expressions. In this academic project as part of my Masterʼs degree in Information Science, I worked with 4 fellow students to investigate the search behavior of recruiters, with a particular focus on the industry in which they search for relevant candidates. I chose this project because it involves quantitative research and log data - a data source that is often overlooked by many UX researchers but has great potential. Furthermore, this project contains real data from real users, which makes the whole project a highly relevant insight into user research.</p>
 
 <img :src="'/images/jobindex-log-analysis/jobindex-log-analysis-title-pic.png'" alt="">
 
@@ -32,7 +32,7 @@ company: 'University of Aalborg'
 <HighlightedArea title="Summary of our Approach">
 <ol>
     <li>Getting an overview of the data set and the information it contains</li>
-    <li>Online research on recruiters and the recruitment process, general information seeking behavior and related work</li>
+    <li>Online research on recruiters and the recruitment process, general information seeking behavior, and related work</li>
     <li>Definition of the problem formulation and research questions</li>
     <li>Iterative Log Analysis using R in the software R Studio</li>
     <li>Interpretation of the results regarding the different research questions and particularly outstanding industries</li>
@@ -49,12 +49,12 @@ company: 'University of Aalborg'
 
 <InfoBox>
 <h2>Jobindex</h2>
-<p>Jobindex is Denmark's largest job portal that includes both a job searching plattform for jobseekers as well as recruitment services for companies. Jobindex’s business model is that external companies commission Jobindex recruiters to conduct a talent search using their search engine, that includes a CV database of registered jobseekers. The business model offers two different types of this service, called matching and recruiting. In matching, the recruiters take 60 minutes to search for suitable candidates and shortlist them. With recruiting, there is no time limit and the search lasts as long as it takes to find enough suitable candidates. The two services differ in the prices offered to the external company.</p>
+<p>Jobindex is Denmarkʼs largest job portal that includes both a job searching platform for job seekers as well as recruitment services for companies. Jobindex’s business model is that external companies commission Jobindex recruiters to conduct a talent search using their search engine, which includes a CV database of registered job seekers. The business model offers two different types of this service, called matching and recruiting. In matching, the recruiters take 60 minutes to search for suitable candidates and shortlist them. With recruiting, there is no time limit and the search lasts as long as it takes to find enough suitable candidates. The two services differ in the prices offered to the external company.</p>
 </InfoBox>
 
 <h4>Information Seeking Behavior</h4>
 
-<p>To examine the search behavior of recruiters, it was essential for us to understand information seeking behavior in general and prior finds on search behavior of recruiters. This is a short summary of what we found, to give a context:</p>
+<p>To examine the search behavior of recruiters, it was essential for us to understand information seeking behavior in general and prior finds on the search behavior of recruiters. This is a short summary of what we found, to give context:</p>
 
 <img class="img-small-40" :src="'/images/jobindex-log-analysis/information-need-iceberg.png'" alt="">
 <GraphicTranscript>
@@ -66,7 +66,7 @@ company: 'University of Aalborg'
 </ul>
 </GraphicTranscript>
 
-<p>Information seeking behavior includes activities in which a person identifies their information needs, searches for information, and uses or shares that information. To get from an information need to a final formulation (like the query entered into a search engine), a user passes several stages. The first stage is the actual need for information, that is usually unexpressed. In the second stage this need becomes conscious and the user will then formalize it in the third stage, for example to a question to ask a person or to a search query suitable for a search engine. There are many different theoretical frameworks to explain information behavior, we explored them in our project, but I won't go into this great level of detail here.</p>
+<p>Information seeking behavior includes activities in which a person identifies their information needs, searches for information, and uses or shares that information. To get from the information need to a final formulation (like the query entered into a search engine), a user passes several stages. The first stage is the actual need for information, which is usually unexpressed. In the second stage, this need becomes conscious and the user will then formalize it in the third stage, for example to a question to ask a person or to a search query suitable for a search engine. There are many different theoretical frameworks to explain information behavior, we explored them in our project, but I wonʼt go into this great level of detail here.</p>
 
 <InfoBox>
 <p>Creating a search query, which is a transformation of the user’s information need, is usually a difficult task for the user, especially because the user’s need is often vague. Web queries typically contain few terms, on average less than three words, and most query sessions contain only one or two queries. Users usually only view one or two pages of results and only enter simple terms into the search box, without using advanced query syntax.</p>
@@ -74,11 +74,11 @@ company: 'University of Aalborg'
 
 <h4>Recruiter Persona and User Journey Map</h4>
 
-<p>As our research aimed to investigate the search behavior of recruiters, it was essential for us to gain knowledge about the field of recruitment and our main persona in this project: the recruiter. We therefore specifically searched for information about the recruiters and the recruitment process and combined them with knowledge about Information Seeking Behavior.</p>
+<p>As our research aimed to investigate the search behavior of recruiters, it was essential for us to gain knowledge about the field of recruitment and our main persona in this project: the recruiter. We therefore specifically searched for information about the recruiters and the recruitment process and combined them with knowledge about information seeking behavior.</p>
 
-<p>The role of a recruiter at Jobindex is to search for relevant candidates for open positions by external companies. So their aim is to find the candidate that best matches with the criteria of a client, usually resulting in a list of candidates that get contacted about the position. For recruiters, the need for an information search arises, in order to identify suitable candidates. Recruiters, as professional service providers, carry out “Professional Search” as the primary search component. A professional search is performed by a professional for financial compensation, within a particular domain and/or area of expertise. It has a specified brief, a high-value outcome and budgetary constraints such as time and money. From a behavioral perspective, it is recallfocused and highly interactive with multiple iterations. The queries used during the recruitment search are considered one of the most complex Boolean expressions among any other professions. Recruiters’ competitive advantage may stem from the collection of queries they gather over time, that become their intellectual property.</p>
+<p>The role of a recruiter at Jobindex is to search for relevant candidates for open positions by external companies. So they aim to find the candidate that best matches the criteria of a client, usually resulting in a list of candidates that get contacted about the position. For recruiters, the need for an information search arises, to identify suitable candidates. Recruiters, as professional service providers, carry out “Professional Search” as the primary search component. A professional search is performed by a professional for financial compensation, within a particular domain and/or area of expertise. It has a specified brief, a high-value outcome, and budgetary constraints such as time and money. From a behavioral perspective, it is recall-focused and highly interactive with multiple iterations. The queries used during the recruitment search are considered one of the most complex Boolean expressions among any other professions. Recruiters’ competitive advantage may stem from the collection of queries they gather over time, that become their intellectual property.</p>
 
-<p>Using the information we found about Information Seeking Behavior, Professional Search and models about the recruitmenr process, for example by Breaugh (2008), and combining them with the information we got from our supervisor about the specific recruiters from Jobindex (that he gained through user interviews), we came up with the following user journey:</p>
+<p>Using the information we found about information seeking behavior, professional search, and models about the recruitment process, for example by Breaugh (2008), and combining them with the information we got from our supervisor about the specific recruiters from Jobindex (that he gained through user interviews), we came up with the following user journey:</p>
 
 <img class="img-desktop" :src="'/images/jobindex-log-analysis/recruiter_journey-map.png'" alt="">
 <img class="img-mobile" :src="'/images/jobindex-log-analysis/recruiter_journey-map-mobile.png'" alt="">
@@ -86,14 +86,14 @@ company: 'University of Aalborg'
 <ol>
     <li><strong>Analyzing the job advertisement</strong> and extracting important information such as the job title and required skills</li>
     <li><strong>Formulating a search query</strong> that matches the recruitment objectives</li>
-    <li><strong>Usage of filters</strong> to narrow down the search to relevant candidates, according to the recruitment objectives</li>
+    <li><strong>Use of filters</strong> to narrow down the search to relevant candidates, according to the recruitment objectives</li>
     <li><strong>Shortlisting relevant candidates</strong> to contact about the relevant position</li>
     <li><strong>Contacting relevant candidates</strong> via email using templates available on the Jobindex platform</li>
 </ol>
 
 <h4>Prior Research in the field</h4>
 
-<p>To gain more knowledge about the field, as well as to define the scope of our project, we looked into prior research. We found several relevant studies were conducted about the search behavior of jobseekers and recruiters. To the best of our knowledge, while there is research about recruiters’ search behavior, there is no research on how the industry influences search behavior based on quantitative data. In order to keep it short, this is only a brief summary of the insights we have gained in previous studies:</p>
+<p>To gain more knowledge about the field, as well as to define the scope of our project, we looked into prior research. We found several relevant studies were conducted about the search behavior of jobseekers and recruiters. To the best of our knowledge, while there is research about recruiters’ search behavior, there is no research on how the industry influences search behavior based on quantitative data. To keep it short, this is only a brief summary of the insights we have gained in previous studies:</p>
 
 <img class="img-original" :src="'/images/jobindex-log-analysis/recruiter-persona.png'" alt="">
 
@@ -101,8 +101,8 @@ company: 'University of Aalborg'
 
 <ul>
     <li>use the most complex queries of any community, using a wide range of different search functions, like Boolean expressions, synonyms, query expansion, and abbreviations <em>(Russell-Rose &amp; Chamberlain, 2016; Spina et al., 2017)</em></li>
-    <li>actively cultivate their skills to formulate and optimise their queries <em>(Russell-Rose &amp; Chamberlain, 2016; Spina et al., 2017)</em></li>
-    <li>use data on knowledge, skills, and abilities from the job advertisement to perform keyword search <em>(Bogers &amp; Kaya, 2021)</em></li>
+    <li>actively cultivate their skills to formulate and optimize their queries <em>(Russell-Rose &amp; Chamberlain, 2016; Spina et al., 2017)</em></li>
+    <li>use data on knowledge, skills, and abilities from the job advertisement to perform keyword searches <em>(Bogers &amp; Kaya, 2021)</em></li>
     <li>do not review all the possible candidates but only evaluate enough results to create a list of suitable candidates <em>(Russell-Rose &amp; Chamberlain, 2016)</em></li>
     <li>use their old search queries as templates for new queries and even lend them to colleagues <em>(Russell-Rose &amp; Chamberlain, 2016; Bogers &amp; Kaya, 2021)</em></li>
     <li>aim to contact 20 candidates per position <em>(Bogers &amp; Kaya, 2021)</em></li>
@@ -113,7 +113,7 @@ company: 'University of Aalborg'
 <!--
 <ul>
     <li>To perform keyword search, recruiters used the data on knowledge, skills, and abilities resulting from their analysis of the job advertisement as a source for search terms (Bogers &amp; Kaya, 2021)</li>
-    <li>Recruiters use some of the most complex queries of any community, using a wide range of different search functions, like Boolean expressions, synonyms, query expansion, and abbreviations, and actively cultivating their skills to formulate and optimise such expressions (Russell-Rose &amp; Chamberlain, 2016; Spina et al., 2017)</li>
+    <li>Recruiters use some of the most complex queries of any community, using a wide range of different search functions, like Boolean expressions, synonyms, query expansion, and abbreviations, and actively cultivating their skills to formulate and optimize such expressions (Russell-Rose &amp; Chamberlain, 2016; Spina et al., 2017)</li>
     <li>The majority of recruiters use their old search queries as templates for new queries, with most of them also willing to share their queries with colleagues (Russell-Rose &amp; Chamberlain, 2016; Bogers &amp; Kaya, 2021)</li>
     <li>Both recruiters and jobseekers tend to search further down the subsequent pages, with recruiters being even more persistent than jobseekers (Spina et al., 2017)</li>
     <li>Recruiters tend to be less concerned with reviewing all possible candidates, while they aim to evaluate only enough results to create a shortlist with relevant candidates (Russell-Rose &amp; Chamberlain, 2016)</li>
@@ -139,7 +139,7 @@ company: 'University of Aalborg'
 <img :src="'/images/jobindex-log-analysis/jobindex_case_dataframes.png'" alt="">
 <p class="image-description">Screenshot of (parts of) the three data frames described above.</p>
 
-<p>We ended up with two merged datatables: (1) Industry-Query Data and (2) Industry-Response Data. This first merge of the industry and the query data source includes 26,626 jobs are left that were existent in both data sources. This in total includes 390,362 search queries. The industry-response data contains 34,830 jobs that were contained in both data sources. The distribution of jobs across the various sectors is quite similar in both data tables, but both also show large differences between the industries. The biggest industries in the dataset are (1) Wholesale and retail trade, (2) Real estate, (3) Consultancy etc., (4) Public administration, defence and compulsary social security and (5) Financial and insurance.</p>
+<p>We ended up with two merged data tables: (1) Industry-Query Data and (2) Industry-Response Data. This first merge of the industry and the query data source includes 26,626 jobs are left that existed in both data sources. This in total includes 390,362 search queries. The industry-response data contains 34,830 jobs that were contained in both data sources. The distribution of jobs across the various sectors is quite similar in both data tables, but both also show large differences between the industries. The biggest industries in the dataset are (1) Wholesale and retail trade, (2) Real estate, (3) Consultancy etc., (4) Public administration, defense and compulsory social security, and (5) Financial and insurance.</p>
 
 <img :src="'/images/jobindex-log-analysis/jobs-per-industry.png'" alt="">
 <GraphicTranscript>
@@ -148,18 +148,18 @@ company: 'University of Aalborg'
 
 <h3>Problem formulation</h3>
 
-<p>We had a lot of freedom when completing the semester project. One of our tasks was to choose a problem and research questions to define the scope of the project. We received the dataset from our supervisor, who works with the Danish company Jobindex. To formulate a problem statement and research questions, we used our knowledge of previous research and the background information described above. We also familiarized ourselves with the dataset and its contents. In the end, we identified at the following problem statement:</p>
+<p>We had a lot of freedom when completing the semester project. One of our tasks was to choose a problem and research questions to define the scope of the project. We received the dataset from our supervisor, who works with the Danish company Jobindex. To formulate a problem statement and research questions, we used our knowledge of previous research and the background information described above. We also familiarized ourselves with the dataset and its contents. In the end, we identified the following problem statement:</p>
 
 <ProblemDef definition="How can we use search log data to understand how the search behavior of recruiters
 using the Jobindex search engine varies based on the industry?" />
 
-<p>In order to investigate the search behavior of recruiters in the best possible way and to look at various metrics, we defined five research questions that we examined in more detail in our log analysis:</p>
+<p>To investigate the search behavior of recruiters in the best possible way and to look at various metrics, we defined five research questions that we examined in more detail in our log analysis:</p>
 
 <ol>
     <li>How does the <strong>use of filters</strong> by recruiters differ between various industries?</li>
     <li>How does the <strong>complexity of search queries</strong> by the recruiters differ depending on the industry?</li>
     <li>How does the industry affect the <strong>time spent</strong> on recruiting?</li>
-    <li>How does the <strong>seasonality</strong> influence the number of searches per industry?</li>
+    <li>How does <strong>seasonality</strong> influence the number of searches per industry?</li>
     <li>How does the industry affect the <strong>number of contacted candidates</strong> and their <strong>response rate</strong>?</li>
 </ol>
 
@@ -167,11 +167,11 @@ using the Jobindex search engine varies based on the industry?" />
 
 <h3>Log Analysis</h3>
 
-<p>To investigate the problem of understanding how job recruiters find candidates for the job, we performed a search log analysis on query data by recruiters working at Jobindex from 2021. Performing log analysis is a powerful way to determine user behavior. Because the data is collected while the users are actively engaging with the system, it is more reliable than recalled behavior, not only because people are not always able to recall the actions they have taken, but are sometimes even unwilling to recall accurately. Of course, there are some shortcomings when using this method. One of them being that with log analysis, we are not able to ascertain any of the motivations or goals of the recruiters in the way that they do their searches.</p>
+<p>To investigate the problem of understanding how job recruiters find candidates for the job, we performed a search log analysis on query data by recruiters working at Jobindex from 2021. Performing log analysis is a powerful way to determine user behavior. Because the data is collected while the users are actively engaging with the system, it is more reliable than recalled behavior, not only because people are not always able to recall the actions they have taken, but are sometimes even unwilling to recall accurately. Of course, there are some shortcomings when using this method. One of them is that with log analysis, we are not able to ascertain any of the motivations or goals of the recruiters in the way that they do their searches.</p>
 
 <h4>Tools and Groupwork</h4>
 
-<p>We used R and the software R Studio for data import, cleaning, transformation, visualisation, and statistical analysis. Before we started our analysis we cleaned the dataset by removing any queries outside of 2021 and having a closer look at sessions with an abnormal length. We filtered out any sessions that are shorter than 5 minutes or longer than 2 days. While some sessions can take longer, if the recruiters spend more than 2 days on a single session, it is reasonable to presume that it is not one true session. For example, that particular job might have been used for training purposes and therefore the later session should not be included in our analysis. In contrast, very short sessions could be the result of an error in the systems.</p>
+<p>We used R and the software R Studio for data import, cleaning, transformation, visualization, and statistical analysis. Before we started our analysis we cleaned the dataset by removing any queries outside of 2021 and having a closer look at sessions with an abnormal length. We filtered out any sessions that were shorter than 5 minutes or longer than 2 days. While some sessions can take longer, if the recruiters spend more than 2 days on a single session, it is reasonable to presume that it is not one true session. For example, that particular job might have been used for training purposes and therefore the later session should not be included in our analysis. In contrast, very short sessions could be the result of an error in the systems.</p>
 
 <p>As a group of five people, we split the work between us by everyone being responsible for one research question. Throughout the process, we worked together as a team, having regular check-ins and sharing what we had done so far and what we were planning to do next. We also advised each other on what we wanted to do in each research question and what statistical tests could potentially be done. We also exchanged ideas when coding and helped each other when we encountered problems.</p>
 
@@ -181,29 +181,29 @@ using the Jobindex search engine varies based on the industry?" />
 
 <ProblemDef definition="How does the industry affect the number of contacted candidates and their response rate?" />
 
-<p>The research question was built up iteratively, starting with a research question that only focused on the candidates' responses. While I was experimenting with the data set and tried to find metrics to answer the research question, I realized that it would also make sense to look at the number of candidates contacted. So I added this to the research question.</p>
+<p>The research question was built up iteratively, starting with a research question that only focused on the candidatesʼ responses. While I was experimenting with the data set and trying to find metrics to answer the research question, I realized that it would also make sense to look at the number of candidates contacted. So I added this to the research question.</p>
 
 <h5>Identifying Metrics</h5>
 
-<p>Finding the right metrics to answer the research question was an iterative process as well and during the process I ran into a few issues/ realisations about the data set that let to change the course along the way. Below, I will list a few failed attempts to illustrate how they led me to change the course and iterate on the analysis:<p>
+<p>Finding the right metrics to answer the research question was an iterative process as well and during the process I ran into a few issues/ realizations about the data set that led to change the course along the way. Below, I will list a few failed attempts to illustrate how they led me to change the course and iterate on the analysis:<p>
 
-<p><strong>Dropped the Candidate Response Time.</strong> Contrary to what we had assumed from our literature research, recruiters did not first create a shortlist of candidates in the data set and then contact the whole list after the search process was completed. Instead, they appeared to contact candidates during the search session. This became clear to me when I tried to calculate how long it took for a candidate to respond to a message from the recruiters. The dataset did not give a time of contact, only the time of the search session and the time when the candidate replied. My calculation was the time between the end of the search session and the candidate's response - which often resulted in negative numbers. I therefore had to drop the candidate response time metric, as the end time of the search session was not a meaningful data point to calculate.</p>
+<p><strong>Dropped the Candidate Response Time.</strong> Contrary to what we had assumed from our literature research, recruiters did not first create a shortlist of candidates in the data set and then contact the whole list after the search process was completed. Instead, they appeared to contact candidates during the search session. This became clear to me when I tried to calculate how long it took for a candidate to respond to a message from the recruiters. The dataset did not give a time of contact, only the time of the search session and the time when the candidate replied. My calculation was the time between the end of the search session and the candidateʼs response - which often resulted in negative numbers. I therefore had to drop the candidate response time metric, as the end time of the search session was not a meaningful data point to calculate.</p>
 
-<p><strong>Merge issues.</strong> For all of us it was the first time using R and R Studio - appart from the lecture. So we did a few beginner errors with it. One worth mentioning is, that the data set we got was spread out over several .csv files and we had to merge them to work with them. Firstly, we used the right R function for it<em>inner_join()</em>, but didn't give it enough arguments (the identifier was missing), this lead to some smaller merging issues, that we only found and corrected at a later time. Moreover, because of performance issues we never merged all the .csv files into one big dataframe in R and only later noticed that the two smaller merges we did: the merge of industry and query data and the merge of industry and response data, had a slightly different set of jobs. This nevertheless wasn't a big problem in the end and we just made it clear in our report.</p>
+<p><strong>Merge issues.</strong> For all of us, it was the first time using R and R Studio - apart from the lecture. So we made a few beginner errors with it. One worth mentioning is, that the data set we got was spread out over several .csv files and we had to merge them to work with them. Firstly, we used the right R function for it<em>inner_join()</em>, but didnʼt give it enough arguments (the identifier was missing), this led to some smaller merging issues, that we only found and corrected at a later time. Moreover, because of performance issues we never merged all the .csv files into one big dataframe in R and only later noticed that the two smaller merges we did: the merge of industry and query data and the merge of industry and response data, had a slightly different set of jobs. This nevertheless wasnʼt a big problem in the end and we just made it clear in our report.</p>
 
 <p>After a lot of experimentation with the dataset, I ended up with three main measures:</p>
 
 <ul>
 <li><strong>Number of contacted candidates</strong>: how many candidates are contacted per job on average (per industry).</li>
-<li><strong>Total response rate</strong>: how many candidates answered the recruiters requests (per industry, in %).</li>
-<li><strong>Responses per type</strong>: how many candidates answered the recruiters requests positively or negatively (per industry, in %).</li>
+<li><strong>Total response rate</strong>: how many candidates answered the recruitersʼ requests (per industry, in %).</li>
+<li><strong>Responses per type</strong>: how many candidates answered the recruitersʼ requests positively or negatively (per industry, in %).</li>
 </ul>
 
-<p>The findings of this research question can be seen as a measure of success. As the dataset didn't include any click data or data about the search results, this is the best metric we could get to interpret the success of the searches.</p>
+<p>The findings of this research question can be seen as a measure of success. As the dataset didnʼt include any click data or data about the search results, this is the best metric we could get to interpret the success of the searches.</p>
 
 <h5>Number of Contacted Candidates</h5>
 
-<p>This metric examines how many candidates a recruiter has contacted for a job and compares the different industries available in the data set. This metric examines how many candidates a recruiter has contacted for a job and compares the different industries in the data set. In R, I counted the number of different CV_IDs (an anonymized way to represent a candidate) per job and then calculated an average per industry. I also calculated the average, median and standard deviation across all industries:</p>
+<p>This metric examines how many candidates a recruiter has contacted for a job and compares the different industries available in the data set. This metric examines how many candidates a recruiter has contacted for a job and compares the different industries in the data set. In R, I counted the number of different CV_IDs (an anonymized way to represent a candidate) per job and then calculated an average per industry. I also calculated the average, median, and standard deviation across all industries:</p>
 
 <CodeBlock language="R">
 <p class="code-comment">
@@ -221,7 +221,7 @@ using the Jobindex search engine varies based on the industry?" />
 sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
 </CodeBlock>
 
-<p>In order to visualize the results for our report and for better comparability, I decided to use a bar chart and created it with R, using the <em>ggplot</em>-function from <em>tidyverse</em>:</p>
+<p>To visualize the results for our report and better comparability, I decided to use a bar chart and created it with R, using the <em>ggplot</em>-function from <em>tidyverse</em>:</p>
 
 <CodeBlock language="R">
 <p class="code-comment">
@@ -237,7 +237,7 @@ sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
   <span class="mobile-display-none">&nbsp; &nbsp; </span>)</p>
 </CodeBlock>
 
-<p>On average across all industries, 22,09 candidates were contacted per job, with a median of 22,19 and a standard deviation of 1,52. However, differences between the industry sectors can be recognised - I will not dive into the specific numbers here, but move on to my interpretation. To see the specific results please see the bar chart and textual representation of it, below.</p>
+<p>On average across all industries, 22,09 candidates were contacted per job, with a median of 22,19 and a standard deviation of 1,52. However, differences between the industry sectors can be recognized - I will not dive into the specific numbers here, but move on to my interpretation. To see the specific results please see the bar chart and textual representation of it, below.</p>
 
 <img :src="'/images/jobindex-log-analysis/average-contacted-candidates.png'" alt="">
 <GraphicTranscript>
@@ -248,7 +248,7 @@ sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
 <ul>
     <li>higher availability of suitable candidates</li>
     <li>indicator that these industries get a higher number of negative or no responses and therefore recruiters learned to contact more candidates to find a match for the position</li>
-    <li>high competition for qualified professionals or specific expertise needed that may prompt recruiters to cast a wider net to find individuals with the required skills</li>
+    <li>high competition for qualified professionals or specific expertise needed may prompt recruiters to cast a wider net to find individuals with the required skills</li>
 </ul>
 
 <p>Below-average numbers could be explained by the fact that fewer qualified candidates are available in these industries and therefore the desired number of 20 candidates (that we extracted from former research) cannot be found. One explanation for this would be:</p>
@@ -260,14 +260,14 @@ sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
 
 <h5>Response Rate</h5>
 
-<p>The Response Rate metric is split into different metrics: the overall responses rate (positive and negative), the response rate per type - positive, negative and no response.</p>
+<p>The Response Rate metric is split into different metrics: the overall response rate (positive and negative), the response rate per type - positive, negative, and no response.</p>
 
-<p><strong>Overall Response Rate.</strong> This metric can be used as an indicator for successful communication on the side of the recruiter. Even though a response might not be positive, that a candidate answers at all can mean different things:</p>
+<p><strong>Overall Response Rate.</strong> This metric can be used as an indicator of successful communication on the side of the recruiter. Even though a response might not be positive, that a candidate answers at all can mean different things:</p>
 
 <ul>
     <li>effective and engaging communication by the recruiter and therefore indicate that recruiters in these industries are successful in encouraging candidates to provide feedback</li>
     <li> reputation of certain industries</li>
-    <li>industry-specific learnt behaviour, which could make candidates feel more obliged to respond to recruiters</li>
+    <li>industry-specific learned behavior, which could make candidates feel more obliged to respond to recruiters</li>
     <li>contextual circumstances such as a high unemployment rate</li>
 </ul>
 
@@ -302,7 +302,7 @@ sd(responses_per_industry$TOTAL_RESPONSES_PCT)</p>
   )</p>
 </CodeBlock>-->
 
-<p><strong>Responses per Type.</strong> To look at the responses more thorougly I split them into the type of response, that a candidate can give: they can answer a recruiters request positively, negatively or not at all. The percentages of no responses are consequently the opposite of the overall response rate.</p>
+<p><strong>Responses per Type.</strong> To look at the responses more thoroughly I split them into the type of response, that a candidate can give: they can answer a recruiterʼs request positively, negatively, or not at all. The percentages of no responses are consequently the opposite of the overall response rate.</p>
 
 <CodeBlock language="R">
 <p class="code-comment">
@@ -355,7 +355,7 @@ responses_per_type %>%<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>)</p>
 </CodeBlock>
 
-<p>Above all industries the average of <strong>positive responses</strong> was 8,97%, with a median of 8,96% and a standard deviation of 1,16%. There are some smaller visible differences between industries, as you can see in the chart below and in more detail the textual description of the graphic. Differences in the number of positive responses could either be explained by successful communication and selection of candidates by the recruiters or through different market dynamics. One noticeable insight is that four of the ten industries with the most positive responses
+<p>Above all industries the average of <strong>positive responses</strong> was 8,97%, with a median of 8,96% and a standard deviation of 1,16%. There are some smaller visible differences between industries, as you can see in the chart below, and more detail in the textual description of the graphic. Differences in the number of positive responses could either be explained by successful communication and selection of candidates by the recruiters or through different market dynamics. One noticeable insight is that four of the ten industries with the most positive responses
 belong to the manufacturing sector.</p>
 
 <p>The average percentage of <strong>negative responses</strong> was 24,99%, with a median of 25,20% and a standard deviation of 2,53%. A high number of negative responses does not necessarily mean that the recruiter is unsuccessful. The fact that candidates respond at all shows that there is a sense of commitment to the recruiters in these industries. Eight of the ten industries with the highest rate of negative responses belong to the higher-level sector of manufacturing.</p>
@@ -375,7 +375,7 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 
 <h5>Correlation between the Metrics</h5>
 
-<p>Lastly, I tested the different metrics of my research question for possible correlations. To test the correlation and get a correlation coefficient, p-value and confidance intervals, I used the <em>cor.test()</em> function in R and therefore performed a Pearson’s product-moment correlation test.</p>
+<p>Lastly, I tested the different metrics of my research question for possible correlations. To test the correlation and get a correlation coefficient, p-value, and confidence intervals, I used the <em>cor.test()</em> function in R and therefore performed a Pearson’s product-moment correlation test.</p>
 
 <CodeBlock language="R">
 <p class="code-comment">
@@ -384,7 +384,7 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 <p>cor.test(rq5_data$MEAN_CONTACTED_CANDIDATES, rq5_data$TOTAL_RESPONSES_PCT) %>% view()</p>
 </CodeBlock>
 
-<p>Afterwards I visualized the positive correlations in a scatter plot with a linear regression line. This was a complicated process, as it is complex to visualize this large number of data points (one data point per industry) so that they can still be assigned to a specific industry. In the end, I chose a palette of colors that are as distinguishable as possible. Similar industries, such as the manufacturing industries, have the same color spectrum. To make the differentiation even easier, I have also added four different shapes. The mixture of colors and shapes are intended tp improve the readability of the diagram.</p>
+<p>Afterward, I visualized the positive correlations in a scatter plot with a linear regression line. This was a complicated process, as it is complex to visualize this large number of data points (one data point per industry) so that they can still be assigned to a specific industry. In the end, I chose a palette of colors that are as distinguishable as possible. Similar industries, such as the manufacturing industries, have the same color spectrum. To make the differentiation even easier, I have also added four different shapes. The mixture of colors and shapes is intended to improve the readability of the diagram.</p>
 
 <CodeBlock language="R">
 <p class="code-comment">
@@ -399,7 +399,7 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 <p>industry_shapes <- c(16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15,<span class="mobile-display-none"><br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15, 16, 17, 18, 15)</p>
 
-<p class="code-comment">&#35 Create a plot with the datapoints of the industries and the linear correlation line</p>
+<p class="code-comment">&#35 Create a plot with the data points of the industries and the linear correlation line</p>
 <p>ggplot(rq5_data, aes(x = MEAN_CONTACTED_CANDIDATES, y = TOTAL_RESPONSES_PCT,<br />
     <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>color = INDUSTRY_SECTOR_NAME_EN, shape = INDUSTRY_SECTOR_NAME_EN)) +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_point(size = 4, alpha = 0.8) +<br />
@@ -438,7 +438,7 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 
 <h4>RQ1: Filter Usage</h4>
 
-<p>In our first research question, we investigated how the filter usage by recruiters differs between various industries. We found differences in the overall filter usage per industry as well as in which specific filters the recruiters use in various industries. These differences can not only be influenced by the nature of the industry but also by the nature and requirements of the job offer, recruiters’ preferences and experience. This shows that the industry influences the recruiters’ search behaviour in terms of filter usage, indicating that industries have varying needs. We found that filters that provide autogenerated results are used the most by each industry, thus speeding up and easing the process.</p>
+<p>In our first research question, we investigated how the filter usage by recruiters differs between various industries. We found differences in the overall filter usage per industry as well as in which specific filters the recruiters use in various industries. These differences can not only be influenced by the nature of the industry but also by the nature and requirements of the job offer, recruiters’ preferences, and experience. This shows that the industry influences the recruiters’ search behavior in terms of filter usage, indicating that industries have varying needs. We found that filters that provide autogenerated results are used the most by each industry, thus speeding up and easing the process.</p>
 
 <img :src="'/images/jobindex-log-analysis/research-question-1.png'" alt="">
 
@@ -456,20 +456,20 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 
 <h4>RQ4: Seasonality Patterns</h4>
 
-<p>In our fourth research question, we examined the impact of seasonality on recruitment across industries. We observed different patterns on how the seasonality impacts the performed search sessions. While some industries showed a more stable amount of search sessions throughout the year with only smaller peaks or lows, others had considerably high amounts of differences between the months. One common pattern was also an increase in performed search sessions towards the end of the year. This indicates, that the industry for which a search is performed, aects the search behaviour of the recruiters regarding seasonality.</p>
+<p>In our fourth research question, we examined the impact of seasonality on recruitment across industries. We observed different patterns on how the seasonality impacts the performed search sessions. While some industries showed a more stable amount of search sessions throughout the year with only smaller peaks or lows, others had considerably high amounts of differences between the months. One common pattern was also an increase in performed search sessions towards the end of the year. This indicates, that the industry for which a search is performed, affects the search behavior of the recruiters regarding seasonality.</p>
 
 <img :src="'/images/jobindex-log-analysis/research-question-4.png'" alt="">
 
 <h4>RQ5: Contacted Candidates & Response Rates</h4>
 
-<p>The last research question examined how the industry affects the number of candidates that a recruiter contacts per job as well as the responses of the candidates. We observed differences between the industries in the number of contacted candidates as well as in whether or not a contacted candidate responded to the recruiters’ inquiry. Additionally, differences could be seen in whether the candidates responded positively or negatively to the recruiter. The results show that there might be differences in how many relevant candidates the recruiters are able to find depending on the industry. Moreover, the industry seems to affect if a candidate responds at all and
+<p>The last research question examined how the industry affects the number of candidates that a recruiter contacts per job as well as the responses of the candidates. We observed differences between the industries in the number of contacted candidates as well as in whether or not a contacted candidate responded to the recruiters’ inquiry. Additionally, differences could be seen in whether the candidates responded positively or negatively to the recruiter. The results show that there might be differences in how many relevant candidates the recruiters are able to find depending on the industry. Moreover, the industry seems to affect whether a candidate responds at all and
 whether the answer given is positive or negative.</p>
 
 <h4>Industry-specific results</h4>
 
 <p>We found many different patterns for specific industries across the five research questions. To mention all of them in this project description would be too much, therefore I will give only one example:</p>
 
-<p><em><strong>Pharmaceuticals</strong> The Pharmaceuticals industry is the one with the highest amount of filter usage. Regarding all filter usage, the industry used the most filters such as Language Skill and Language Level from Advanced filters and Education from Combined filters. Creating search queries for Pharmaceuticals appears to be quite complex. It has above-average query length, the fifth-highest number of unique search terms, the fifth-highest use of Boolean operators and the fourth-highest usage of wildcards in search queries. A slight steady increase in the number of search sessions can be seen until May when the number starts decreasing again. The sector has the seventh lowest number of contacted candidates. It also has the third fewest negative responses, while it is close to the average in terms of positive responses and the overall response rate. Additionally, it is the industry with the fourth-lowest time spent on recruiting. The data shows that the Pharmaceuticals industry might have high requirements for candidates, which can be seen in the complexity of the queries and the filter usage, while there might be not many available candidates, which explains the low number of contacted candidates as well as the low time spent on recruitment.</em></p>
+<p><em><strong>Pharmaceuticals</strong> The Pharmaceuticals industry is the one with the highest amount of filter usage. Regarding all filter usage, the industry used the most filters such as Language Skill and Language Level from Advanced filters and Education from Combined filters. Creating search queries for Pharmaceuticals appears to be quite complex. It has above-average query length, the fifth-highest number of unique search terms, the fifth-highest use of Boolean operators, and the fourth-highest usage of wildcards in search queries. A slight steady increase in the number of search sessions can be seen until May when the number starts decreasing again. The sector has the seventh lowest number of contacted candidates. It also has the third-fewest negative responses, while it is close to the average in terms of positive responses and the overall response rate. Additionally, it is the industry with the fourth-lowest time spent on recruiting. The data shows that the Pharmaceuticals industry might have high requirements for candidates, which can be seen in the complexity of the queries and the filter usage, while there might not be many available candidates, which explains the low number of contacted candidates as well as the low time spent on recruitment.</em></p>
 
 </div>
 
@@ -483,11 +483,11 @@ whether the answer given is positive or negative.</p>
             <li><strong>Electricity, gas, steam etc.</strong>: It seems to be difficult for this industry to find qualified candidates, which is reflected in the complex queries and the high level of filtering. This could also explain why few candidates were contacted and the low response rate supports this.</li>
             <li><strong>Manufacture of chemicals</strong>: This industry stands out because recruiters in this industry perform complex searches and use many filters, but still spend little time and are very successful in their inquiries.</li>
             <!--<li><strong>Mining and quarrying</strong>: we assume that it is hard for this industry to find qualified candidates.</li>-->
-            <li><strong>Oil refinery etc.</strong>: The data shows that despite the high level of complexity, little time is spent on recruiting and not many positive responses are received. This could be explained by a lack of candidates in this industry.</li>
-            <li><strong>Pharmaceuticals</strong>: The data shows that the Pharmaceuticals industry might have high requirements for candidates, which can be seen in the complexity of the queries and the filter usage, while there might be not many available candidates, which explains the low number of contacted candidates as well as the low time spent on recruitment.</li>
+            <li><strong>Oil refinery etc.</strong>: The data shows that despite the high level of complexity, little time is spent on recruiting, and not many positive responses are received. This could be explained by a lack of candidates in this industry.</li>
+            <li><strong>Pharmaceuticals</strong>: The data shows that the Pharmaceuticals industry might have high requirements for candidates, which can be seen in the complexity of the queries and the filter usage, while there might not be many available candidates, which explains the low number of contacted candidates as well as the low time spent on recruitment.</li>
             <li><strong>Real estate</strong>: The industry is noteworthy because it is the most stable industry in all the research questions. Recruiters seem to be able to find a sufficient amount of candidates without a higher-than-average effort for recruiting.</li>
             <li><strong>Residential care</strong>: We suspect that there are not many candidates for too many vacancies in this sector.</li>
-            <li><strong>Telecommunications</strong>: There might be a lot of available candidates in the Telecommunications industry so that recruiters do not have to spend a lot of time and effort on their searches.</li>
+            <li><strong>Telecommunications</strong>: There might be a lot of available candidates in the Telecommunications industry so recruiters do not have to spend a lot of time and effort on their searches.</li>
             <li><strong>Textiles and leather products</strong>: The industry shows a strong commitment from candidates with diverse responses, which, together with the high time spent, could be an indicator of a strategic approach to recruitment.</li>
             <!--<li><strong>Wood and paper products and printing</strong>: our data leads us to the assumption that it might be easy in the Wood and paper products and printing to find relevant candidates.</li>-->
         </ul>
@@ -499,7 +499,7 @@ whether the answer given is positive or negative.</p>
 
 <h3>Implications</h3>
 
-<p>Our analysis of a high amount of data reveals many interesting insights into the field of professional search and especially the recruiter search behaviour. Even though it would be helpful to enrich our data with qualitative research like user interviews or a usability test of the Jobindex search interface, it has many interesting implications:</p>
+<p>Our analysis of a high amount of data reveals many interesting insights into the field of professional search and especially recruiter search behavior. Even though it would be helpful to enrich our data with qualitative research like user interviews or a usability test of the Jobindex search interface, it has many interesting implications:</p>
 
 <ul>
     <li><strong>UX Design</strong>: Improving search interfaces for recruiters</li>
@@ -510,6 +510,6 @@ whether the answer given is positive or negative.</p>
 <img class="img-desktop" :src="'/images/jobindex-log-analysis/sharktank_presentation.png'" alt="">
 <img class="img-mobile" :src="'/images/jobindex-log-analysis/sharktank_presentation-mobile.png'" alt="">
 
-<p class="image-description">Our presentation slides for a 5 minutes Shark Tank presentation at the university, with the goal to summarize our project for our fellow students in a non-scientific way.</p>
+<p class="image-description">Our presentation slides for a 5-minute Shark Tank presentation at the university, to summarize our project for our fellow students in a non-scientific way.</p>
 
 </div>

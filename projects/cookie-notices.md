@@ -1,6 +1,6 @@
 ---
 title: "Investigating the Usability of Cookie Notices"
-description: "I conducted an eye tracking study in an experimental setup to investigate the usability of common types of cookie notices, and designed a prototype for better usability."
+description: "Conducting an eye tracking study in an experimental setup to investigate the usability of common types of cookie notices, and designing a prototype for better usability."
 image: '/images/cookie-notices/cookie-notices-header.png'
 imgmobile: '/images/cookie-notices/cookie-notices.png'
 focus: User Research, UX Design

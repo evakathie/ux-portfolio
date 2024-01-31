@@ -33,7 +33,7 @@ title: "My creative hobbies"
 
 <img :src="'/images/play/rethink-garten-buch.png'" style="margin: 0" alt="Screenshots of the blog.">
 
-<p>Together the german publisher <em>Frech</em> (also known as "TOPP") that is known for it's guides for handicrafts, crafts and creative projects, I wrote and published a book about sustainable gardening. The book is called "Rethink: Garten - DIYs und Lifehacks für nachhaltiges Gärtnern", it includes 160 pages in german. I wrote the entire manuscript and took all the photos myself. The publisher took care of layout, editing, printing and publication. An edition of 5.000 books (softcover) was printed and published in February 2024.</p>
+<p>In collaboration with the german publisher <em>Frech</em> (or "TOPP kreativ") that is known for it's guides for handicrafts and creative projects, I wrote and published a book about sustainable gardening. The book is called "Rethink: Garten - DIYs und Lifehacks für nachhaltiges Gärtnern" and it has 160 pages (written in german). I wrote the entire manuscript and took all the photos myself. The publisher took care of layout, editing, printing and publication. An edition of 5.000 books (softcover) was printed and published in February 2024.</p>
 
 <div class="align-center">
 <a href="https://www.topp-kreativ.de/rethink-garten.-bewusst-pflanzen-umweltschonend-duengen-naturnah-selbst-versorgen-25237" class="button" target="blank">View in publisher's shop</a>

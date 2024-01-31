@@ -48,7 +48,7 @@ export default {
         :hover {
             scale: 1.2;
             box-shadow: 0px 2px 3px rgba(0,0,0,0.1), 0px 3px 8px rgba(0,0,0,0.1);
-            z-index: 40;
+            z-index: 10;
         }
     }
 

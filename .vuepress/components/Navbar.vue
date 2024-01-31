@@ -89,6 +89,8 @@
     position: sticky;
     top: 0;
 
+    z-index: 300;
+
     a {
         text-decoration: none;
         font-weight: lighter;

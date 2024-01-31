@@ -6,7 +6,7 @@
                 <img :src="'/images/planeatary/planeatary.png'" alt="">
                 <div class="text">
                     <h3>Creating the app Planeatary for a sustainable and healthy diet in everyday life</h3>
-                    <p>Planeatary is a mobile app designed to support users to follow a healthy and environmentally friendly diet.</p>
+                    <p>Planeatary is a mobile app designing to support users to follow a healthy and environmentally friendly diet.</p>
                     <ProjectFocus focus="UX Design, FrontEnd Development" domain="Mobile"/>
                 </div>
           </router-link>
@@ -15,7 +15,7 @@
                 <img :src="'/images/cookie-notices/cookie-notices.png'" alt="">
                 <div class="text">
                     <h3>The usability of Cookie Notices — Eye-tracking study</h3>
-                    <p>I conducted an eye-tracking study to investigate the usability of common types of cookie notices, and designed a prototype for better usability.</p>
+                    <p>Conducting an eye-tracking study to investigate the usability of common types of cookie notices, and designed a prototype for better usability.</p>
                     <ProjectFocus focus="User Research" domain="Web"/>
                 </div>
           </router-link>
