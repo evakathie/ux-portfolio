@@ -231,9 +231,9 @@ sd(contacted_candidates$MEAN_CONTACTED_CANDIDATES)</p>
   <span class="mobile-display-none">&nbsp; &nbsp; </span>geom_col(fill = 'lightskyblue4') +<br />
   <span class="mobile-display-none">&nbsp; &nbsp; </span>theme_minimal() +<br />
   <span class="mobile-display-none">&nbsp; &nbsp; </span>labs(<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>title = "Mean Number of Contacted Candidates per Job",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>x = "Contacted Candidates (Mean)",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>y = "Industry",<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>title = “Mean Number of Contacted Candidates per Job“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>x = “Contacted Candidates (Mean)“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; </span>y = “Industry“,<br />
   <span class="mobile-display-none">&nbsp; &nbsp; </span>)</p>
 </CodeBlock>
 
@@ -317,16 +317,16 @@ sd(responses_per_industry$TOTAL_RESPONSES_PCT)</p>
 &#35 Table showing only the number of<br />
 &#35 positive responses per industry</p>
 <p>
-responses_per_type %>% filter(RESPONSE_TYPE_TXT == "Positive Response") %>% view()
+responses_per_type %>% filter(RESPONSE_TYPE_TXT == “Positive Response“) %>% view()
 </p>
 <p class="code-comment">
 &#35 Table showing only the number of<br />
 &#35 negative responses per industry</p>
-<p>responses_per_type %>% filter(RESPONSE_TYPE_TXT == "Negative Response") %>% view()</p>
+<p>responses_per_type %>% filter(RESPONSE_TYPE_TXT == “Negative Response“) %>% view()</p>
 <p class="code-comment">
 &#35 Table showing only the number of<br />
 &#35 no responses per industry</p>
-<p>responses_per_type %>% filter(RESPONSE_TYPE_TXT == "No Response") %>% view()</p>-->
+<p>responses_per_type %>% filter(RESPONSE_TYPE_TXT == “No Response“) %>% view()</p>-->
 </CodeBlock>
 
 <p>To visualize the results I created three bar charts, that were merged into the same visualization, using the ggplot-function from tidyverse:</p>
@@ -346,12 +346,12 @@ responses_per_type %>%<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_col() +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>facet_wrap(vars(RESPONSE_TYPE_TXT)) +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>theme_minimal() +<br />
-  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_fill_manual(values = c("#912828", "#56758B", "#5F6F52"))+<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_fill_manual(values = c(“#912828“, “#56758B“, “#5F6F52“))+<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>labs(<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>title = "Percentage of Responses per Response Type per Industry",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>x = "Responses (in %)",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>y = "Industry",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>fill = "Response Type"<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>title = “Percentage of Responses per Response Type per Industry“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>x = “Responses (in %)“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>y = “Industry“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp;</span>fill = “Response Type“<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>)</p>
 </CodeBlock>
 
@@ -389,10 +389,10 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 <CodeBlock language="R">
 <p class="code-comment">
 &#35 Add colors to visualize the different industries</p>
-<p>industry_colors <- c("#5E4400", "#7E0000", "#429B46", "#565E00", "#00237E", "#8F9779", "#C45656", "#E6BC26", "#0038C9",<span class="mobile-display-none"><br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#008080","#58BEBE", "#E37A00", "#7E0072", "#0047FF", "#356EFF", "#779DFF", "#AFC6FF", "#AAB5D2",<span class="mobile-display-none"><br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#8590AC", "#EA91D1", "#BEBEBE", "#A6814C", "#4E5566", "#907799", "#AF48A5", "#EED8AE", "#FFA53C",<span class="mobile-display-none"><br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"#FC7171", "#E386D9", "#808080", "#414141", "#4F0768", "#778899", "#D77979", "#895FBF", "#000000")</p>
+<p>industry_colors <- c(“#5E4400“, “#7E0000“, “#429B46“, “#565E00“, “#00237E“, “#8F9779“, “#C45656“, “#E6BC26“, “#0038C9“,<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>“#008080“,“#58BEBE“, “#E37A00“, “#7E0072“, “#0047FF“, “#356EFF“, “#779DFF“, “#AFC6FF“, “#AAB5D2“,<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>“#8590AC“, “#EA91D1“, “#BEBEBE“, “#A6814C“, “#4E5566“, “#907799“, “#AF48A5“, “#EED8AE“, “#FFA53C“,<span class="mobile-display-none"><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>“#FC7171“, “#E386D9“, “#808080“, “#414141“, “#4F0768“, “#778899“, “#D77979“, “#895FBF“, “#000000“)</p>
 
 <p class="code-comment">
 &#35 Add shapes for better readability</p>
@@ -403,14 +403,14 @@ is 66,23% with a standard deviation of 2,57%. Differences between the industries
 <p>ggplot(rq5_data, aes(x = MEAN_CONTACTED_CANDIDATES, y = TOTAL_RESPONSES_PCT,<br />
     <span class="mobile-display-none">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>color = INDUSTRY_SECTOR_NAME_EN, shape = INDUSTRY_SECTOR_NAME_EN)) +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_point(size = 4, alpha = 0.8) +<br />
-  <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_smooth(aes(group = 1), method = "lm", se = FALSE, col = "#56758B") +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>geom_smooth(aes(group = 1), method = “lm“, se = FALSE, col = “#56758B“) +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>labs(<br />
-    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>x = "Mean Number of Contacted Candidates",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>y = "Total Number of Responses (in %)",<br />
-    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>title = "Contacted Candidates vs. Response Rate"<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>x = “Mean Number of Contacted Candidates“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>y = “Total Number of Responses (in %)“,<br />
+    <span class="mobile-display-none">&nbsp; &nbsp;&nbsp; &nbsp;</span>title = “Contacted Candidates vs. Response Rate“<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>) +<br />
-  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_color_manual(name = "Industry", values = industry_colors) +<br />
-  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_shape_manual(name = "Industry", values = industry_shapes) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_color_manual(name = “Industry“, values = industry_colors) +<br />
+  <span class="mobile-display-none">&nbsp; &nbsp;</span>scale_shape_manual(name = “Industry“, values = industry_shapes) +<br />
   <span class="mobile-display-none">&nbsp; &nbsp;</span>theme_minimal()</p>
 </CodeBlock>
 

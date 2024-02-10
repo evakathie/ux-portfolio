@@ -16,7 +16,15 @@ tools: Adobe XD, Balsamiq, JIRA, Confluence, Miro
 </div>
 
 <ProjectHeader :currentPage="this" :shortened="true">
-<p>In my role as <strong>Product Designer</strong> for Digitec GmbH (and before that as an Intern and Student Assistant), I was responsible for the usability and user interface of the D3 product family in close collaboration with three development teams and stakeholders. This included but was not limited to analyising the existing software regarding usability, iterative idea generation and concept development for new features and creating interactive prototypes. Furthermore, I introduced Design Thinking into the company and promoted user-centric product development in the company by developing a User Insights Knowledge Base.</p>
+<p>In my role as <strong>Product Designer</strong> for Digitec GmbH (and before that as an Intern and Student Assistant), I was responsible for the usability and user interface of the D3 product family in close collaboration with three development teams and stakeholders. This included but was not limited to:</p>
+
+<ul>
+<li>analyising the existing software regarding usability</li>
+<li>iterative idea generation and concept development for new features</li>
+<li>creating interactive prototypes and specification for developers</li>
+</ul>
+
+<p>Furthermore, I introduced Design Thinking into the company and promoted user-centric product development in the company by developing a <router-link to="/projects/user-knowledge-base.html">User Insights Knowledge Base</router-link>.</p>
 </ProjectHeader>
 
 <h2>My Projects at Digitec</h2>
