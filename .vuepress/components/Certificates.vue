@@ -4,6 +4,10 @@
             <h2>Certificates</h2>
             <div class="certificate-container">
                 <div class="grid-item">
+                    <img :src="'/images/certificates/course-certificate-ai-for-designers.jpg'" alt="Course certificate in AI for UX Designers by the Interaction Design Foundation from May 2024">
+                    <p class="image-description">AI for Designers by Interaction Design Foundation</p>
+                </div>
+                <div class="grid-item">
                     <img :src="'/images/certificates/course-certificate-mobile-ux-design-course.jpg'" alt="Course certificate in Mobile UX Design by the Interaction Design Foundation from June 2023">
                     <p class="image-description">Mobile UX Design: The Beginnerʼs Guide by Interaction Design Foundation</p>
                 </div>

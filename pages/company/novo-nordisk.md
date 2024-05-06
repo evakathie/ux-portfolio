@@ -3,13 +3,13 @@ title: "Novo Nordisk A/S"
 from: 'December 2023'
 to: 'Now'
 competences: User Experience Design, Design Thinking, User Research, Prototyping, UI Design, Scrum
-tools: Figma, Miro
+tools: Figma, Maze, Dovetail, Miro, Microsoft Office (including Copilot), ChatGPT
 ---
 
 <div class="page-header">
     <div class="text">
         <h1>Novo Nordisk A/S</h1>
-        <p>Novo Nordisk A/S is a global manufacturer of medicines for the treatment of chronic diseases based in Bagsværd, Denmark. Since its founding in 1923, the company has developed into one of the world's leading insulin manufacturers. In 2023 it became Europe's most valuable company. Novo Nordiskʼs IT department DD&IT focuses on how technology can revolutionise drug development and improve the quality of healthcare.</p>
+        <p>Novo Nordisk A/S is a global manufacturer of medicines for the treatment of chronic diseases with its headquaters in Bagsværd, Denmark. Since its founding in 1923, the company has developed into one of the world's leading insulin manufacturers. In 2023 it became Europe's most valuable company. Novo Nordiskʼs IT department DD&IT focuses on how technology can revolutionise drug development and improve the quality of healthcare.</p>
         <a class="button" href="https://www.novonordisk.com/" target="blank">Visit Novo Nordiskʼs website</a>
     </div>
     <img :src="'/images/company/novo-nordisk.jpg'" alt="">

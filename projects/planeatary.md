@@ -32,7 +32,7 @@ month: 1
 <HighlightedArea title="Summary of our Approach">
 <ol>
     <li>Conception of the underlying model based on the “Planetary Health Diet“</li>
-    <li>Creation of Personas of potential user groups</li>
+    <li>Creation of (Proto) Personas of potential user groups</li>
     <li>Definition of the theoretical data model & development of user journeys and the screens required for them</li>
     <li>Making paper prototype</li>
     <li>Design of the user interface in several iterations using a clickable prototype in Figma</li>
@@ -45,7 +45,7 @@ month: 1
 
 <h2>Project Approach</h2>
 
-<h3>Preliminary work — problem definition & Personas</h3>
+<h3>Preliminary work — problem definition & (Proto) Personas</h3>
 
 <h4>The Planetary Health Diet</h4>
 
@@ -86,9 +86,9 @@ month: 1
 
 <p>This diet plan is all we had in the beginning — and you might easily see the opportunity we saw in this: the diet is a great idea in general but tell someone to eat 7g of pork, 13g of eggs, and 50g potatoes a day and they will call you insane. These grams only make sense 1. over a longer period of time and 2. most people don’t know how many grams of something they eat. For example, a hen’s egg has an average of 52g, so according to the diet plan with 13g of egg per day, one egg could be eaten every 4 days. Of course, it becomes more complicated if the egg is not consumed “plain”, but is contained in a food, e.g. in a cake. This is where our idea for Planeatary comes in: an app that tells you what to eat for a healthy and sustainable diet, based on what you’ve eaten before.</p>
 
-<h4>Planeatary’s Personas</h4>
+<h4>Planeatary’s (Proto) Personas</h4>
 
-<p>Of course, before we went deeper, we thought about who would use Planeatary. To consider possible users in the further design of the app, we not only integrated the most likely users but also some edge groups. The personas we created are mostly from our imagination. Throughout the design process, we also talked a lot with friends and casual acquaintances about our app, so we kept getting feedback.</p>
+<p>Of course, before we went deeper, we thought about who would use Planeatary. To consider possible users in the further design of the app, we not only integrated the most likely users but also some edge groups. The personas we created are mostly from our imagination, therefore they are Proto Personas. Throughout the design process, we also talked a lot with friends and casual acquaintances about our app, so we kept getting feedback.</p>
 
 <img :src="'/images/planeatary/planeatary-personas.png'" alt="Personas of the Planeatary app, see transcript below.">
 

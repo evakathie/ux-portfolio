@@ -24,6 +24,7 @@
                     </div>
                     <div class="col-right">
                         <h3 class="highlighted-title">Tools</h3>
+                        <!-- OLD
                         <ul>
                             <li>Adobe XD</li>
                             <li>Sketch</li>
@@ -31,6 +32,15 @@
                             <li>Balsamiq</li>
                             <li>Atlassian Jira &amp; Confluence</li>
                             <li>Miro</li>
+                        </ul>
+                        -->
+                        <ul>
+                            <li>Prototyping: Figma | Adobe XD | Sketch</li>
+                            <li>Wireframing: Balsamiq</li>
+                            <li>User Research: Dovetail | Maze | Loop11</li>
+                            <li>Product Management: Atlassian Jira &amp; Confluence</li>
+                            <li>Collaboration: Miro | Microsoft Teams</li>
+                            <li>GenAI: ChatGPT | Microsoft Copilot</li>
                         </ul>
                         <h3 class="highlighted-title">Languages</h3>
                         <ul>
