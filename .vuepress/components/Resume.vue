@@ -19,10 +19,10 @@
                     <div class="resume-element resume-left">
                         <div class="station">
                             <p class="role">Continuous training in UX Design</p>
-                            <p class="company">Interaction Design Foundation, Online | {{ this.duration(2021, 6) }}</p>
+                            <p class="company">Interaction Design Foundation, Online | {{ this.duration(2021, 6, 2024, 5) }}</p>
                         </div>
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">05/2024</p>
                             <p class="from">06/2021</p>
                         </div>
                     </div>
