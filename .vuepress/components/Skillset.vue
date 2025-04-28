@@ -39,7 +39,7 @@
                             <li>Wireframing: Balsamiq</li>
                             <li>User Research: Dovetail | Maze | Loop11</li>
                             <li>Product Management: Atlassian Jira &amp; Confluence</li>
-                            <li>Collaboration: Miro | Microsoft Teams</li>
+                            <li>Collaboration: Miro | FigJam | Microsoft Teams</li>
                             <li>GenAI: ChatGPT | Microsoft Copilot</li>
                         </ul>
                         <h3 class="highlighted-title">Languages</h3>

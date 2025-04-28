@@ -9,7 +9,7 @@ tools: R & R Studio, Loop11
 <div class="page-header">
     <div class="text">
         <h1>University of Aalborg</h1>
-        <p>The University of Aalborg is one of the leading and most prestigious universities in Denmark, providing a top-tier education across a diverse array of fields. The Department of Computer Science at the University of Aalborg, where my course of study Information Studies (Human Centered Informatics) is located, is a renowned hub of technological innovation and academic excellence. With its dedicated faculty and state-of-the-art facilities, the department offers a dynamic learning environment that fosters cutting-edge research and provides students with high-quality education in various computer science disciplines.</p>
+        <p>The University of Aalborg is one of the leading and most prestigious universities in Denmark, providing a top-tier education across a diverse array of fields. My program Information Studies (Human Centered Informatics) is part of the Faculty of Social Sciences and Humanities at Aalborg University's Copenhagen campus.</p>
         <a class="button" href="https://www.en.aau.dk/education/master/information-studies" target="blank">Visit study program website</a>
     </div>
     <img :src="'/images/company/university-of-aalborg.jpg'" alt="">

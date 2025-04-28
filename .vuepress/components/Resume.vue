@@ -5,10 +5,20 @@
             <div class="timeline">
                 <div class="col-left">
                     <h3 class="highlighted-title timeline-left-title">Education</h3>
+                    <!--<div class="resume-element resume-left">
+                        <div class="station">
+                            <p class="role">M.Sc. Information Studies<br />Grade: XX (good)</p>
+                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link></p>
+                        </div>
+                        <div class="time">
+                            <p class="to">08/2025</p>
+                        </div>
+                    </div>-->
+                    <div class="resume-element-empty"></div>
                     <div class="resume-element-empty-small"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Masterʼs program in Information Studies</p>
+                            <p class="role">Masterʼs program in Information Studies (Human Centered Informatics)</p>
                             <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>, Copenhagen (DK) | {{ this.duration(2023, 9) }}</p>
                         </div>
                         <div class="time">
@@ -79,6 +89,16 @@
                 </div>
                 <div class="col-right">
                     <h3 class="highlighted-title timeline-right-title">Experience</h3>
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">since</p>
+                            <p class="from">02/2025</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Master Thesis Student</p>
+                            <p class="company"> {{ this.duration(2025, 2) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                        </div>
+                    </div>
                     <div class="resume-element">
                         <div class="time">
                             <p class="to">since</p>

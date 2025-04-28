@@ -3,7 +3,7 @@ title: "University of Hamburg"
 from: 'October 2015'
 to: 'September 2020'
 competences: User Experience Design, User Research, Frontend Development, Prototyping
-tools: HTML & CSS, JavaScript, Axure, SPSS
+tools: HTML & CSS, JavaScript, Java, Axure, SPSS
 ---
 
 <div class="page-header">
