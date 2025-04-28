@@ -1,5 +1,5 @@
 ---
-title: "Creating the app Planeatary"
+title: "Creating the App Planeatary"
 description: "Creating the mobile app Planeatary to support users to follow a healthy and environmentally friendly diet."
 image: '/images/planeatary/planeatary-header.png'
 imgmobile: '/images/planeatary/planeatary.png'

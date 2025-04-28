@@ -48,7 +48,7 @@
                     </div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">B.Sc. Human-Computer-Interaction<br />Grade: 2,0 (good)</p>
+                            <p class="role">B.Sc. Human-Computer Interaction<br />Grade: 2,0 (good)</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
                         <div class="time">
@@ -59,7 +59,7 @@
                     <div class="resume-element-empty"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Bachelorʼs program in Human-Computer-Interaction</p>
+                            <p class="role">Bachelorʼs program in Human-Computer Interaction</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link>, Hamburg (DE) | {{ this.duration(2015, 10, 2020, 9) }}</p>
                         </div>
                         <div class="time">

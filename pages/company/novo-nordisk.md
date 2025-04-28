@@ -2,7 +2,7 @@
 title: "Novo Nordisk A/S"
 from: 'December 2023'
 to: 'Now'
-competences: User Experience Design, Design Thinking, User Research, Prototyping, UI Design, Scrum
+competences: User Experience Design, Design Thinking, User Research, Prototyping, UI Design, SCRUM
 tools: Figma, Maze, Dovetail, Miro, Microsoft Office (including Copilot), ChatGPT
 ---
 
@@ -16,7 +16,14 @@ tools: Figma, Maze, Dovetail, Miro, Microsoft Office (including Copilot), ChatGP
 </div>
 
 <ProjectHeader :currentPage="this" :shortened="true">
-<p>In my role as <strong>Student Assistant in UX Design & Consulting</strong> for Novo Nordisk, I work as a User Researcher and UX Designer in different software projects that are developed for operators in the factories/ production lines. In this role I'm a part of the DD&IT department, whose corporate structure of this department is closely aligned with the general corporate structure and is divided into early research of new medication, clinical trials and development and product supply. My team, guided by the double diamond and a user-centric approach, works in an advisory capacity for software projects in the area of product supply. My tasks include planning and facilitating Design Thinking workshops and User Research, as well as UX and UI design for software solutions.</p>
+<p>In my role as <strong>Student Assistant</strong> for Novo Nordisk, I work as a <strong>UX Designer and Researcher</strong> in a software project for operators in the factories. In this role I'm a part of the DD&amp;IT department. My team, guided by the double diamond and a user-centric approach, works in an advisory capacity for software projects in the area of product supply. My tasks include:</p>
+
+<ul>
+    <li>UX and UI design of a mobile app, including prototyping with Figma</li>
+    <li>Planning and facilitating remote and in person user research</li>
+    <li>Close collaboration with UX designers, frontend developers and other SCRUM roles</li>
+    <li>Planning and facilitating ideation workshops guided by design thinking</li>
+</ul>
 </ProjectHeader>
 
 <!--<h2>My Projects at Novo Nordisk</h2>
