@@ -220,4 +220,4 @@ On the right side there are three options for the user: “Reject”, “Accept�
 
 </div>
 
-<HighlightedProjects currentProject="2" />
+<HighlightedProjects currentProject="3" />

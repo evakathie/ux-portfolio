@@ -1,5 +1,5 @@
 ---
-title: "Creating a sustainable fashion comparison platform"
+title: "Creating a sustainable online shop"
 description: "Creating a comparison platform for visualizing sustainability in fashion products that allows users to make sustainable choices."
 image: '/images/conscious-choice-platform/conscious-choice-platform-header.png'
 imgmobile: '/images/conscious-choice-platform/conscious-choice-platform.png'
@@ -58,7 +58,7 @@ Our project addressed this by developing a user-friendly interface for the Green
 <p>Green Database is a comprehensive sustainability database that collects and evaluates product information from European online stores. It assesses products based on credibility, environmental sustainability, and socio-economic factors, utilizing sustainability labels for automatic ratings. The database includes a wide range of products, particularly focusing on fashion and electronics.</p>
 </InfoBox>
 
-<h4>Consumer Behaviour & Competitor Research</h4>
+<h4>Consumer Behaviour &amp; Competitor Research</h4>
 
 <p>To design a sustainable shopping product, we first examined consumer behavior and the competitive landscape. Existing research shows that most Europeans shop online regularly, favoring convenience across various devices, despite awareness of environmental impacts. However, an "intention-behavior gap" often leads consumers to prioritize factors like price and convenience over sustainability.</p>
 
@@ -79,7 +79,7 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <h3>First Iteration - User Requirements</h3>
 
-<h4>Interviews & Thematic Analysis</h4>
+<h4>Interviews &amp; Thematic Analysis</h4>
 
 <p>To ensure that our design solution aligned with the needs of the users, we first needed to gather their requirements. For this we chose to do semi-structured interviews, as they provide a clear focus but also allow to deviate from the predefined path to get the most valuable insights from the users. We conducted 9 interviews, 6 with women and 3 with men. We chose people with ages ranging from 25 to 55, with an average age of 35.56. The interviewees' nationalities included Danish, German, Slovak, Vietnamese and Australian. We also offered the participants the choice of which language they preferred to be interviewed in. The interview lengths ranged from around 10 to 30 minutes, depending on the depth of the interviewees' answers and the number of follow-up questions.</p>
 
@@ -483,12 +483,12 @@ In the high-fidelity prototype we covered new features, to solve as many user st
 <img class="img-small-60" src="/images/conscious-choice-platform/highfi-navigation.png" alt="" >
 
 <ul>
-<li><strong>Filter & Sorting</strong>: Products can be sorted by price, popularity, or sustainability score. Filters include brand, price, color, size, and sustainability options.</li>
+<li><strong>Filter &amp; Sorting</strong>: Products can be sorted by price, popularity, or sustainability score. Filters include brand, price, color, size, and sustainability options.</li>
 </ul>
 <img class="img-small" src="/images/conscious-choice-platform/highfi-filters-sorting.png" alt="" >
 
 <ul>
-<li><strong>Recommendations & Re-finding</strong>: We implemented "Recently Viewed" and "Popular Items" sections for easier re-finding and personalized recommendations.</li>
+<li><strong>Recommendations &amp; Re-finding</strong>: We implemented "Recently Viewed" and "Popular Items" sections for easier re-finding and personalized recommendations.</li>
 </ul>
 <img class="img-small-60" src="/images/conscious-choice-platform/highfi-refinding-recommendations.png" alt="" >
 
@@ -502,3 +502,5 @@ In the high-fidelity prototype we covered new features, to solve as many user st
 <img :src="'/images/conscious-choice-platform/high_fi_product_page.png'" alt="">
 
 </div>
+
+<HighlightedProjects currentProject="2" />

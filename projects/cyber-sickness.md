@@ -120,4 +120,4 @@ Supervisor: Paul Lubos</p>
 
 </div>
 
-<HighlightedProjects currentProject="2" />
+<HighlightedProjects currentProject="3" />

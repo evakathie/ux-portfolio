@@ -11,22 +11,22 @@
                 </div>
           </router-link>
 
-          <router-link class="project" to="/projects/cookie-notices.html" v-if="this.currentProject != 2">
-                <img :src="'/images/cookie-notices/cookie-notices.png'" alt="">
-                <div class="text">
-                    <h3>The usability of Cookie Notices — Eye-tracking study</h3>
-                    <p>Conducting an eye-tracking study to investigate the usability of common types of cookie notices, and designed a prototype for better usability.</p>
-                    <ProjectFocus focus="User Research" domain="Web"/>
-                </div>
-          </router-link>
-
-            <router-link class="project" to="/projects/user-knowledge-base.html" v-if="this.currentProject != 3">
-                 <img :src="'/images/user-knowledge-base/user-knowledge-base.png'" alt="">
+            <router-link class="project" to="/projects/conscious-choice-platform.html" v-if="this.currentProject != 2">
+                 <img :src="'/images/conscious-choice-platform/conscious-choice-platform.png'" alt="">
                  <div class="text">
-                     <h3>User Insights Knowledge Base to collect, interpret and leverage user data</h3>
-                     <p>The User Insights Knowledge Base project tackles the challenges of limited user contact and knowledge sharing at Digitec GmbH.</p>
-                     <ProjectFocus focus="User Research, Product Management"/>
+                     <h3>Creating a sustainable fashion comparison platform</h3>
+                     <p>CONSCIOUS.CHOICE is an e-commerce platform visualizing sustainability in fashion products that allows users to make sustainable decisions.</p>
+                     <ProjectFocus focus="UX Design, User Research" domain="Web"/>
                 </div>
+            </router-link>
+
+            <router-link class="project" to="/projects/cookie-notices.html" v-if="this.currentProject != 3">
+                  <img :src="'/images/cookie-notices/cookie-notices.png'" alt="">
+                  <div class="text">
+                      <h3>The usability of Cookie Notices — Eye-tracking research</h3>
+                      <p>An eye-tracking research for investigating the usability of common types of cookie notices and designing a prototype for better usability.</p>
+                      <ProjectFocus focus="User Research" domain="Web"/>
+                  </div>
             </router-link>
       </div>
   </div>

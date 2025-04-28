@@ -337,4 +337,4 @@ company: 'Digitec'
 
 </div>
 
-<HighlightedProjects currentProject="2" />
+<HighlightedProjects currentProject="3" />

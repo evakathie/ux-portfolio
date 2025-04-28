@@ -182,4 +182,4 @@ company: Digitec
 
 </div>
 
-<HighlightedProjects currentProject="1" />
+<HighlightedProjects currentProject="3" />
