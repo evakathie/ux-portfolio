@@ -16,7 +16,7 @@ company: 'University of Aalborg'
 
 <ProjectHeader :currentPage="this">
 
-<p>Together with three fellow students, I created a comparison platform for fashion products that allows users to make sustainable choices, as a semester project in my masterʼs degree at <router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>. We based our project on human-centered design going through several iterations of collecting and defining user requirements, designing and prototyping and usability testing.</p>
+<p>Together with three fellow students, I created a comparison platform for fashion products that allows users to make sustainable choices, as a semester project in my masterʼs degree at the <router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>. We based our project on human-centered design, going through several iterations of collecting and defining user requirements, designing and prototyping and usability testing.</p>
 
 <p>Supervisor: Dr. Florian Meyer</p>
 
@@ -33,8 +33,8 @@ Our project addressed this by developing a user-friendly interface for the Green
 
 <HighlightedArea title="Summary of our Approach">
 <ol>
-    <li>Getting an overview of the data set and the information it contains</li>
-    <li>Conducting literature review on sustainable shopping and consumer behavior, and performing competitor research to define the problem statement, research questions and project scope</li>
+    <li>Getting an overview of the dataset and the information it contains</li>
+    <li>Conducting a literature review on sustainable shopping and consumer behavior, and performing competitor research to define the problem statement, research questions and project scope</li>
     <li>Conducting semi-structured interviews and identifying key themes in a thematic analysis</li>
     <li>Creating user stories based on the literature review and data from the interviews</li>
     <li>Performing a competitive usability review of relevant e-commerce websites and comparison tools</li>
@@ -73,7 +73,7 @@ Our project addressed this by developing a user-friendly interface for the Green
 And based our project on the following problem formulation:</p>
 
 <ProblemDef definition="How can we design a fashion-focused comparison platform based on the
-data of the Green Database, to empower consumers to make conscious decisions and sustainable choices while shopping?" />
+data of the Green Database to empower consumers to make conscious decisions and sustainable choices while shopping?" />
 
 <p>We define a comparison platform as a website that aggregates and presents detailed information about products from multiple retailers, enabling users to compare products based on specific information, such as prices or reviews. In our case, we focus on the comparison of products based on sustainability.</p>
 
@@ -81,11 +81,11 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <h4>Interviews &amp; Thematic Analysis</h4>
 
-<p>To ensure that our design solution aligned with the needs of the users, we first needed to gather their requirements. For this we chose to do semi-structured interviews, as they provide a clear focus but also allow to deviate from the predefined path to get the most valuable insights from the users. We conducted 9 interviews, 6 with women and 3 with men. We chose people with ages ranging from 25 to 55, with an average age of 35.56. The interviewees' nationalities included Danish, German, Slovak, Vietnamese and Australian. We also offered the participants the choice of which language they preferred to be interviewed in. The interview lengths ranged from around 10 to 30 minutes, depending on the depth of the interviewees' answers and the number of follow-up questions.</p>
+<p>To ensure that our design solution aligned with the needs of the users, we first needed to gather their requirements. For this, we chose to do semi-structured interviews, as they provide a clear focus but also allow to deviate from the predefined path to get the most valuable insights from the users. We conducted 9 interviews, 6 with women and 3 with men. We chose people with ages ranging from 25 to 55, with an average age of 35.56. The interviewees' nationalities included Danish, German, Slovak, Vietnamese and Australian. We also offered the participants the choice of which language they preferred to be interviewed in. The interview lengths ranged from around 10 to 30 minutes, depending on the depth of the interviewees' answers and the number of follow-up questions.</p>
 
 <img :src="'/images/conscious-choice-platform/thematic_analysis.png'" alt="Screenshot of the Miro Board showing the Thematic Analysis on a high, not-readable level">
 
-<p>To analyse the collected data from the interviews, we decided to use thematic analysis, as this approach allowed us to gain rich insights and led us to specify user requirements. Based on the responses from the interview, we identified seven key themes that helped us to highlight the attitudes and behaviours of participants towards general and sustainable online shopping behaviour together with the information need and decision-making in online purchasing. These are (1) general shopping behaviour, (2) frequency of shopping, (3) search types, (4) decision making, (5) sustainability, (6) sustainable product recognition and (7) information needs in terms of sustainability. I will not go into depth about the thematic analysis and it's components here, but instead move on to the user stories we derived from it.</p>
+<p>To analyse the collected data from the interviews, we decided to use thematic analysis, as this approach allowed us to gain rich insights and led us to specify user requirements. Based on the responses from the interview, we identified seven key themes that helped us to highlight the attitudes and behaviours of participants towards general and sustainable online shopping behaviour, together with the information need and decision-making in online purchasing. These are (1) general shopping behaviour, (2) frequency of shopping, (3) search types, (4) decision making, (5) sustainability, (6) sustainable product recognition, and (7) information needs in terms of sustainability. I will not go into depth about the thematic analysis and its components here, but instead move on to the user stories we derived from it.</p>
 
 <h4>User Stories</h4>
 
@@ -130,7 +130,7 @@ data of the Green Database, to empower consumers to make conscious decisions and
 </ul>
 </GraphicTranscript>
 
-<p>For the user stories of our user research, we identified different user roles or types of users from the interviews and the thematic analysis. On the highest level, we have the role of the <strong>online shop user</strong>, as this is the criteria by which we selected participants for our interviews. We used this role for the user stories that were not specific to a certain user type. We identified two types of users that differ in their search behaviour: the intentional consumer and the virtual window shopper. In the interviews, numerous participants mentioned that they search for a specific product when shopping online, we called this user role <strong>intentional consumer</strong>. On the opposite of that is the <strong>virtual window shopper</strong>, an online shop user who does not have a clear goal but browses through the products. For example one interviewee said:</p>
+<p>For the user stories of our user research, we identified different user roles or types of users from the interviews and the thematic analysis. On the highest level, we have the role of the <strong>online shop user</strong>, as this is the criteria by which we selected participants for our interviews. We used this role for the user stories that were not specific to a certain user type. We identified two types of users that differ in their search behaviour: the intentional consumer and the virtual window shopper. In the interviews, numerous participants mentioned that they search for a specific product when shopping online, we called this user role <strong>intentional consumer</strong>. On the opposite of that is the <strong>virtual window shopper</strong>, an online shop user who does not have a clear goal but browses through the products. For example, one interviewee said:</p>
 
 <Quote quote="I wanted a polo shirt from a certain brand [...] and I googled it and ended up on the website of the online shop where I ended up buying it. [...] Then I remembered that I could maybe use 1-2 new pullovers and then I just looked for pullovers." />
 
@@ -173,7 +173,7 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <p>The <strong>sustainable-conscious</strong> consumer has emerged as a key user role in our user stories. This does not mean that this consumer is primarily or even solely motivated by sustainability, but that there is a certain awareness and willingness to act sustainably. Every participant in our interviews showed a general willingness to act sustainably under certain circumstances.</p>
 
-<p>Closely linked to the role of the sustainable-conscious consumer, is the <strong>sceptical consumer</strong>. We thereby view the scepticism as not only linked to sustainability but more of a general characteristic. This user role has specific needs related to trust, as they for example might question the trustworthiness of the sustainability score provided by GreenDB. These two roles of the sustainable-conscious consumer and the sceptical consumer can pursue the same goal but sometimes have conflicting needs. The sustainable-conscious consumer, for example, wants information to be as easily accessible as possible without having to dive into detail, while the sceptical consumer has little trust in this information and therefore might want to see more details.</p>
+<p>Closely linked to the role of the sustainable-conscious consumer is the <strong>sceptical consumer</strong>. We thereby view the scepticism as not only linked to sustainability but more of a general characteristic. This user role has specific needs related to trust, as they for example, might question the trustworthiness of the sustainability score provided by Green Database. These two roles of the sustainable-conscious consumer and the sceptical consumer can pursue the same goal, but sometimes have conflicting needs. The sustainable-conscious consumer, for example, wants information to be as easily accessible as possible without having to dive into detail, while the sceptical consumer has little trust in this information and therefore might want to see more details.</p>
 
 <img :src="'/images/conscious-choice-platform/user_story_sustainability_information.png'" alt="">
 <GraphicTranscript>
@@ -205,16 +205,16 @@ data of the Green Database, to empower consumers to make conscious decisions and
 </ul>
 </GraphicTranscript>
 
-<p>When organising our user stories, we found four overarching themes: search behaviour, product information, decision making, and sustainability information. In total we created 56 user stories that specify various different user needs.</p>
+<p>When organising our user stories, we found four overarching themes: search behaviour, product information, decision making, and sustainability information. In total we created 56 user stories that specify various user needs.</p>
 
 <h3>First Iteration - Design</h3>
 
-<p>After gathering the user requirements we started the first design phase. To design a user-centered solution we used the user stories and competitive reviews to sketch the main parts of the solution. </p>
+<p>After gathering the user requirements, we started the first design phase. To design a user-centered solution, we used the user stories and competitive reviews to sketch the main parts of the solution. </p>
 
 <h4>Competitive Reviews</h4>
 
 <p>Building on our competitor analysis, we conducted a competitive review focused on user interface design, identifying strengths, weaknesses, and trends among competing platforms. We compared two marketplace websites—<em>Zalando</em> and <em>PriceRunner</em>—and four sustainability-focused platforms—<em>Ecowiser</em>, <em>Good On You</em>, <em>Avocadostore</em>, and <em>Project Cece</em>.<br/>
-<em>Zalando</em> and <em>PriceRunner</em> were selected for their significance in Denmark and their functionality in helping users find products across multiple sources. We evaluated features like navigation, filtering, search, and product presentation. For sustainability information, we reviewed platforms that provide transparency and labeling for sustainable shopping.</p>
+<em>Zalando</em> and <em>PriceRunner</em> were selected for their significance in Denmark and their functionality in helping users find products across multiple sources. We evaluated features like navigation, filtering, search, and product presentation. For sustainability information, we reviewed platforms that provide transparency and labelling for sustainable shopping.</p>
 
 <p>We analyzed 14 features relevant to our user stories across all competitors, gaining valuable insights into current UX patterns and opportunities to shape a more effective and user-centered design for our project.</p>
 
@@ -223,13 +223,13 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <h4>Ideation</h4>
 
-<p>To start our ideation we held a brainstorming session, where each of us created an idea individually and simultaneously in a 30-minute session. In this session, we focused on how to visualise and communicate the sustainability information in a user interface for the comparison platform, which is the main feature of our solution. Afterwards, we placed our sketches on our Miro board, my sketch can be seen in the picture below, and came together as a group and each of us presented our idea to the others. To evaluate the ideas, each of us got five votes to distribute on whole ideas or aspects of them.</p>
+<p>To start our ideation, we held a brainstorming session, where each of us created an idea individually and simultaneously in a 30-minute session. In this session, we focused on how to visualise and communicate the sustainability information in a user interface for the comparison platform, which is the main feature of our solution. Afterwards, we placed our sketches on our Miro board, my sketch can be seen in the picture below, and came together as a group and each of us presented our idea to the others. To evaluate the ideas, each of us got five votes to distribute on whole ideas or aspects of them.</p>
 
 <img class="img-small-60" :src="'/images/conscious-choice-platform/sketch_summary.png'" alt="">
 <img :src="'/images/conscious-choice-platform/sketch_sustainability-visualistion.png'" alt="">
 <GraphicTranscript>
 <p>The picture shows a hand-drawn minimal sketch, the headline of the first "screen" is Product Summary with Score. It shows a image with three scores in green (eco score), pink (social score) and blue (credibility score). Unterneath it has the brand, the product name, and on the right side of that the sustainability label including an icon. Below are two buttons "View Details", says it opens the product page, and "Visit retailer", says it jumps to the e-commerce store that sells the product.</p>
-<p>The next screen shows a popover including all scores as headlines and details for each category. For example the eco score of 50/100 with the same green color as in the product summary, underneath has a short description of the score and then the sub scores like chemical use, life time, water, inputs, etc. Each of the sub-scores has a small information icon, showing that their is details available.</p>
+<p>The next screen shows a popover including all scores as headlines and details for each category. For example, the eco score of 50/100 with the same green color as in the product summary, underneath has a short description of the score and then the sub scores like chemical use, life time, water, inputs, etc. Each of the sub-scores has a small information icon, showing that their is details available.</p>
 <p>Another screen next to that one shows an alternative with a more graphic visualization of the scores. This one says that in this version every score has their own popup. On the left side it has a scale that goes from green to red and then the different sub scores are placed on the scales.</p>
 <p>A popover next to these alternatives shows a popover explaining the sustainability label. It includes the logo, name and a description text as well as underneath the three scores with the headline "Sustainability Scores".</p>
 </GraphicTranscript>
@@ -240,11 +240,11 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <p>We created the prototypes in Figma with a mobile-first approach, optimized for an iPhone SE screen size to ensure scalability across devices.</p>
 
-<p>There is a few common elements between the two versions:</p>
+<p>There are a few common elements between the two versions:</p>
 
 <ul>
     <li>Product summary screen showing image, product name, brand, price, and sustainability indicators.</li>
-    <li>Link to retailer's website to complete the purchase</li>
+    <li>Link to the retailer's website to complete the purchase</li>
     <li>Simulated retailer page for user testing purposes ("Shop Now" or "Visit Retailer" button leading to screenshot)</li>
 </ul>
 
@@ -254,7 +254,7 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <ul>
     <li>Sustainability score shown on the product image in the summary list</li>
-    <li>Clicking a product opens a new detailed product page</li>
+    <li>Clicking a product opens a new, detailed product page</li>
     <li>Sustainability information includes overall, ecological, social, and credibility scores</li>
     <li>Expandable sections for deeper score breakdowns (e.g., chemicals, labor rights)</li>
     <li>Clickable sustainability labels with detailed explanations</li>
@@ -264,14 +264,14 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <img class="img-small" :src="'/images/conscious-choice-platform/low-fi_version_a.png'" alt="">
 
-<p><strong>Version B</strong> instead of a product page has a sustainability pop-up</p>
+<p><strong>Version B</strong>, instead of a product page, has a sustainability pop-up</p>
 
 <ul>
     <li>Sustainability score shown within a pop-up accessed from the product summary</li>
     <li>No separate product detail page; focus is purely on sustainability information</li>
-    <li>Ecological and social scores expanded and visible immediately</li>
+    <li>Ecological and social scores are expanded and visible immediately</li>
     <li>Minimal interface to support quick decision-making based on sustainability</li>
-    <li>Users directed to the retailer's website for product-specific details</li>
+    <li>Users are directed to the retailer's website for product-specific details</li>
 </ul>
 
 <img class="img-small" :src="'/images/conscious-choice-platform/low-fi_version_b.png'" alt="">
@@ -285,7 +285,7 @@ data of the Green Database, to empower consumers to make conscious decisions and
 <p><strong>Goal:</strong> Assess if users could find the sustainability score while browsing for a product.</p>
 <p><strong>Results:</strong>
 <ul>
-  <li>Version A: Participants found the product page easily but often overlooked the score in the product summary.</li>
+  <li>Version A: Participants found the product page easily, but often overlooked the score in the product summary.</li>
   <li>Version B: Most users missed the sustainability score entirely and navigated directly to the retailer’s page.</li>
 </ul>
 </p>
@@ -328,14 +328,16 @@ data of the Green Database, to empower consumers to make conscious decisions and
 <h4>Conclusion</h4>
 
 <ul>
-  <li><strong>Version Preference:</strong> Majority preferred Version A for its familiar shopping experience. <em>"I like the first version more, all the sustainability information was in one area."</em></li>
-  <li><strong>Understanding Scores:</strong> Users understood the existence of scores but felt overwhelmed by detail. Several questioned the meaning of the numbers:
-    <ul>
-      <li><em>"I don't know what the numbers mean... an explanation would be nice."</em></li>
-      <li><em>"Is it a percentage, or a scale from 1 to 100?"</em></li>
-    </ul>
+  <li><strong>Version Preference:</strong> the majority preferred Version A for its familiar shopping experience.
+<Quote quote="I like the first version more, all the sustainability information was in one area." />
   </li>
-  <li><strong>Terminology Confusion:</strong> Several users struggled with the meaning of "credibility" in the score system: <em>"Whose credibility are we rating here?"</em></li>
+  <li><strong>Understanding Scores:</strong> users understood the existence of scores but felt overwhelmed by the details. Several questioned the meaning of the numbers:
+<Quote quote="I don't know what the numbers mean... an explanation would be nice." />
+<Quote quote="Is it a percentage, or a scale from 1 to 100?" />
+</li>
+  <li><strong>Terminology Confusion:</strong> several users struggled with the meaning of "credibility" in the score system:
+<Quote quote="Whose credibility are we rating here?" />
+  </li>
 </ul>
 
 <h3>Second Iteration - User Requirements</h3>
@@ -436,18 +438,18 @@ data of the Green Database, to empower consumers to make conscious decisions and
 
 <h4>Solving Key Interface Flaws</h4>
 
-<p>We conducted rapid individual ideation sessions and collaborative discussions to address the interface flaws with a high priority or that could be fixed easily and therefore redesign problematic areas.</p>
+<p>We conducted rapid individual ideation sessions and collaborative discussions to address the interface flaws with a high priority or that could be fixed easily, and therefore redesign problematic areas.</p>
 
 <p><strong>Product Page</strong></p>
 <ul>
-  <li><strong>Understanding Scores:</strong> We split the sustainability bar into five color-coded blocks (red, yellow, green) and added an overall GreenDB average below the score for better clarity.</li>
+  <li><strong>Understanding Scores:</strong> We split the sustainability bar into five color-coded blocks (red, yellow, green) and added an overall Green Database average below the score for better clarity.</li>
   <li><strong>Credibility Confusion:</strong> The "credibility" score was then renamed to "Label Credibility" and moved into the sustainability label pop-up for better contextual understanding.</li>
   <li><strong>Reducing Information Overload:</strong> Details for ecological and social scores are hidden behind expandable sections, and the credibility score is moved off the main page.</li>
   <li><strong>Clickable Sustainability Score:</strong> Clicking the overall score now scrolls the page to reveal detailed scores, matching user expectations.</li>
 </ul>
 <img :src="'/images/conscious-choice-platform/high_fi_sustainability_information.png'" alt="">
 
-Additionally, to the changes on the product page, we increased the sustainability scores <strong>Visibility in the Product Summary</strong>, by placing it directly under the product image with color highlights to catch attention.</p>
+Additionally, to the changes on the product page, we increased the sustainability scores <strong>visibility in the Product Summary</strong> by placing it directly under the product image with color highlights to catch attention.</p>
 
 <img class="img-small-30" src="/images/conscious-choice-platform/flaws-product-summary.png" alt="">
 
@@ -458,7 +460,7 @@ Additionally, to the changes on the product page, we increased the sustainabilit
 
 <img src="/images/conscious-choice-platform/high-fidelity-prototype.png" alt="" >
 
-In the high-fidelity prototype we covered new features, to solve as many user stories as possible. This also includes features that are not specifically linked to the sustainability of the product, but just online shop functionality, that a user would expect for the solution to be able to compete with bigger e-commerce platforms.
+In the high-fidelity prototype, we covered new features, to solve as many user stories as possible. This also includes features that are not specifically linked to the sustainability of the product, but just online shop functionality, that a user would expect for the solution to be able to compete with bigger e-commerce platforms.
 
 <ul>
   <li><strong>Style Guide</strong>: For visual consistency, we created a style guide defining colors (black, grey, white, traffic light colors), a single typeface (Inter), and consistent icons.</li>
@@ -493,7 +495,7 @@ In the high-fidelity prototype we covered new features, to solve as many user st
 <img class="img-small-60" src="/images/conscious-choice-platform/highfi-refinding-recommendations.png" alt="" >
 
 <ul>
-<li><strong>Transparency</strong>: Finally, we designed an "About" page explaining how our sustainability scores are calculated, to foster user trust and platform credibility.</li>
+<li><strong>Transparency</strong>: Finally, we designed an "About" page explaining how our sustainability scores are calculated to foster user trust and platform credibility.</li>
 </ul>
 <img class="img-small" src="/images/conscious-choice-platform/highfi-about.png" alt="" >
 

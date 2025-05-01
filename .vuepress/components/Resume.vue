@@ -105,7 +105,7 @@
                             <p class="from">12/2023</p>
                         </div>
                         <div class="station">
-                            <p class="role">Student Assistant<br/>UX Design &amp; Consulting</p>
+                            <p class="role">Student Assistant<br/>UX Design &amp; Research</p>
                             <p class="company"> {{ this.duration(2023, 12) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
