@@ -5,24 +5,25 @@
             <div class="timeline">
                 <div class="col-left">
                     <h3 class="highlighted-title timeline-left-title">Education</h3>
-                    <!--<div class="resume-element resume-left">
+                    <div class="resume-element-empty"></div>
+                    <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">M.Sc. Information Studies<br />Grade: XX (good)</p>
+                            <p class="role">M.Sc. Information Science (Human Centered Informatics)</p>
                             <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link></p>
                         </div>
                         <div class="time">
                             <p class="to">08/2025</p>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="resume-element-empty"></div>
                     <div class="resume-element-empty-small"></div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">Masterʼs program in Information Studies (Human Centered Informatics)</p>
-                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>, Copenhagen (DK) | {{ this.duration(2023, 9) }}</p>
+                            <p class="role">Masterʼs program in Information Science</p>
+                            <p class="company"><router-link to="/pages/company/aalborg-university.html">University of Aalborg</router-link>, Copenhagen (DK) | {{ this.duration(2023, 9, 2025, 8) }}</p>
                         </div>
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">08/2025</p>
                             <p class="from">09/2023</p>
                         </div>
                     </div>
@@ -48,7 +49,7 @@
                     </div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">B.Sc. Human-Computer Interaction<br />Grade: 2,0 (good)</p>
+                            <p class="role">B.Sc. Human-Computer Interaction</p>
                             <p class="company"><router-link to="/pages/company/hamburg-university.html">University of Hamburg</router-link></p>
                         </div>
                         <div class="time">
@@ -79,7 +80,7 @@
                     </div>
                     <div class="resume-element resume-left">
                         <div class="station">
-                            <p class="role">High school graduation: Abitur<br />Grade: 1,6 (good)</p>
+                            <p class="role">High school graduation: Abitur</p>
                             <p class="company">Käthe-Kollwitz Schule, Bruchsal (DE)</p>
                         </div>
                         <div class="time">
@@ -92,25 +93,44 @@
                     <div class="resume-element">
                         <div class="time">
                             <p class="to">since</p>
-                            <p class="from">02/2025</p>
+                            <p class="from">09/2025</p>
                         </div>
                         <div class="station">
-                            <p class="role">Master Thesis Student</p>
-                            <p class="company"> {{ this.duration(2025, 2) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                            <p class="role">Digital Transformation Partner</p>
+                            <p class="company"> {{ this.duration(2025, 9) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">08/2025</p>
+                            <p class="from">02/2025</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Master Thesis Student</p>
+                            <p class="company"> {{ this.duration(2025, 2, 2025, 8) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                        </div>
+                    </div>
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">08/2025</p>
                             <p class="from">12/2023</p>
                         </div>
                         <div class="station">
                             <p class="role">Student Assistant<br/>UX Design &amp; Research</p>
-                            <p class="company"> {{ this.duration(2023, 12) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                            <p class="company"> {{ this.duration(2023, 12, 2025, 8) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                        </div>
+                    </div>
+                    <div class="resume-element">
+                        <div class="time">
+                            <p class="to">12/2024</p>
+                            <p class="from">09/2024</p>
+                        </div>
+                        <div class="station">
+                            <p class="role">Internship in my own Startup</p>
+                            <p class="company"> {{ this.duration(2024, 9, 2024, 12) }} | <router-link to="/pages/company/aalborg-university.html">AAU</router-link> Startup program, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element-empty"></div>
-
                     <div class="resume-element">
                         <div class="time">
                             <p class="to">06/2023</p>
@@ -121,7 +141,7 @@
                             <p class="company"> {{ this.duration(2020, 10, 2023, 6) }} | <router-link to="/pages/company/digitec.html">Digitec GmbH</router-link>, Hamburg (DE)</p>
                         </div>
                     </div>
-                    <div class="resume-element-empty"></div>
+                    <div class="resume-element-empty-small"></div>
                     <div class="resume-element-empty-small"></div>
                     <div class="resume-element">
                         <div class="time">
@@ -145,9 +165,9 @@
                     </div>
                 </div>
             </div>
-            <div class="align-center">
+            <!--<div class="align-center">
                 <router-link to="../resume/CV_Eva_Wolf.pdf" target="_blank" class="button">Download resume as pdf</router-link>
-            </div>
+            </div>-->
         </div>
     </div>
 </template>
