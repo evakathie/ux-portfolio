@@ -6,6 +6,7 @@
             <div class="skillset-container">
                 <div class="wrapper">
                     <div class="col-left">
+                        <!--
                         <h3 class="highlighted-title">UX Expertise</h3>
                         <ul>
                             <li>Design Thinking</li>
@@ -15,25 +16,27 @@
                             <li>Prototyping</li>
                             <li>Accessibility</li>
                         </ul>
+                        -->
+                        <h3 class="highlighted-title">Expertise</h3>
+                        <ul>
+                            <li>User interface development</li>
+                            <li>Fundamentals of databases</li>
+                            <li>Component-based development</li>
+                            <li>Responsive Web Design</li>
+                            <li>Accessibility</li>
+                            <li>UX design &#38; research</li>
+                        </ul>
                         <h3 class="highlighted-title">Programming</h3>
                         <ul>
                             <li>HTML &#38; CSS</li>
-                            <li>JavaScript (Basics)</li>
+                            <li>JavaScript</li>
                             <li>R</li>
                         </ul>
                     </div>
                     <div class="col-right">
                         <h3 class="highlighted-title">Tools</h3>
-                        <!-- OLD
-                        <ul>
-                            <li>Adobe XD</li>
-                            <li>Sketch</li>
-                            <li>Figma</li>
-                            <li>Balsamiq</li>
-                            <li>Atlassian Jira &amp; Confluence</li>
-                            <li>Miro</li>
-                        </ul>
-                        -->
+                        <!-- UX TOOLS-->
+                        <!--
                         <ul>
                             <li>Prototyping: Figma | Adobe XD | Sketch</li>
                             <li>Wireframing: Balsamiq</li>
@@ -41,6 +44,16 @@
                             <li>Product Management: Atlassian Jira &amp; Confluence</li>
                             <li>Collaboration: Miro | FigJam | Microsoft Teams</li>
                             <li>GenAI: ChatGPT | Microsoft Copilot</li>
+                        </ul>
+                        -->
+                        <!-- DEV TOOLS -->
+                        <ul>
+                            <li>Development: Git | GitHub </li>
+                            <li>Frameworks: Vue.js</li>
+                            <li>Design &amp; Prototyping: Figma</li>
+                            <li>Product Management: Atlassian Jira &amp; Confluence</li>
+                            <li>Collaboration: Miro | FigJam | Microsoft Teams</li>
+                            <li>GenAI: ChatGPT | Claude</li>
                         </ul>
                         <h3 class="highlighted-title">Languages</h3>
                         <ul>

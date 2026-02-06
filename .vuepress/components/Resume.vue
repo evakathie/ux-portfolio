@@ -92,12 +92,12 @@
                     <h3 class="highlighted-title timeline-right-title">Experience</h3>
                     <div class="resume-element">
                         <div class="time">
-                            <p class="to">since</p>
+                            <p class="to">01/2026</p>
                             <p class="from">09/2025</p>
                         </div>
                         <div class="station">
                             <p class="role">Digital Transformation Partner</p>
-                            <p class="company"> {{ this.duration(2025, 9) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
+                            <p class="company"> {{ this.duration(2025, 9, 2026, 1) }} | <router-link to="/pages/company/novo-nordisk.html">Novo Nordisk A/S</router-link>, Copenhagen (DK)</p>
                         </div>
                     </div>
                     <div class="resume-element">

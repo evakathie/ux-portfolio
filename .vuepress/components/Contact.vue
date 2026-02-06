@@ -13,7 +13,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="mailto:evawolf@web.de">
+            <a href="mailto:mail@evakatharinawolf.de">
                 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>E-Mail</title>
                     <g id="mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.986">
@@ -23,7 +23,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="https://medium.com/@evakatharinawolf" target="_blank" alt="">
+            <!--<a href="https://medium.com/@evakatharinawolf" target="_blank" alt="">
                 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Medium</title>
                     <g id="medium" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.994">
@@ -32,7 +32,7 @@
                         </g>
                     </g>
                 </svg>
-            </a>
+            </a>-->
         </div>
     </div>
 </template>

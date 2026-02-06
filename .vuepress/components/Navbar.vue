@@ -3,7 +3,7 @@
       <header class="col-left">
           <router-link to="/" class="navbar-header">
               <p class="title-navbar">Eva Katharina Wolf</p>
-              <p class="job-navbar">UX Designer &amp; Researcher</p>
+              <p class="job-navbar">Frond-end Developer</p>
           </router-link>
       </header>
       <nav class="col-right">
@@ -17,9 +17,9 @@
               <li>
                   <router-link to="/pages/play.html">Play</router-link>
               </li>
-              <li>
+              <!--<li>
                   <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
-              </li>
+              </li>-->
               <li>
                   <a href="https://www.linkedin.com/in/eva-katharina-wolf-420b9a182/" target="_blank">LinkedIn</a>
               </li>
@@ -41,9 +41,9 @@
             <li>
                 <router-link to="/pages/play.html">Play</router-link>
             </li>
-            <li>
+            <!--<li>
                 <a href="https://medium.com/@evakatharinawolf" target="_blank">Blog</a>
-            </li>
+            </li>-->
             <li>
                 <a href="https://www.linkedin.com/in/eva-katharina-wolf-420b9a182/" target="_blank">LinkedIn</a>
             </li>
