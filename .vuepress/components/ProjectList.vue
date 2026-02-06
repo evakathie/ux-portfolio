@@ -26,6 +26,16 @@ export default {
         type: String,
         required: false,
         default: null
+    },
+    projectfilter: {
+        type: String,
+        required: false,
+        default: null
+    },
+    numberfilter: {
+        type: Number,
+        required: false,
+        default: 0
     }
   },
 
@@ -51,11 +61,37 @@ export default {
     },
 
     filtered_projects() {
-        if(this.companyfilter) {
-            return this.all_projects.filter(p => p.frontmatter.company == this.companyfilter)
+      let projects = this.all_projects
+      const focusprojects = "Front-end Development"
+
+      // Apply project filter if set
+      if (this.projectfilter) {
+        if (this.projectfilter === focusprojects) {
+          projects = projects.filter(
+            p => p.frontmatter.focus == focusprojects
+          )
+        } else {
+          projects = projects.filter(
+            p => p.frontmatter.focus != focusprojects
+          )
         }
-        return this.all_projects
+      }
+
+      // Apply number filter if set
+      if (this.numberfilter) {
+        projects = projects.slice(0, this.numberfilter)
+      }
+
+      // Apply company filter if set (optional, still first priority)
+      if (this.companyfilter) {
+        projects = projects.filter(
+          p => p.frontmatter.company == this.companyfilter
+        )
+      }
+
+      return projects
     }
+
   },
 }
 </script>

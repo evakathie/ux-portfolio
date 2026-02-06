@@ -1,12 +1,12 @@
 ---
-title: "Creating the App Planeatary"
-description: "Creating the mobile app Planeatary to support users to follow a healthy and environmentally friendly diet."
+title: "Designing and Developing the App Planeatary"
+description: "Developing the mobile app Planeatary to support users to follow a healthy and environmentally friendly diet."
 image: '/images/planeatary/planeatary-header.png'
 imgmobile: '/images/planeatary/planeatary.png'
-focus: UX Design, Front-end Development
+focus: Front-end Development
 domain: Mobile
-competences: Concept, UX Design, Prototyping, Usability Testing, App Development
-tools: Figma, HTML & CSS, JavaScript, GitHub
+competences: Web App Development, Concept, UX Design, Prototyping, Usability Testing
+tools: HTML & CSS, JavaScript, GitHub, Figma
 from: 'March 2019'
 to: 'January 2021'
 year: 2021
@@ -254,5 +254,3 @@ The screen to create the custom food varies a little based on the category of cu
 <p>When we created Planeatary, I was still in the middle of my bachelor studies and inexperienced — it was the first project on this scale I had ever worked on. I learned a lot and some things I would do differently today. Just to give a few examples: I would start testing earlier — before development preferably with one of the first prototypes. I would probably also brainstorm more and evaluate different solutions in the conception phase, maybe try Design Thinking on the problem. But overall, Planeatary is a successful project from my point of view — especially for something that the two of us created on the side in our spare time on a low budget of time and money. I was able to learn a lot and I would do a lot of it the same way again.</p>
 
 </div>
-
-<HighlightedProjects currentProject="1" />

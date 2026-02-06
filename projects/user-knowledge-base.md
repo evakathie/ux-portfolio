@@ -336,5 +336,3 @@ company: 'Digitec'
 </ul>
 
 </div>
-
-<HighlightedProjects currentProject="3" />

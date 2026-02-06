@@ -219,5 +219,3 @@ On the right side there are three options for the user: “Reject”, “Accept�
 <p>In order to keep the notice as simple as possible to use, I omitted a way to return from the configuration state to the initial state. Both a “Reject” and an “Accept” can be generated in the configuration states with a few clicks by making selections in the checkboxes.</p>
 
 </div>
-
-<HighlightedProjects currentProject="3" />

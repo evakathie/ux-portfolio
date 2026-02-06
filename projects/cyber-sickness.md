@@ -119,5 +119,3 @@ Supervisor: Paul Lubos</p>
 <p>Although our first hypothesis, that the cockpit causes an overall reduction in cyber sickness, was not significantly evident, the results suggest a tendency for this effect to occur. Since significance was detectable in subjects who had no or very little experience with virtual reality, the data suggest that there may also be an overall improvement. The subjective feelings of the participants also support this hypothesis, as many spoke of feeling more comfortable in the environment when they were in the cockpit. It can be assumed that a quick habit effect occurs especially during short excursions into virtual reality, which was also confirmed by subjects in oral reports and also corresponded to our subjective feeling. We also assume that a longer stay in virtual reality may cause more cyber sickness and thus the relevance of a possibility to reduce it increases. Since our data already showed a tendency with a small number of participants (n = 30) and short duration (>5 minutes), it can be assumed that this tendency could become significant if tested on a larger scale.</p>
 
 </div>
-
-<HighlightedProjects currentProject="3" />

@@ -3,9 +3,7 @@ home: true
 ---
 <PageHeader />
 
-<h2>My UX Case Studies</h2>
-
-<HighlightedProjects currentProject="0" />
+<ProjectList projectfilter="Front-end Development" numberfilter="3"/>
 
 <div class="align-center">
     <router-link to="/pages/work.html" class="button">View more projects</router-link>

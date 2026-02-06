@@ -242,5 +242,3 @@ When I came to <router-link to="/pages/company/digitec.html">Digitec</router-lin
 <img :src="'/images/pattern-library/pattern_library_adobe_xd.png'" alt="Screenshot of the Pattern Library in Adobe XD.">
 
 </div>
-
-<HighlightedProjects currentProject="3" />

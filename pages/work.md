@@ -11,7 +11,10 @@ title: "My projects"
     <img :src="'/images/about/my-work.jpg'" alt="A person sketches a wireframe on a writing pad.">
 </div>
 
-<ProjectList />
+<ProjectList projectfilter="Front-end Development"/>
+
+<h2>Other Projects</h2>
+<ProjectList projectfilter="Other"/>
 
 <div class="align-center">
     <router-link to="/pages/about.html" class="button">View my qualifications</router-link>

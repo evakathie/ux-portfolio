@@ -513,5 +513,3 @@ whether the answer given is positive or negative.</p>
 <p class="image-description">Our presentation slides for a 5-minute Shark Tank presentation at the university, to summarize our project for our fellow students in a non-scientific way.</p>
 
 </div>
-
-<HighlightedProjects currentProject="3" />

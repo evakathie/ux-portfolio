@@ -504,5 +504,3 @@ In the high-fidelity prototype, we covered new features, to solve as many user s
 <img :src="'/images/conscious-choice-platform/high_fi_product_page.png'" alt="">
 
 </div>
-
-<HighlightedProjects currentProject="2" />
