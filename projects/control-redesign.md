@@ -5,7 +5,7 @@ image: '/images/control-redesign/control-redesign-header.png'
 imgmobile: '/images/control-redesign/control-redesign.png'
 focus: UI Design
 domain: Desktop
-competences: Control Design, FrontEnd Development, UX Design
+competences: Control Design, Front-end Development, UX Design
 tools: Adobe XD, CSS, GitHub
 from: 'February 2020'
 to: 'April 2020'

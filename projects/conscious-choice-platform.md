@@ -1,5 +1,5 @@
 ---
-title: "Creating a Sustainable Online Shop"
+title: "Designing a Sustainable Online Shop"
 description: "Creating a comparison platform for visualizing sustainability in fashion products that allows users to make sustainable choices."
 image: '/images/conscious-choice-platform/conscious-choice-platform-header.png'
 imgmobile: '/images/conscious-choice-platform/conscious-choice-platform.png'

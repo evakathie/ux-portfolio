@@ -32,25 +32,22 @@ export default {
   computed: {
       all_projects() {
 
-        return this.$site.pages.filter(p => p.path.substring(0, 9) == '/projects').sort((a, b) => {
-            let aMonth = a.frontmatter.month
-            let aYear = a.frontmatter.year
-            let bMonth = b.frontmatter.month
-            let bYear = b.frontmatter.year
+          return this.$site.pages
+            .filter(p => p.path.startsWith('/projects/'))
+            .sort((a, b) => {
+              const aMonth = a.frontmatter.month
+              const aYear = a.frontmatter.year
+              const bMonth = b.frontmatter.month
+              const bYear = b.frontmatter.year
 
-            if (aYear > bYear) {
-                return -1
-            } else if (aYear < bYear) {
-                return 1
-            } else if(aYear = bYear){
-                if (aMonth > bMonth) {
-                    return -1
-                } else {
-                    return 1
-                }
-            }
-            return 0
-        })
+              if (aYear > bYear) return -1
+              if (aYear < bYear) return 1
+
+              if (aMonth > bMonth) return -1
+              if (aMonth < bMonth) return 1
+
+              return 0
+            })
     },
 
     filtered_projects() {

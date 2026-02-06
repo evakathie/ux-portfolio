@@ -5,7 +5,7 @@ image: '/images/pattern-library/pattern-library-header.png'
 imgmobile: '/images/pattern-library/pattern-library.png'
 focus: UI Design
 domain: Desktop
-competences: Concept, Design System, Documentation
+competences: Concept, Design System, Documentation, Stakeholder Management
 tools: Atlassian Confluence, Adobe XD
 from: 'October 2018'
 to: 'December 2018'
