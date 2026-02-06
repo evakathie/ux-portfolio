@@ -5,7 +5,7 @@ title: "My creative hobbies"
 <div class="page-header">
     <div class="text">
         <h1>My creative Hobbies</h1>
-        <p>Next to my work as a Product Designer Iʼm also passionate about other creative areas like Photography and my blog about Sustainability, Travel and Gardening. On this page you will find a selection of my other creative passions.</p>
+        <p>Next to my work Iʼm also passionate about other creative areas like Photography and my blog about Sustainability, Travel and Gardening. On this page you will find a selection of my other creative passions.</p>
     </div>
     <img :src="'/images/play/play.jpg'" alt="A hand holding a camera.">
 </div>
@@ -19,7 +19,7 @@ title: "My creative hobbies"
 
 <img :src="'/images/play/be-fabulous-blog.png'" style="margin: 0" alt="Screenshots of the blog.">
 
-<p>I found my passion for blogging long before I became a Product Designer when I started my blog “be fabulous“ in 2012. Back than it was really amateur, I hosted it on blogspot and it was more like a digital diary. But on my journey I expanded the blogs topics and learned a lot about writing, (product-) photography and also coding with HTML, CSS and in the end JavaScript. Now the blog is about Sustainability, Travel and Gardening and Iʼm self-hosting it since recreating the codebase with Vuepress.</p>
+<p>I found my passion for blogging long before I joined the IT industry when I started my blog “be fabulous“ in 2012. Back than it was amateur, I hosted it on blogspot and it was more like a digital diary. But on my journey I expanded the blogs topics and learned a lot about writing, (product-) photography and also coding with HTML, CSS and in the end JavaScript. Now the blog is about Sustainability, Travel and Gardening and Iʼm self-hosting it since recreating the codebase with Vuepress.</p>
 
 <div class="align-center">
 <a href="https://be-fabulous.de" class="button" target="blank">Visit be fabulous</a>
