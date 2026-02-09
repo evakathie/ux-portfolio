@@ -86,49 +86,6 @@ month: 1
 
 <p>This diet plan is all we had in the beginning — and you might easily see the opportunity we saw in this: the diet is a great idea in general but tell someone to eat 7g of pork, 13g of eggs, and 50g potatoes a day and they will call you insane. These grams only make sense 1. over a longer period of time and 2. most people don’t know how many grams of something they eat. For example, a hen’s egg has an average of 52g, so according to the diet plan with 13g of egg per day, one egg could be eaten every 4 days. Of course, it becomes more complicated if the egg is not consumed “plain”, but is contained in a food, e.g. in a cake. This is where our idea for Planeatary comes in: an app that tells you what to eat for a healthy and sustainable diet, based on what you’ve eaten before.</p>
 
-<h4>Planeatary’s (Proto) Personas</h4>
-
-<p>Of course, before we went deeper, we thought about who would use Planeatary. To consider possible users in the further design of the app, we not only integrated the most likely users but also some edge groups. The personas we created are mostly from our imagination, therefore they are Proto Personas. Throughout the design process, we also talked a lot with friends and casual acquaintances about our app, so we kept getting feedback.</p>
-
-<img :src="'/images/planeatary/planeatary-personas.png'" alt="Personas of the Planeatary app, see transcript below.">
-
-<GraphicTranscript>
-
-<p>Personas of the Planeatary app:</p>
-
-<ul>
-    <li>Lena
-    <ul>
-        <li>Lena is 25 years old and works as a project manager in a large corporation. She goes out to eat with her colleagues every day in the company canteen and often works out in the gym.</li>
-        <li><strong>Goal</strong>: change her diet to be more sustainable and healthy.</li>
-        <li><strong>Pain Point</strong>: too little time to deal with the topics in depth.</li>
-        <li><strong>Technology</strong>: tech-savy, uses Planeatary on iPhone X</li>
-    </ul></li>
-    <li>Morten
-    <ul>
-        <li>Morten is 23 years old and lives in a shared apartment in Berlin. Professionally, he is a community manager at a startup. He cookes a lot himself and lives vegan. Thanks to the central location of his shared aparment, he rides his bike a lot.</li>
-        <li><strong>Goal</strong>: make his everyday life even more sustainable.</li>
-        <li><strong>Pain Point</strong>: a lot of knowledge about nutrition, but is quite disorganized and quickly loses track.</li>
-        <li><strong>Technology</strong>: tech-savy, uses Planeatary on a FairPhone</li>
-    </ul></li>
-    <li>Angie
-    <ul>
-        <li>Angie is 41 years old, mother of two children and housewife. She lives in a village near a small town and is interested in esotericism and natural remedies. She cooks for the whole family and does weekly bulk shopping.</li>
-        <li><strong>Goal</strong>: to cook natural and healthy for the whole family.</li>
-        <li><strong>Pain Point</strong>: she often doesnʼt know what to cook and wants to teach the children about healthy food.</li>
-        <li><strong>Technology</strong>: less tech-savy, uses Planeatary on a older Samsung smartphone</li>
-    </ul></li>
-    <li>Maren
-    <ul>
-        <li>Maren is 33 years old and a software developer in a small IT company. She usually eats lunch alone and often reaches for convenience food. On Instagram, she follows a few eco-influencers and feels like she belongs to the group.</li>
-        <li><strong>Goal</strong>: primarily weight loss, but she also wants to live more.</li>
-        <li><strong>Pain Point</strong>: she hardly knows anything about nutrition and often reaches for convenience food.</li>
-        <li><strong>Technology</strong>: very tech-savy, uses Planeatary on a smartphone by Motorola</li>
-    </ul></li>
-</ul>
-
-</GraphicTranscript>
-
 <h4>The fundamental concept</h4>
 
 <p>After reading the paper, our fingers were itching to get started with actual work. Before we could even think about programming or the interface, one thing was clear: we would need a lot of data for this project and most of it would have to come from us. So we wanted to start collecting data sooner rather than later.</p>
@@ -205,7 +162,7 @@ month: 1
 
 <h3>Final app</h3>
 
-<p>We did release the first version of Planeatary in January 2021 in the <a href="https://apps.apple.com/app/planeatary/id1532714969" target="blank">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.thinkplanetary.planeatary&pli=1" target="blank">Google Playstore</a>. If you want to test it, it is still available in both stores — you can also <a href="https://planeatary.app/" target="blank">find our website here</a>. Last but not least I want to give you some impressions in the form of screenshots of how the final app looks — but of course, you will have the best experience by downloading it.</p>
+<p>We released the first version of Planeatary in January 2021 in the <a href="https://apps.apple.com/app/planeatary/id1532714969" target="blank">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.thinkplanetary.planeatary&pli=1" target="blank">Google Playstore</a>. If you want to test it, it is still available in both stores — you can also <a href="https://planeatary.app/" target="blank">find our website here</a>. Lastly, I want to give some impressions of how the final app looks — but of course, the best experience is downloading it.</p>
 
 <img :src="'/images/planeatary/planeatary-screen-01.png'" alt="Three screens of the app Planeatary described below.">
 
@@ -248,9 +205,5 @@ The screen to create the custom food varies a little based on the category of cu
 <p class="image-description">Intro into the App - onboarding screens and popups inside the app.</p>
 
 <p>We deliberately decided against an extensive onboarding during the initial download (where the calories can be calculated and the plan set), because the app can work well with defaults and we suspect that many users are overwhelmed by having to make so many settings before the app can be used. But in our usability test showed that the app wasnʼt understood so we decided to include a short intro when first using the app. When first opening the app there are four screens with a graphic and text. In the last screen there are two options “Edit settings” (leads to the “More” screen) and “Explore app”. While exploring the app for the first time, more popups are displayed to explain the functionality.</p>
-
-<h3>Conclusion & learnings</h3>
-
-<p>When we created Planeatary, I was still in the middle of my bachelor studies and inexperienced — it was the first project on this scale I had ever worked on. I learned a lot and some things I would do differently today. Just to give a few examples: I would start testing earlier — before development preferably with one of the first prototypes. I would probably also brainstorm more and evaluate different solutions in the conception phase, maybe try Design Thinking on the problem. But overall, Planeatary is a successful project from my point of view — especially for something that the two of us created on the side in our spare time on a low budget of time and money. I was able to learn a lot and I would do a lot of it the same way again.</p>
 
 </div>
